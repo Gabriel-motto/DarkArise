@@ -1,0 +1,1256 @@
+fileFormatVersion: 2
+guid: f006888115a19d846951cff1ced34be2
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Hell Bot Dark_Frame_0
+    originalName: 
+    pivot: {x: 1.6363635, y: -0.035714287}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 97
+      y: 401
+      width: 22
+      height: 28
+    spriteID: a0bf3e12abcf2e6439499b81fc71986b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 97, y: 401}
+  - name: Hell Bot Dark_Frame_1
+    originalName: 
+    pivot: {x: 1.6363635, y: -0.035714287}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 97
+      y: 437
+      width: 22
+      height: 28
+    spriteID: 5bd4b8c8895a19749a1e41b8029f68b8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 97, y: 437}
+  - name: Hell Bot Dark_Frame_2
+    originalName: 
+    pivot: {x: 1.6363635, y: -0.035714287}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 97
+      y: 473
+      width: 22
+      height: 28
+    spriteID: efa10ee91fa15144e9af54aea8e8904c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 97, y: 473}
+  - name: Hell Bot Dark_Frame_3
+    originalName: 
+    pivot: {x: 1.6363635, y: -0.035714287}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 4
+      width: 22
+      height: 28
+    spriteID: d434b819a2f47de47bbfed2e4182f2a3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 4}
+  - name: Hell Bot Dark_Frame_4
+    originalName: 
+    pivot: {x: 1.6363635, y: -0.035714287}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 40
+      width: 22
+      height: 28
+    spriteID: 28c649fd2de1653478c1b6ea8c2f270a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 40}
+  - name: Hell Bot Dark_Frame_5
+    originalName: 
+    pivot: {x: 1.6363635, y: -0.035714287}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 76
+      width: 22
+      height: 28
+    spriteID: b3a58f9e2eda03c48b341d228b9b4854
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 76}
+  - name: Hell Bot Dark_Frame_6
+    originalName: 
+    pivot: {x: 1.6363635, y: -0.035714287}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 112
+      width: 22
+      height: 28
+    spriteID: 2cd9d7363e3103c48b07bffc4029007f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 112}
+  - name: Hell Bot Dark_Frame_7
+    originalName: 
+    pivot: {x: 1.5600001, y: -0.035714287}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 97
+      y: 152
+      width: 25
+      height: 28
+    spriteID: 6397a25bd8301374c91f1802ab1af701
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 97, y: 152}
+  - name: Hell Bot Dark_Frame_8
+    originalName: 
+    pivot: {x: 1.6363635, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 148
+      width: 22
+      height: 28
+    spriteID: 1c8052007f135ba4bbfff729a95ed402
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 148}
+  - name: Hell Bot Dark_Frame_9
+    originalName: 
+    pivot: {x: 1.6086956, y: -0.14814815}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 97
+      y: 366
+      width: 23
+      height: 27
+    spriteID: a319544ee1dc5c84daab68d803098242
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 97, y: 366}
+  - name: Hell Bot Dark_Frame_10
+    originalName: 
+    pivot: {x: 1.5600001, y: -0.11111112}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 97
+      y: 188
+      width: 25
+      height: 27
+    spriteID: f090ad05b979ced47b0b3087f3dbc70e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 97, y: 188}
+  - name: Hell Bot Dark_Frame_11
+    originalName: 
+    pivot: {x: 1.4444445, y: -0.035714287}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 49
+      y: 425
+      width: 27
+      height: 28
+    spriteID: 68853d55e365bf5458935564928f25fc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 49, y: 425}
+  - name: Hell Bot Dark_Frame_12
+    originalName: 
+    pivot: {x: 1.5, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 97
+      y: 258
+      width: 24
+      height: 28
+    spriteID: cffb874497872244fb2ba58637a626b1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 97, y: 258}
+  - name: Hell Bot Dark_Frame_13
+    originalName: 
+    pivot: {x: 1.48, y: -0.14814815}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 97
+      y: 223
+      width: 25
+      height: 27
+    spriteID: 66fe35a27d25561479b3decebe2903a6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 97, y: 223}
+  - name: Hell Bot Dark_Frame_14
+    originalName: 
+    pivot: {x: 1.4444445, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 97
+      y: 116
+      width: 27
+      height: 28
+    spriteID: 43438cd654968ff46a36d8bb9ea03a47
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 97, y: 116}
+  - name: Hell Bot Dark_Frame_15
+    originalName: 
+    pivot: {x: 0.47058827, y: -0.03448276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 85
+      height: 29
+    spriteID: f251bb42549c7b7469c5278feb60b300
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Hell Bot Dark_Frame_16
+    originalName: 
+    pivot: {x: 0.47058827, y: -0.03448276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 41
+      width: 85
+      height: 29
+    spriteID: c24e1774d5e56e7469a9307fa9959f36
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 41}
+  - name: Hell Bot Dark_Frame_17
+    originalName: 
+    pivot: {x: 0.4457831, y: -0.03448276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 78
+      width: 83
+      height: 29
+    spriteID: 62a5c5c16bffca746b27e0f67b1c30f6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 78}
+  - name: Hell Bot Dark_Frame_18
+    originalName: 
+    pivot: {x: 0.4390244, y: -0.03448276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 157
+      width: 82
+      height: 29
+    spriteID: ddadb178683b8184cafee5df037c923a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 157}
+  - name: Hell Bot Dark_Frame_19
+    originalName: 
+    pivot: {x: 0.5538462, y: -0.03448276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 319
+      width: 65
+      height: 29
+    spriteID: f8ec0be0ac3ab8a459c35c927f1f201e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 319}
+  - name: Hell Bot Dark_Frame_20
+    originalName: 
+    pivot: {x: 0.5538462, y: -0.03448276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 356
+      width: 65
+      height: 29
+    spriteID: ffea00d34df98ac47a9b5be3a117b558
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 356}
+  - name: Hell Bot Dark_Frame_21
+    originalName: 
+    pivot: {x: 1.6363635, y: -0.035714287}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 184
+      width: 22
+      height: 28
+    spriteID: e26e5cbae1350924fb3c9245e0e704b3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 184}
+  - name: Hell Bot Dark_Frame_22
+    originalName: 
+    pivot: {x: 1.6363635, y: -0.035714287}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 220
+      width: 22
+      height: 28
+    spriteID: 79664cc7a1fcd6042ba4dcb07b0e403c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 220}
+  - name: Hell Bot Dark_Frame_23
+    originalName: 
+    pivot: {x: 1.1333333, y: -0.033333335}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 97
+      y: 78
+      width: 30
+      height: 30
+    spriteID: 0ce430dd8dd6d984c85360db605727a2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 97, y: 78}
+  - name: Hell Bot Dark_Frame_24
+    originalName: 
+    pivot: {x: 1.030303, y: -0.032258064}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 461
+      width: 33
+      height: 31
+    spriteID: 122b6d6d72ceb9543adf52e5a45a7d85
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 461}
+  - name: Hell Bot Dark_Frame_25
+    originalName: 
+    pivot: {x: 1.030303, y: -0.032258064}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 45
+      y: 461
+      width: 33
+      height: 31
+    spriteID: 86409c10d36af84478debaf978e1e2af
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 45, y: 461}
+  - name: Hell Bot Dark_Frame_26
+    originalName: 
+    pivot: {x: 1.0810812, y: -0.035714287}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 425
+      width: 37
+      height: 28
+    spriteID: 04f381205734ae24383d31280b86fc25
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 425}
+  - name: Hell Bot Dark_Frame_27
+    originalName: 
+    pivot: {x: 1.0857143, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 97
+      y: 4
+      width: 35
+      height: 29
+    spriteID: 1e8f1637a92d1a3429503f563737be36
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 97, y: 4}
+  - name: Hell Bot Dark_Frame_28
+    originalName: 
+    pivot: {x: 1.0588235, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 97
+      y: 41
+      width: 34
+      height: 29
+    spriteID: d05f59619217eef439d64f85d0a49299
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 97, y: 41}
+  - name: Hell Bot Dark_Frame_29
+    originalName: 
+    pivot: {x: 1.75, y: -0.035714287}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 292
+      width: 20
+      height: 28
+    spriteID: 6d0fb555e57c7eb49b313817031b3cb4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 292}
+  - name: Hell Bot Dark_Frame_30
+    originalName: 
+    pivot: {x: 1.75, y: -0.035714287}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 328
+      width: 20
+      height: 28
+    spriteID: 7149ade85e374ba4fae37f747c4914e7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 328}
+  - name: Hell Bot Dark_Frame_31
+    originalName: 
+    pivot: {x: 1.75, y: -0.035714287}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 364
+      width: 20
+      height: 28
+    spriteID: 9067e24d442c8e544979309226d646cf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 364}
+  - name: Hell Bot Dark_Frame_32
+    originalName: 
+    pivot: {x: 1.5652174, y: -0.035714287}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 97
+      y: 294
+      width: 23
+      height: 28
+    spriteID: 12a760cff1f95bc4b84dca0604f10a97
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 97, y: 294}
+  - name: Hell Bot Dark_Frame_33
+    originalName: 
+    pivot: {x: 1.5652174, y: -0.035714287}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 97
+      y: 330
+      width: 23
+      height: 28
+    spriteID: 8b4bcb769f7745a48a4b38cb5e6b764c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 97, y: 330}
+  - name: Hell Bot Dark_Frame_34
+    originalName: 
+    pivot: {x: 1.7142857, y: -0.035714287}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 256
+      width: 21
+      height: 28
+    spriteID: 834a897eb4012204590fca501c5238cd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 256}
+  - name: Hell Bot Dark_Frame_35
+    originalName: 
+    pivot: {x: 0.60563385, y: -0.030303031}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 194
+      width: 71
+      height: 33
+    spriteID: 5eb3f547be91aef428ad8a48ac058d70
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 194}
+  - name: Hell Bot Dark_Frame_36
+    originalName: 
+    pivot: {x: 0.62857145, y: -0.029411767}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 115
+      width: 70
+      height: 34
+    spriteID: a10c75af37e146746894d5dcdb454a88
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 115}
+  - name: Hell Bot Dark_Frame_37
+    originalName: 
+    pivot: {x: 0.6617647, y: -0.029411767}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 235
+      width: 68
+      height: 34
+    spriteID: a53674deb85069f43b1189f711935842
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 235}
+  - name: Hell Bot Dark_Frame_38
+    originalName: 
+    pivot: {x: 0.6617647, y: -0.029411767}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 277
+      width: 68
+      height: 34
+    spriteID: a1d4e2e47c04692448eee1c72c30d667
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 277}
+  - name: Hell Bot Dark_Frame_39
+    originalName: 
+    pivot: {x: 0.6666667, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 393
+      width: 69
+      height: 24
+    spriteID: 14e0190a8882b8940b4c5ac06deefe3f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 393}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1649701952
+    name: Hell Bot Dark
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Hell Bot Dark_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 10
+        y: 1
+        width: 22
+        height: 28
+      spriteId: a0bf3e12abcf2e6439499b81fc71986b
+    - name: Hell Bot Dark_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 10
+        y: 1
+        width: 22
+        height: 28
+      spriteId: 5bd4b8c8895a19749a1e41b8029f68b8
+    - name: Hell Bot Dark_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 10
+        y: 1
+        width: 22
+        height: 28
+      spriteId: efa10ee91fa15144e9af54aea8e8904c
+    - name: Hell Bot Dark_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 10
+        y: 1
+        width: 22
+        height: 28
+      spriteId: d434b819a2f47de47bbfed2e4182f2a3
+    - name: Hell Bot Dark_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 10
+        y: 1
+        width: 22
+        height: 28
+      spriteId: 28c649fd2de1653478c1b6ea8c2f270a
+    - name: Hell Bot Dark_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 10
+        y: 1
+        width: 22
+        height: 28
+      spriteId: b3a58f9e2eda03c48b341d228b9b4854
+    - name: Hell Bot Dark_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 10
+        y: 1
+        width: 22
+        height: 28
+      spriteId: 2cd9d7363e3103c48b07bffc4029007f
+    - name: Hell Bot Dark_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 7
+        y: 1
+        width: 25
+        height: 28
+      spriteId: 6397a25bd8301374c91f1802ab1af701
+    - name: Hell Bot Dark_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 10
+        y: 2
+        width: 22
+        height: 28
+      spriteId: 1c8052007f135ba4bbfff729a95ed402
+    - name: Hell Bot Dark_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 9
+        y: 4
+        width: 23
+        height: 27
+      spriteId: a319544ee1dc5c84daab68d803098242
+    - name: Hell Bot Dark_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 7
+        y: 3
+        width: 25
+        height: 27
+      spriteId: f090ad05b979ced47b0b3087f3dbc70e
+    - name: Hell Bot Dark_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 7
+        y: 1
+        width: 27
+        height: 28
+      spriteId: 68853d55e365bf5458935564928f25fc
+    - name: Hell Bot Dark_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 10
+        y: 2
+        width: 24
+        height: 28
+      spriteId: cffb874497872244fb2ba58637a626b1
+    - name: Hell Bot Dark_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 9
+        y: 4
+        width: 25
+        height: 27
+      spriteId: 66fe35a27d25561479b3decebe2903a6
+    - name: Hell Bot Dark_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 7
+        y: 2
+        width: 27
+        height: 28
+      spriteId: 43438cd654968ff46a36d8bb9ea03a47
+    - name: Hell Bot Dark_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 6
+        y: 1
+        width: 85
+        height: 29
+      spriteId: f251bb42549c7b7469c5278feb60b300
+    - name: Hell Bot Dark_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 6
+        y: 1
+        width: 85
+        height: 29
+      spriteId: c24e1774d5e56e7469a9307fa9959f36
+    - name: Hell Bot Dark_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 9
+        y: 1
+        width: 83
+        height: 29
+      spriteId: 62a5c5c16bffca746b27e0f67b1c30f6
+    - name: Hell Bot Dark_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 10
+        y: 1
+        width: 82
+        height: 29
+      spriteId: ddadb178683b8184cafee5df037c923a
+    - name: Hell Bot Dark_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 10
+        y: 1
+        width: 65
+        height: 29
+      spriteId: f8ec0be0ac3ab8a459c35c927f1f201e
+    - name: Hell Bot Dark_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 10
+        y: 1
+        width: 65
+        height: 29
+      spriteId: ffea00d34df98ac47a9b5be3a117b558
+    - name: Hell Bot Dark_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 10
+        y: 1
+        width: 22
+        height: 28
+      spriteId: e26e5cbae1350924fb3c9245e0e704b3
+    - name: Hell Bot Dark_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 10
+        y: 1
+        width: 22
+        height: 28
+      spriteId: 79664cc7a1fcd6042ba4dcb07b0e403c
+    - name: Hell Bot Dark_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 12
+        y: 1
+        width: 30
+        height: 30
+      spriteId: 0ce430dd8dd6d984c85360db605727a2
+    - name: Hell Bot Dark_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 12
+        y: 1
+        width: 33
+        height: 31
+      spriteId: 122b6d6d72ceb9543adf52e5a45a7d85
+    - name: Hell Bot Dark_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 12
+        y: 1
+        width: 33
+        height: 31
+      spriteId: 86409c10d36af84478debaf978e1e2af
+    - name: Hell Bot Dark_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 6
+        y: 1
+        width: 37
+        height: 28
+      spriteId: 04f381205734ae24383d31280b86fc25
+    - name: Hell Bot Dark_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 8
+        y: 0
+        width: 35
+        height: 29
+      spriteId: 1e8f1637a92d1a3429503f563737be36
+    - name: Hell Bot Dark_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 10
+        y: 0
+        width: 34
+        height: 29
+      spriteId: d05f59619217eef439d64f85d0a49299
+    - name: Hell Bot Dark_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 11
+        y: 1
+        width: 20
+        height: 28
+      spriteId: 6d0fb555e57c7eb49b313817031b3cb4
+    - name: Hell Bot Dark_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 11
+        y: 1
+        width: 20
+        height: 28
+      spriteId: 7149ade85e374ba4fae37f747c4914e7
+    - name: Hell Bot Dark_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 11
+        y: 1
+        width: 20
+        height: 28
+      spriteId: 9067e24d442c8e544979309226d646cf
+    - name: Hell Bot Dark_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 10
+        y: 1
+        width: 23
+        height: 28
+      spriteId: 12a760cff1f95bc4b84dca0604f10a97
+    - name: Hell Bot Dark_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 10
+        y: 1
+        width: 23
+        height: 28
+      spriteId: 8b4bcb769f7745a48a4b38cb5e6b764c
+    - name: Hell Bot Dark_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 10
+        y: 1
+        width: 21
+        height: 28
+      spriteId: 834a897eb4012204590fca501c5238cd
+    - name: Hell Bot Dark_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 3
+        y: 1
+        width: 71
+        height: 33
+      spriteId: 5eb3f547be91aef428ad8a48ac058d70
+    - name: Hell Bot Dark_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 2
+        y: 1
+        width: 70
+        height: 34
+      spriteId: a10c75af37e146746894d5dcdb454a88
+    - name: Hell Bot Dark_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 1
+        y: 1
+        width: 68
+        height: 34
+      spriteId: a53674deb85069f43b1189f711935842
+    - name: Hell Bot Dark_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 1
+        y: 1
+        width: 68
+        height: 34
+      spriteId: a1d4e2e47c04692448eee1c72c30d667
+    - name: Hell Bot Dark_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 0
+        y: 12
+        width: 69
+        height: 24
+      spriteId: 14e0190a8882b8940b4c5ac06deefe3f
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 92, y: 36}

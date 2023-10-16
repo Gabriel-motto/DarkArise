@@ -126,7 +126,6 @@ public class PlayerStates : MonoBehaviour
 
     private void onLand()
     {
-        print("land");
         animator.SetTrigger("TrLand");
         player.velocity = Vector2.zero;
         grounded = true;
