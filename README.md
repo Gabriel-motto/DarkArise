@@ -1,12 +1,25 @@
 # DarkArise
 
+## 19/10 Update
+### V 0.0.3
+
+#### Added
+
+Parallax done
+
+#### Ongoing tasks
+
+Making maps to test tansitions
+
 ## 16/10 Update
 ### V 0.0.2
 
 #### Added
 
 Added background tiles.
+
 Prepared background for parallax code (separated in different layers).
+
 Bugfixed player animations gaps.
 
 #### Problems found
