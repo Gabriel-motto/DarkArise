@@ -1,5 +1,27 @@
 # DarkArise
 
+## 24/10 - 30/10 Update
+### V 0.0.4
+
+#### Added
+
+Following camera.
+New playable character
+New enemy
+
+#### Ongoing tasks
+
+New maps.
+AI for enemies.
+Change between playable characters.
+Bind new character's animation to keyboard controls.
+
+#### Problems found
+
+New character animations are not well framed (Fixing)
+
+---
+
 ## 19/10 Update
 ### V 0.0.3
 
@@ -9,7 +31,9 @@ Parallax done
 
 #### Ongoing tasks
 
-Making maps to test tansitions
+Making maps to test transitions.
+
+---
 
 ## 16/10 Update
 ### V 0.0.2
@@ -17,25 +41,23 @@ Making maps to test tansitions
 #### Added
 
 Added background tiles.
-
 Prepared background for parallax code (separated in different layers).
-
 Bugfixed player animations gaps.
 
 #### Problems found
 
-- TileMap not working properly with background tileset.
-- Not showing anything in scene at restart.
+TileMap not working properly with background tileset.
+Not showing anything in scene at restart.
 
 #### Problems fixed by
 
-- Cut and rescale every tile from background sheets.
-- Placed by hand on different layers to facilitate the following parallax.
-- Save scene and changed .gitignore file.
+Cut and rescale every tile from background sheets.
+Placed by hand on different layers to facilitate the following parallax.
+Save scene and changed .gitignore file.
 
 #### Ongoing tasks
 
-- Parallax code.
+Parallax code.
 
 ---
 

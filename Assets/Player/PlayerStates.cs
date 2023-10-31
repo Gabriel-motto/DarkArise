@@ -14,6 +14,7 @@ public class PlayerStates : MonoBehaviour
     private bool grounded;
     private bool isDead;
     private bool isHitted;
+    private bool canMove;
 
     // Start is called before the first frame update
     void Start()
@@ -23,6 +24,7 @@ public class PlayerStates : MonoBehaviour
         grounded = false;
         isDead = false;
         isHitted = false;
+        canMove = true;
 
         animator = GetComponent<Animator>();
         player = GetComponent<Rigidbody2D>();
@@ -50,7 +52,7 @@ public class PlayerStates : MonoBehaviour
             {
                 animator.SetTrigger("TrAtk2");
             }
-            if (Input.GetKeyDown(KeyCode.L))
+            if (Input.GetKeyDown(KeyCode.L) && grounded)
             {
                 animator.SetTrigger("TrCrossSlice");
             }
@@ -60,7 +62,7 @@ public class PlayerStates : MonoBehaviour
             }
 
             // Movement
-            if (Input.GetAxisRaw("Horizontal") > 0)
+            if (Input.GetAxisRaw("Horizontal") > 0 && canMove)
             {
                 spriteRenderer.flipX = false;
                 if (grounded)
@@ -68,7 +70,7 @@ public class PlayerStates : MonoBehaviour
                     animator.SetTrigger("TrRun");
                 }
             }
-            if (Input.GetAxisRaw("Horizontal") < 0)
+            if (Input.GetAxisRaw("Horizontal") < 0 && canMove)
             {
                 spriteRenderer.flipX = true;
                 if (grounded)
@@ -101,21 +103,27 @@ public class PlayerStates : MonoBehaviour
                 animator.SetTrigger("TrHit");
             }
 
-            if (animator.GetCurrentAnimatorStateInfo(0).IsName("attack 1") || animator.GetCurrentAnimatorStateInfo(0).IsName("attack 2") || animator.GetCurrentAnimatorStateInfo(0).IsName("cross slice"))
+            if (animator.GetCurrentAnimatorStateInfo(0).IsName("attack 1") || animator.GetCurrentAnimatorStateInfo(0).IsName("attack 2") || animator.GetCurrentAnimatorStateInfo(0).IsName("cross slice")
+                || animator.GetCurrentAnimatorStateInfo(0).IsName("Slice attack") || animator.GetCurrentAnimatorStateInfo(0).IsName("cross slice"))
             {
                 player.velocity = Vector2.zero;
                 player.gravityScale = 0;
+                canMove = false;
             }
             else
             {
                 player.gravityScale = 1;
+                canMove = true;
             }
         }
     }
 
     private void playerInput()
     {
-        player.velocity = new Vector2(Input.GetAxisRaw("Horizontal") * speed, player.velocity.y);
+        if (canMove)
+        {
+            player.velocity = new Vector2(Input.GetAxisRaw("Horizontal") * speed, player.velocity.y);
+        }
 
         if (Input.GetKeyDown(KeyCode.Space) && grounded)
         {
