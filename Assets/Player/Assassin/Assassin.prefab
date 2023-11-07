@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -2253911629886400664, guid: 63f621c03dc7e0c4f9556ea25b8d4d9b, type: 3}
       propertyPath: m_Name
-      value: Samurai
+      value: Assassin
       objectReference: {fileID: 0}
     - target: {fileID: -2253911629886400664, guid: 63f621c03dc7e0c4f9556ea25b8d4d9b, type: 3}
       propertyPath: m_IsActive

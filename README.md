@@ -20,6 +20,10 @@ AI for enemies.
 Saving project undos all the animator states and triggers of new character.
 Change between playable characters not working well (Bind on key not working, looking for docs).
 
+### Problems solved
+
+Animator states and triggers need to be in a controller apart so it can be saved properly (hotfixed).
+
 ---
 
 ## 24/10 - 30/10 Update
