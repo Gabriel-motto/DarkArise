@@ -95,7 +95,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638343102783111241
+  platformSettingsDirtyTick: 638348219270258071
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -121,7 +121,7 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: blaster_Frame_47
     originalName: 
-    pivot: {x: 0.15, y: 0.05}
+    pivot: {x: 0.12719299, y: 0.051666666}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -141,7 +141,7 @@ ScriptedImporter:
     uvTransform: {x: 121, y: 43}
   - name: blaster_Frame_48
     originalName: 
-    pivot: {x: 0.15, y: 0.05}
+    pivot: {x: 0.12946428, y: 0.08225806}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -161,7 +161,7 @@ ScriptedImporter:
     uvTransform: {x: 121, y: 4}
   - name: blaster_Frame_49
     originalName: 
-    pivot: {x: 0.15, y: 0.05}
+    pivot: {x: 0.13302752, y: 0.1109375}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -181,7 +181,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 4}
   - name: blaster_Frame_50
     originalName: 
-    pivot: {x: 0.15, y: 0.05}
+    pivot: {x: 0.13551402, y: 0.05}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -201,7 +201,7 @@ ScriptedImporter:
     uvTransform: {x: 121, y: 81}
   - name: blaster_Frame_51
     originalName: 
-    pivot: {x: 0.1, y: 0.05}
+    pivot: {x: 0.0959596, y: 0.057407405}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -221,7 +221,7 @@ ScriptedImporter:
     uvTransform: {x: 121, y: 120}
   - name: blaster_Frame_0
     originalName: 
-    pivot: {x: 0.5, y: 0.05}
+    pivot: {x: 0.5, y: 0.053448275}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -241,7 +241,7 @@ ScriptedImporter:
     uvTransform: {x: 28, y: 184}
   - name: blaster_Frame_1
     originalName: 
-    pivot: {x: 0.5, y: 0.05}
+    pivot: {x: 0.5, y: 0.053448275}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -261,7 +261,7 @@ ScriptedImporter:
     uvTransform: {x: 28, y: 221}
   - name: blaster_Frame_2
     originalName: 
-    pivot: {x: 0.5, y: 0.05}
+    pivot: {x: 0.5, y: 0.053448275}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -281,7 +281,7 @@ ScriptedImporter:
     uvTransform: {x: 28, y: 258}
   - name: blaster_Frame_3
     originalName: 
-    pivot: {x: 0.5, y: 0.05}
+    pivot: {x: 0.5, y: 0.053448275}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -301,7 +301,7 @@ ScriptedImporter:
     uvTransform: {x: 28, y: 295}
   - name: blaster_Frame_4
     originalName: 
-    pivot: {x: 0.5, y: 0.05}
+    pivot: {x: 0.56666666, y: 0.057407405}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -321,7 +321,7 @@ ScriptedImporter:
     uvTransform: {x: 28, y: 44}
   - name: blaster_Frame_5
     originalName: 
-    pivot: {x: 0.5, y: 0.05}
+    pivot: {x: 0.5, y: 0.05535714}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -341,7 +341,7 @@ ScriptedImporter:
     uvTransform: {x: 239, y: 472}
   - name: blaster_Frame_6
     originalName: 
-    pivot: {x: 0.5, y: 0.05}
+    pivot: {x: 0.56666666, y: 0.05535714}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -361,7 +361,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 324}
   - name: blaster_Frame_7
     originalName: 
-    pivot: {x: 0.5, y: 0.05}
+    pivot: {x: 0.56666666, y: 0.05535714}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -381,7 +381,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 360}
   - name: blaster_Frame_8
     originalName: 
-    pivot: {x: 0.5, y: 0.05}
+    pivot: {x: 0.56666666, y: 0.057407405}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -401,7 +401,7 @@ ScriptedImporter:
     uvTransform: {x: 28, y: 79}
   - name: blaster_Frame_9
     originalName: 
-    pivot: {x: 0.5, y: 0.05}
+    pivot: {x: 0.53571427, y: 0.053448275}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -421,7 +421,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 468}
   - name: blaster_Frame_10
     originalName: 
-    pivot: {x: 0.5, y: 0.05}
+    pivot: {x: 0.56666666, y: 0.05535714}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -441,7 +441,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 396}
   - name: blaster_Frame_11
     originalName: 
-    pivot: {x: 0.5, y: 0.05}
+    pivot: {x: 0.56666666, y: 0.05535714}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -461,7 +461,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 432}
   - name: blaster_Frame_12
     originalName: 
-    pivot: {x: 0.5, y: 0.05}
+    pivot: {x: 0.65625, y: 0.057407405}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -481,7 +481,7 @@ ScriptedImporter:
     uvTransform: {x: 236, y: 81}
   - name: blaster_Frame_13
     originalName: 
-    pivot: {x: 0.5, y: 0.05}
+    pivot: {x: 0.65625, y: 0.057407405}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -501,7 +501,7 @@ ScriptedImporter:
     uvTransform: {x: 215, y: 472}
   - name: blaster_Frame_14
     originalName: 
-    pivot: {x: 0.5, y: 0.05}
+    pivot: {x: 0.65625, y: 0.057407405}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -521,7 +521,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 44}
   - name: blaster_Frame_15
     originalName: 
-    pivot: {x: 0.5, y: 0.05}
+    pivot: {x: 0.65625, y: 0.057407405}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -541,7 +541,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 79}
   - name: blaster_Frame_16
     originalName: 
-    pivot: {x: 0.5, y: 0.05}
+    pivot: {x: 0.65625, y: 0.057407405}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -561,7 +561,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 114}
   - name: blaster_Frame_17
     originalName: 
-    pivot: {x: 0.5, y: 0.05}
+    pivot: {x: 0.6764706, y: 0.057407405}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -581,7 +581,7 @@ ScriptedImporter:
     uvTransform: {x: 215, y: 367}
   - name: blaster_Frame_18
     originalName: 
-    pivot: {x: 0.5, y: 0.05}
+    pivot: {x: 0.6764706, y: 0.057407405}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -601,7 +601,7 @@ ScriptedImporter:
     uvTransform: {x: 215, y: 402}
   - name: blaster_Frame_19
     originalName: 
-    pivot: {x: 0.5, y: 0.05}
+    pivot: {x: 0.7105263, y: 0.057407405}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -621,7 +621,7 @@ ScriptedImporter:
     uvTransform: {x: 215, y: 332}
   - name: blaster_Frame_20
     originalName: 
-    pivot: {x: 0.5, y: 0.05}
+    pivot: {x: 0.54761904, y: 0.05535714}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -641,7 +641,7 @@ ScriptedImporter:
     uvTransform: {x: 184, y: 404}
   - name: blaster_Frame_21
     originalName: 
-    pivot: {x: 0.5, y: 0.05}
+    pivot: {x: 0.575, y: 0.057407405}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -661,7 +661,7 @@ ScriptedImporter:
     uvTransform: {x: 215, y: 297}
   - name: blaster_Frame_22
     originalName: 
-    pivot: {x: 0.5, y: 0.05}
+    pivot: {x: 0.575, y: 0.051666666}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -681,7 +681,7 @@ ScriptedImporter:
     uvTransform: {x: 156, y: 467}
   - name: blaster_Frame_23
     originalName: 
-    pivot: {x: 0.5, y: 0.05}
+    pivot: {x: 0.575, y: 0.051666666}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -701,7 +701,7 @@ ScriptedImporter:
     uvTransform: {x: 184, y: 366}
   - name: blaster_Frame_24
     originalName: 
-    pivot: {x: 0.5, y: 0.05}
+    pivot: {x: 0.5, y: 0.053448275}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -721,7 +721,7 @@ ScriptedImporter:
     uvTransform: {x: 215, y: 260}
   - name: blaster_Frame_25
     originalName: 
-    pivot: {x: 0.5, y: 0.05}
+    pivot: {x: 0.5, y: 0.057407405}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -741,7 +741,7 @@ ScriptedImporter:
     uvTransform: {x: 240, y: 402}
   - name: blaster_Frame_26
     originalName: 
-    pivot: {x: 0.5, y: 0.05}
+    pivot: {x: 0.625, y: 0.057407405}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -761,7 +761,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 149}
   - name: blaster_Frame_27
     originalName: 
-    pivot: {x: 0.5, y: 0.05}
+    pivot: {x: 0.625, y: 0.057407405}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -781,7 +781,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 184}
   - name: blaster_Frame_28
     originalName: 
-    pivot: {x: 0.5, y: 0.05}
+    pivot: {x: 0.625, y: 0.057407405}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -801,7 +801,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 219}
   - name: blaster_Frame_29
     originalName: 
-    pivot: {x: 0.5, y: 0.05}
+    pivot: {x: 0.625, y: 0.057407405}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -821,7 +821,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 254}
   - name: blaster_Frame_30
     originalName: 
-    pivot: {x: 0.5, y: 0.05}
+    pivot: {x: 0.625, y: 0.057407405}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -841,7 +841,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 289}
   - name: blaster_Frame_31
     originalName: 
-    pivot: {x: 0.5, y: 0.05}
+    pivot: {x: 0.64705884, y: 0.057407405}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -861,7 +861,7 @@ ScriptedImporter:
     uvTransform: {x: 215, y: 437}
   - name: blaster_Frame_32
     originalName: 
-    pivot: {x: 0.5, y: 0.05}
+    pivot: {x: 0.6111111, y: 0.05535714}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -881,7 +881,7 @@ ScriptedImporter:
     uvTransform: {x: 121, y: 467}
   - name: blaster_Frame_33
     originalName: 
-    pivot: {x: 0.2, y: 0.05}
+    pivot: {x: 0.17272727, y: 0.05}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -901,7 +901,7 @@ ScriptedImporter:
     uvTransform: {x: 121, y: 225}
   - name: blaster_Frame_34
     originalName: 
-    pivot: {x: 0.2, y: 0.05}
+    pivot: {x: 0.19, y: 0.05}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -921,7 +921,7 @@ ScriptedImporter:
     uvTransform: {x: 121, y: 388}
   - name: blaster_Frame_35
     originalName: 
-    pivot: {x: 0.2, y: 0.05}
+    pivot: {x: 0.19791667, y: 0.0484375}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -941,7 +941,7 @@ ScriptedImporter:
     uvTransform: {x: 121, y: 427}
   - name: blaster_Frame_36
     originalName: 
-    pivot: {x: 0.2, y: 0.05}
+    pivot: {x: 0.15306123, y: 0.046969697}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -961,7 +961,7 @@ ScriptedImporter:
     uvTransform: {x: 121, y: 305}
   - name: blaster_Frame_37
     originalName: 
-    pivot: {x: 0.2, y: 0.05}
+    pivot: {x: 0.15, y: 0.046969697}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -981,7 +981,7 @@ ScriptedImporter:
     uvTransform: {x: 121, y: 264}
   - name: blaster_Frame_38
     originalName: 
-    pivot: {x: 0.2, y: 0.05}
+    pivot: {x: 0.16304348, y: 0.045588233}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1001,7 +1001,7 @@ ScriptedImporter:
     uvTransform: {x: 121, y: 346}
   - name: blaster_Frame_39
     originalName: 
-    pivot: {x: 0.5, y: 0.05}
+    pivot: {x: 0.6304348, y: 0.05535714}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1021,7 +1021,7 @@ ScriptedImporter:
     uvTransform: {x: 184, y: 260}
   - name: blaster_Frame_40
     originalName: 
-    pivot: {x: 0.5, y: 0.05}
+    pivot: {x: 0.6304348, y: 0.057407405}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1041,7 +1041,7 @@ ScriptedImporter:
     uvTransform: {x: 212, y: 190}
   - name: blaster_Frame_41
     originalName: 
-    pivot: {x: 0.5, y: 0.05}
+    pivot: {x: 0.6304348, y: 0.057407405}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1061,7 +1061,7 @@ ScriptedImporter:
     uvTransform: {x: 184, y: 296}
   - name: blaster_Frame_42
     originalName: 
-    pivot: {x: 0.5, y: 0.05}
+    pivot: {x: 0.6304348, y: 0.057407405}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1081,7 +1081,7 @@ ScriptedImporter:
     uvTransform: {x: 184, y: 331}
   - name: blaster_Frame_43
     originalName: 
-    pivot: {x: 0.5, y: 0.05}
+    pivot: {x: 0.6041667, y: 0.057407405}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1101,7 +1101,7 @@ ScriptedImporter:
     uvTransform: {x: 228, y: 120}
   - name: blaster_Frame_44
     originalName: 
-    pivot: {x: 0.7, y: 0.05}
+    pivot: {x: 0.7380952, y: 0.057407405}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1121,7 +1121,7 @@ ScriptedImporter:
     uvTransform: {x: 184, y: 440}
   - name: blaster_Frame_45
     originalName: 
-    pivot: {x: 0.7, y: 0.05}
+    pivot: {x: 0.7380952, y: 0.057407405}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1141,7 +1141,7 @@ ScriptedImporter:
     uvTransform: {x: 184, y: 475}
   - name: blaster_Frame_46
     originalName: 
-    pivot: {x: 0.5, y: 0.05}
+    pivot: {x: 0.48214287, y: 0.057407405}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1161,7 +1161,7 @@ ScriptedImporter:
     uvTransform: {x: 217, y: 155}
   - name: blaster_Frame_52
     originalName: 
-    pivot: {x: 0.07, y: 0.05}
+    pivot: {x: 0.051136363, y: 0.057407405}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1181,7 +1181,7 @@ ScriptedImporter:
     uvTransform: {x: 121, y: 155}
   - name: blaster_Frame_53
     originalName: 
-    pivot: {x: 0.07, y: 0.05}
+    pivot: {x: 0.05421687, y: 0.057407405}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1201,7 +1201,7 @@ ScriptedImporter:
     uvTransform: {x: 121, y: 190}
   - name: blaster_Frame_54
     originalName: 
-    pivot: {x: 0.07, y: 0.05}
+    pivot: {x: 0.07258064, y: 0.057407405}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1221,7 +1221,7 @@ ScriptedImporter:
     uvTransform: {x: 184, y: 225}
   - name: blaster_Frame_55
     originalName: 
-    pivot: {x: 0.5, y: 0.05}
+    pivot: {x: 0.5, y: 0.057407405}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1241,7 +1241,7 @@ ScriptedImporter:
     uvTransform: {x: 28, y: 114}
   - name: blaster_Frame_56
     originalName: 
-    pivot: {x: 0.5, y: 0.05}
+    pivot: {x: 0.4642857, y: 0.057407405}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1261,7 +1261,7 @@ ScriptedImporter:
     uvTransform: {x: 28, y: 149}
   - name: blaster_Frame_57
     originalName: 
-    pivot: {x: 0.5, y: 0.05}
+    pivot: {x: 0.375, y: 0.057407405}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1281,7 +1281,7 @@ ScriptedImporter:
     uvTransform: {x: 240, y: 367}
   - name: blaster_Frame_58
     originalName: 
-    pivot: {x: 0.5, y: 0.05}
+    pivot: {x: 0.5, y: 0.06458333}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1301,7 +1301,7 @@ ScriptedImporter:
     uvTransform: {x: 240, y: 437}
   - name: blaster_Frame_59
     originalName: 
-    pivot: {x: 0.5, y: 0.05}
+    pivot: {x: 0.5, y: 0.091176465}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1321,7 +1321,7 @@ ScriptedImporter:
     uvTransform: {x: 51, y: 68}
   - name: blaster_Frame_60
     originalName: 
-    pivot: {x: 0.5, y: 0.05}
+    pivot: {x: 0.5, y: 0.11071428}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1341,7 +1341,7 @@ ScriptedImporter:
     uvTransform: {x: 51, y: 141}
   - name: blaster_Frame_61
     originalName: 
-    pivot: {x: 0.5, y: 0.05}
+    pivot: {x: 0.5, y: 0.10333333}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1361,7 +1361,7 @@ ScriptedImporter:
     uvTransform: {x: 51, y: 93}
   - name: blaster_Frame_62
     originalName: 
-    pivot: {x: 0.5, y: 0.05}
+    pivot: {x: 0.5, y: 0.096875}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1381,7 +1381,7 @@ ScriptedImporter:
     uvTransform: {x: 51, y: 44}
   - name: blaster_Frame_63
     originalName: 
-    pivot: {x: 0.5, y: 0.05}
+    pivot: {x: 0.25, y: 0.091176465}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1401,7 +1401,7 @@ ScriptedImporter:
     uvTransform: {x: 51, y: 116}
   - name: blaster_Frame_64
     originalName: 
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: 0.44444445, y: 0.31}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:

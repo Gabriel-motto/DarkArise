@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerStates : MonoBehaviour
+public class SamuraiController : MonoBehaviour
 {
     public Animator animator;
     public Rigidbody2D player;
@@ -36,7 +36,7 @@ public class PlayerStates : MonoBehaviour
     void Update()
     {
         animate();
-        playerInput();
+        input();
     }
 
     private void animate()
@@ -118,7 +118,7 @@ public class PlayerStates : MonoBehaviour
         }
     }
 
-    private void playerInput()
+    private void input()
     {
         if (canMove)
         {

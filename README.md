@@ -1,5 +1,27 @@
 # DarkArise
 
+## 31/10 - 06/10 Update
+### V 0.0.5
+
+#### Added
+
+New character movement and attacks script.
+Change between playable characters.
+New map
+
+#### Ongoing tasks
+
+Script to change scenes.
+More maps
+AI for enemies.
+
+#### Problems found
+
+Saving project undos all the animator states and triggers of new character.
+Change between playable characters not working well (Bind on key not working, looking for docs).
+
+---
+
 ## 24/10 - 30/10 Update
 ### V 0.0.4
 
