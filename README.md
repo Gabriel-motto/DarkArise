@@ -1,6 +1,28 @@
 # DarkArise
 
-## 31/10 - 06/10 Update
+## 7/11 - 13/11 Update
+### V 0.0.6
+
+#### Added
+
+Second character attack on command.
+
+#### Ongoing tasks
+
+Main menu, settings and UI scenes.
+Enemies.
+Merchants.
+Boss map.
+Cutting back boss' sprites for animations to run propperly. 
+
+#### Bugs found
+
+Second character doesn't disapear after performing attack.
+Player's animations doesn't run propperly on some circumstances.
+
+---
+
+## 31/10 - 06/11 Update
 ### V 0.0.5
 
 #### Added

@@ -1,11 +1,15 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class SamuraiController : MonoBehaviour
 {
-    public Animator animator;
+    private Animator assassinAnimator;
+    private GameObject blasterGhost;
+    private Animator blasterAnimator;
+    private BlasterAnimationEventHandler blasterAnimationEventHandler;
     public Rigidbody2D player;
     public SpriteRenderer spriteRenderer;
 
@@ -19,17 +23,18 @@ public class SamuraiController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        speed = 6f;
-        jumpHeight = 6f;
         grounded = false;
         isDead = false;
         isHitted = false;
         canMove = true;
 
-        animator = GetComponent<Animator>();
-        player = GetComponent<Rigidbody2D>();
-        spriteRenderer = GetComponent<SpriteRenderer>();
-        EventSystem.current.PlayerLand += onLand;
+        GameObject blasterPrefab = Instantiate(Resources.Load("BlasterPrefab")) as GameObject;
+        blasterAnimator = blasterPrefab.GetComponent<Animator>();
+
+        assassinAnimator = GetComponent<Animator>();
+
+        EventSystem.current.OnAnimationEnd += DesactivarBlasterGhost;
+        EventSystem.current.OnPlayerLand += onLand;
     }
 
     // Update is called once per frame
@@ -41,24 +46,24 @@ public class SamuraiController : MonoBehaviour
 
     private void animate()
     {
-        if (animator != null)
+        if (assassinAnimator != null)
         {
             // Attacks
             if (Input.GetKeyDown(KeyCode.J))
             {
-                animator.SetTrigger("TrAtk1");
+                assassinAnimator.SetTrigger("TrAtk1");
             }
             if (Input.GetKeyDown(KeyCode.K))
             {
-                animator.SetTrigger("TrAtk2");
+                assassinAnimator.SetTrigger("TrAtk2");
             }
             if (Input.GetKeyDown(KeyCode.L) && grounded)
             {
-                animator.SetTrigger("TrCrossSlice");
+                assassinAnimator.SetTrigger("TrCrossSlice");
             }
             if (Input.GetKeyDown(KeyCode.LeftShift) && grounded)
             {
-                animator.SetTrigger("TrSliceAtk");
+                assassinAnimator.SetTrigger("TrSliceAtk");
             }
 
             // Movement
@@ -67,7 +72,7 @@ public class SamuraiController : MonoBehaviour
                 spriteRenderer.flipX = false;
                 if (grounded)
                 {
-                    animator.SetTrigger("TrRun");
+                    assassinAnimator.SetTrigger("TrRun");
                 }
             }
             if (Input.GetAxisRaw("Horizontal") < 0 && canMove)
@@ -75,36 +80,36 @@ public class SamuraiController : MonoBehaviour
                 spriteRenderer.flipX = true;
                 if (grounded)
                 {
-                    animator.SetTrigger("TrRun");
+                    assassinAnimator.SetTrigger("TrRun");
                 }
             }
             if (Input.GetAxisRaw("Horizontal") == 0)
             {
-                animator.ResetTrigger("TrRun");
-                animator.SetTrigger("TrStop");
+                assassinAnimator.ResetTrigger("TrRun");
+                assassinAnimator.SetTrigger("TrStop");
             }
             if (Input.GetKeyDown(KeyCode.Space) && grounded)
             {
-                animator.SetTrigger("TrJump");
+                assassinAnimator.SetTrigger("TrJump");
             }
             if (!grounded && player.velocity.y < 0)
             {
-                animator.ResetTrigger("TrLand");
-                animator.SetTrigger("TrFall");
+                assassinAnimator.ResetTrigger("TrLand");
+                assassinAnimator.SetTrigger("TrFall");
             }
 
             // Misc
             if (isDead)
             {
-                animator.SetTrigger("TrDeath");
+                assassinAnimator.SetTrigger("TrDeath");
             }
             if (isHitted)
             {
-                animator.SetTrigger("TrHit");
+                assassinAnimator.SetTrigger("TrHit");
             }
 
-            if (animator.GetCurrentAnimatorStateInfo(0).IsName("attack 1") || animator.GetCurrentAnimatorStateInfo(0).IsName("attack 2") || animator.GetCurrentAnimatorStateInfo(0).IsName("cross slice")
-                || animator.GetCurrentAnimatorStateInfo(0).IsName("Slice attack") || animator.GetCurrentAnimatorStateInfo(0).IsName("cross slice"))
+            if (assassinAnimator.GetCurrentAnimatorStateInfo(0).IsName("attack 1") || assassinAnimator.GetCurrentAnimatorStateInfo(0).IsName("attack 2") || assassinAnimator.GetCurrentAnimatorStateInfo(0).IsName("cross slice")
+                || assassinAnimator.GetCurrentAnimatorStateInfo(0).IsName("Slice attack") || assassinAnimator.GetCurrentAnimatorStateInfo(0).IsName("cross slice"))
             {
                 player.velocity = Vector2.zero;
                 player.gravityScale = 0;
@@ -114,6 +119,26 @@ public class SamuraiController : MonoBehaviour
             {
                 player.gravityScale = 1;
                 canMove = true;
+            }
+
+            // Second character animations
+
+            if (Input.GetKeyDown(KeyCode.U))
+            {
+                blasterGhost = Instantiate(Resources.Load("BlasterPrefab"), transform.position, Quaternion.identity) as GameObject;
+                blasterAnimator = blasterGhost.GetComponent<Animator>();
+
+                // Asegurar que el Animator del Blaster es válido
+                if (blasterAnimator != null && blasterAnimator.runtimeAnimatorController != null)
+                {
+                    // Activar el "fantasma" del Blaster y reproducir la animación
+                    blasterGhost.SetActive(true);
+                    blasterAnimator.SetTrigger("TrAttack");
+                }
+                else
+                {
+                    Debug.LogError("Animator del Blaster no válido.");
+                }
             }
         }
     }
@@ -134,8 +159,20 @@ public class SamuraiController : MonoBehaviour
 
     private void onLand()
     {
-        animator.SetTrigger("TrLand");
+        assassinAnimator.SetTrigger("TrLand");
         player.velocity = Vector2.zero;
         grounded = true;
+    }
+
+    void DesactivarBlasterGhost()
+    {
+        Console.WriteLine("Hola");
+
+        if (blasterGhost != null)
+        {
+            blasterGhost.SetActive(false);
+            Destroy(blasterGhost);
+            Console.WriteLine("Hola");
+        }
     }
 }

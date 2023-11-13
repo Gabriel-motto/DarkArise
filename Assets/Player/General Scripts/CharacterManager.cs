@@ -7,7 +7,7 @@ using Cinemachine;
 
 public class CharacterManager : MonoBehaviour
 {
-    public static Vector2 lastCheckPointPos = new Vector2(-3, 0);
+    public static Vector2 lastCheckPointPos = new Vector2(-3, -4);
     public GameObject[] playerPrefabs;
     public int characterIndex;
     public CinemachineVirtualCamera virtualCamera;

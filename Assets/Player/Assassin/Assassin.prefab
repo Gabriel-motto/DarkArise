@@ -14,7 +14,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -2253911629886400664, guid: 63f621c03dc7e0c4f9556ea25b8d4d9b, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1160356261127867848, guid: 63f621c03dc7e0c4f9556ea25b8d4d9b, type: 3}
       propertyPath: m_Controller
@@ -195,18 +195,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f425a47eff6216498c6fb84b5ca9841, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 8978077868722391155}
+  assassinAnimator: {fileID: 0}
+  sideCharasPrefabs:
+  - {fileID: 5581601726461695762, guid: 66116c1c2d1449f4eb81861afe69c773, type: 3}
   player: {fileID: 7479746999753863593}
   spriteRenderer: {fileID: 6834078983884166495}
-  speed: 0
-  jumpHeight: 16
+  speed: 6
+  jumpHeight: 6
 --- !u!212 &6834078983884166495 stripped
 SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 3626916397498700004, guid: 63f621c03dc7e0c4f9556ea25b8d4d9b, type: 3}
-  m_PrefabInstance: {fileID: 7819062178724693435}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &8978077868722391155 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 1160356261127867848, guid: 63f621c03dc7e0c4f9556ea25b8d4d9b, type: 3}
   m_PrefabInstance: {fileID: 7819062178724693435}
   m_PrefabAsset: {fileID: 0}
