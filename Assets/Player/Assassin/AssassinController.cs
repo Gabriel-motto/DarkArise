@@ -35,6 +35,14 @@ public class SamuraiController : MonoBehaviour
 
         EventSystem.current.OnAnimationEnd += DesactivarBlasterGhost;
         EventSystem.current.OnPlayerLand += onLand;
+        GameStateManager.Instance.OnGameStateChanged += OnGameStateChanged;
+    }
+
+    void OnDestroy()
+    {
+        EventSystem.current.OnAnimationEnd -= DesactivarBlasterGhost;
+        EventSystem.current.OnPlayerLand -= onLand;
+        GameStateManager.Instance.OnGameStateChanged -= OnGameStateChanged;
     }
 
     // Update is called once per frame
@@ -128,12 +136,40 @@ public class SamuraiController : MonoBehaviour
                 blasterGhost = Instantiate(Resources.Load("BlasterPrefab"), transform.position, Quaternion.identity) as GameObject;
                 blasterAnimator = blasterGhost.GetComponent<Animator>();
 
-                // Asegurar que el Animator del Blaster es válido
                 if (blasterAnimator != null && blasterAnimator.runtimeAnimatorController != null)
                 {
-                    // Activar el "fantasma" del Blaster y reproducir la animación
                     blasterGhost.SetActive(true);
                     blasterAnimator.SetTrigger("TrAttack");
+                }
+                else
+                {
+                    Debug.LogError("Animator del Blaster no válido.");
+                }
+            }
+            if (Input.GetKeyDown(KeyCode.I))
+            {
+                blasterGhost = Instantiate(Resources.Load("BlasterPrefab"), transform.position, Quaternion.identity) as GameObject;
+                blasterAnimator = blasterGhost.GetComponent<Animator>();
+
+                if (blasterAnimator != null && blasterAnimator.runtimeAnimatorController != null)
+                {
+                    blasterGhost.SetActive(true);
+                    blasterAnimator.SetTrigger("TrHeal");
+                }
+                else
+                {
+                    Debug.LogError("Animator del Blaster no válido.");
+                }
+            }
+            if (Input.GetKeyDown(KeyCode.O))
+            {
+                blasterGhost = Instantiate(Resources.Load("BlasterPrefab"), transform.position, Quaternion.identity) as GameObject;
+                blasterAnimator = blasterGhost.GetComponent<Animator>();
+
+                if (blasterAnimator != null && blasterAnimator.runtimeAnimatorController != null)
+                {
+                    blasterGhost.SetActive(true);
+                    blasterAnimator.SetTrigger("TrSweep");
                 }
                 else
                 {
@@ -174,5 +210,10 @@ public class SamuraiController : MonoBehaviour
             Destroy(blasterGhost);
             Console.WriteLine("Hola");
         }
+    }
+
+    private void OnGameStateChanged(GameState newGameState)
+    {
+        enabled = newGameState == GameState.Running;
     }
 }

@@ -1,5 +1,34 @@
 # DarkArise
 
+## 14/11 - 20/11 Update (Final)
+### V 0.0.7
+
+#### Added
+
+Main menu.
+
+Animation on main menu.
+
+Escape menu.
+
+Enemy.
+
+#### Ongoing tasks
+
+UI scenes.
+
+Merchants.
+
+Boss map.
+
+Cutting back boss' sprites for animations to run propperly.
+
+#### Bugs found
+
+Second character doesn't disapear after performing attack.
+
+---
+
 ## 7/11 - 13/11 Update
 ### V 0.0.6
 
@@ -10,14 +39,19 @@ Second character attack on command.
 #### Ongoing tasks
 
 Main menu, settings and UI scenes.
+
 Enemies.
+
 Merchants.
+
 Boss map.
+
 Cutting back boss' sprites for animations to run propperly. 
 
 #### Bugs found
 
 Second character doesn't disapear after performing attack.
+
 Player's animations doesn't run propperly on some circumstances.
 
 ---
@@ -28,18 +62,23 @@ Player's animations doesn't run propperly on some circumstances.
 #### Added
 
 New character movement and attacks script.
+
 Change between playable characters.
+
 New map
 
 #### Ongoing tasks
 
 Script to change scenes.
+
 More maps
+
 AI for enemies.
 
 #### Problems found
 
 Saving project undos all the animator states and triggers of new character.
+
 Change between playable characters not working well (Bind on key not working, looking for docs).
 
 ### Problems solved
@@ -54,15 +93,21 @@ Animator states and triggers need to be in a controller apart so it can be saved
 #### Added
 
 Following camera.
-New playable character
-New enemy
+
+New playable character.
+
+New enemy.
 
 #### Ongoing tasks
 
 New maps.
+
 AI for enemies.
+
 Change between playable characters.
+
 Bind new character's animation to keyboard controls.
+
 
 #### Problems found
 
@@ -89,18 +134,23 @@ Making maps to test transitions.
 #### Added
 
 Added background tiles.
+
 Prepared background for parallax code (separated in different layers).
+
 Bugfixed player animations gaps.
 
 #### Problems found
 
 TileMap not working properly with background tileset.
+
 Not showing anything in scene at restart.
 
 #### Problems fixed by
 
 Cut and rescale every tile from background sheets.
+
 Placed by hand on different layers to facilitate the following parallax.
+
 Save scene and changed .gitignore file.
 
 #### Ongoing tasks
