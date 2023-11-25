@@ -34,6 +34,8 @@ Second character doesn't disapear after performing attack.
 
 Enemies didn't disapear on death. Solved by disabling all of their components on death.
 
+Reset double jump on hitting the walls on cave map.
+
 ---
 
 
