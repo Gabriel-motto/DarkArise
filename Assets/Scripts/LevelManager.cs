@@ -5,10 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class LevelMove : MonoBehaviour
 {
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        SceneManager.LoadScene(0, LoadSceneMode.Single);
+        SceneManager.LoadScene(2, LoadSceneMode.Single);
     }
 
     public void OnMainMenuButtonClick()

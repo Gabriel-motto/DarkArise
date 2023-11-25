@@ -1,5 +1,42 @@
 # DarkArise
 
+## 20/11 - 25/11 Update (Final)
+### V 0.0.8
+
+#### Added
+
+Options menu.
+
+Sounds and music.
+
+Music manager.
+
+New cave map.
+
+Transition from camp to cave maps.
+
+Health and dmg system on enemies.
+
+Attack system on player commands.
+
+
+#### Ongoing tasks
+
+Enemie attack system.
+
+UI scenes.
+
+Boss map.
+
+#### Bugs found
+
+Second character doesn't disapear after performing attack.
+
+Enemies didn't disapear on death. Solved by disabling all of their components on death.
+
+---
+
+
 ## 14/11 - 20/11 Update (Final)
 ### V 0.0.7
 
