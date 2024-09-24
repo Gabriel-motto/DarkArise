@@ -1,0 +1,811 @@
+fileFormatVersion: 2
+guid: b7d8cf970b81cc74f98bdf1d2f2846e4
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Shield Sheet_Frame_2
+    originalName: 
+    pivot: {x: 0.5263158, y: -0.13157895}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 52
+      y: 112
+      width: 38
+      height: 38
+    spriteID: c71e2f19fbc9f8241b30139aba0672e3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 52, y: 112}
+  - name: Shield Sheet_Frame_3
+    originalName: 
+    pivot: {x: 0.52777773, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 94
+      y: 158
+      width: 36
+      height: 36
+    spriteID: 670fd304874a75f4c8c1c4d2c9743b83
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 94, y: 158}
+  - name: Shield Sheet_Frame_4
+    originalName: 
+    pivot: {x: 0.5, y: -0.13157895}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 195
+      y: 56
+      width: 40
+      height: 38
+    spriteID: 8e9b3a7338ae62d48ac4c56fb8c23c43
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 195, y: 56}
+  - name: Shield Sheet_Frame_5
+    originalName: 
+    pivot: {x: 0.51111114, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 142
+      y: 56
+      width: 45
+      height: 36
+    spriteID: b46921c6f2ba05243902c68becaef8ae
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 142, y: 56}
+  - name: Shield Sheet_Frame_6
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.116279066}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 60
+      y: 4
+      width: 44
+      height: 43
+    spriteID: bd748bfe950e311448ca5713cb14e03c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 60, y: 4}
+  - name: Shield Sheet_Frame_7
+    originalName: 
+    pivot: {x: 0.5, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 4
+      width: 50
+      height: 36
+    spriteID: b5560507210ed0f4f8090d80a1a1e0ad
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 112, y: 4}
+  - name: Shield Sheet_Frame_8
+    originalName: 
+    pivot: {x: 0.47916666, y: -0.11363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 48
+      height: 44
+    spriteID: b27236e9a448d554aadbdd2030df13f6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Shield Sheet_Frame_9
+    originalName: 
+    pivot: {x: 0.5641026, y: -0.13953488}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 170
+      y: 4
+      width: 39
+      height: 43
+    spriteID: 1681518cc1fe28e488f70542268a7824
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 170, y: 4}
+  - name: Shield Sheet_Frame_10
+    originalName: 
+    pivot: {x: 0.5263158, y: -0.020833334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 56
+      width: 38
+      height: 48
+    spriteID: d862ed2dc1537ac4fa31b77cd908675e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 56}
+  - name: Shield Sheet_Frame_12
+    originalName: 
+    pivot: {x: 0.5263158, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 56
+      width: 38
+      height: 43
+    spriteID: b408f3f3e33d1c045aa53d43795b6b48
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 56}
+  - name: Shield Sheet_Frame_13
+    originalName: 
+    pivot: {x: 0.52777773, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 158
+      width: 36
+      height: 42
+    spriteID: 565d34083f0195a46bf66061db28f256
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 158}
+  - name: Shield Sheet_Frame_14
+    originalName: 
+    pivot: {x: 0.5263158, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 56
+      width: 38
+      height: 43
+    spriteID: 596a70abd5b1d31449515e383b53a222
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 96, y: 56}
+  - name: Shield Sheet_Frame_15
+    originalName: 
+    pivot: {x: 0.52777773, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 138
+      y: 158
+      width: 36
+      height: 36
+    spriteID: 589f9ceaff9a85542a7dcea0104f802e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 138, y: 158}
+  - name: Shield Sheet_Frame_16
+    originalName: 
+    pivot: {x: 0.5263158, y: -0.13157895}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 98
+      y: 112
+      width: 38
+      height: 38
+    spriteID: 00fe79210c3c6d543af4293483d789b5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 98, y: 112}
+  - name: Shield Sheet_Frame_17
+    originalName: 
+    pivot: {x: 0.52777773, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 182
+      y: 158
+      width: 36
+      height: 36
+    spriteID: df55ec837d3d88940abaa09b8f68b4f2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 182, y: 158}
+  - name: Shield Sheet_Frame_18
+    originalName: 
+    pivot: {x: 0.5263158, y: -0.13157895}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 112
+      width: 38
+      height: 38
+    spriteID: 29cd11eaf441704478e2505f18ac6793
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 144, y: 112}
+  - name: Shield Sheet_Frame_19
+    originalName: 
+    pivot: {x: 0.5263158, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 158
+      width: 38
+      height: 36
+    spriteID: 87f1b8d8b431e1b49a34e4cd836e3f49
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 48, y: 158}
+  - name: Shield Sheet_Frame_20
+    originalName: 
+    pivot: {x: 0.55, y: -0.13157895}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 112
+      width: 40
+      height: 38
+    spriteID: 1f8803057879e87408ee8599db9ad7de
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 112}
+  - name: Shield Sheet_Frame_21
+    originalName: 
+    pivot: {x: 0.575, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 190
+      y: 112
+      width: 40
+      height: 36
+    spriteID: e0e601b1fb65bc94998b8f793033b295
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 190, y: 112}
+  - name: Shield Sheet_Frame_0
+    originalName: 
+    pivot: {x: 0.80000013, y: -3.6000001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 232
+      y: 32
+      width: 5
+      height: 5
+    spriteID: 287c635916f1dc0479e82ae175f69d6c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 232, y: 32}
+  - name: Shield Sheet_Frame_1
+    originalName: 
+    pivot: {x: 0.6, y: -0.6}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 217
+      y: 4
+      width: 20
+      height: 20
+    spriteID: d732d698720d9dc4a80d6cd23fa078e4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 217, y: 4}
+  - name: Shield Sheet_Frame_11
+    originalName: 
+    pivot: {x: 0.52777773, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 208
+      width: 36
+      height: 36
+    spriteID: 392c8cdd94999d342bc86c97b14cb9ba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 208}
+  - name: Shield Sheet_Frame_22
+    originalName: 
+    pivot: {x: 0.5714286, y: -0.57142854}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 226
+      y: 158
+      width: 21
+      height: 21
+    spriteID: e1ba87cf2e8900a4ea8276339eaf5d10
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 226, y: 158}
+  - name: Shield Sheet_Frame_23
+    originalName: 
+    pivot: {x: 0.57142866, y: -2.7142856}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 217
+      y: 32
+      width: 7
+      height: 7
+    spriteID: 2287a111e4387ec4290c046860f87aae
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 217, y: 32}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1980703084
+    name: Shield Sheet
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Shield Sheet_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 5
+        y: 5
+        width: 38
+        height: 38
+      spriteId: c71e2f19fbc9f8241b30139aba0672e3
+    - name: Shield Sheet_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 6
+        y: 6
+        width: 36
+        height: 36
+      spriteId: 670fd304874a75f4c8c1c4d2c9743b83
+    - name: Shield Sheet_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 5
+        y: 5
+        width: 40
+        height: 38
+      spriteId: 8e9b3a7338ae62d48ac4c56fb8c23c43
+    - name: Shield Sheet_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 2
+        y: 6
+        width: 45
+        height: 36
+      spriteId: b46921c6f2ba05243902c68becaef8ae
+    - name: Shield Sheet_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 5
+        y: 5
+        width: 44
+        height: 43
+      spriteId: bd748bfe950e311448ca5713cb14e03c
+    - name: Shield Sheet_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 0
+        y: 6
+        width: 50
+        height: 36
+      spriteId: b5560507210ed0f4f8090d80a1a1e0ad
+    - name: Shield Sheet_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 2
+        y: 5
+        width: 48
+        height: 44
+      spriteId: b27236e9a448d554aadbdd2030df13f6
+    - name: Shield Sheet_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 3
+        y: 6
+        width: 39
+        height: 43
+      spriteId: 1681518cc1fe28e488f70542268a7824
+    - name: Shield Sheet_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 5
+        y: 1
+        width: 38
+        height: 48
+      spriteId: d862ed2dc1537ac4fa31b77cd908675e
+    - name: Shield Sheet_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 5
+        y: 0
+        width: 38
+        height: 43
+      spriteId: b408f3f3e33d1c045aa53d43795b6b48
+    - name: Shield Sheet_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 6
+        y: 0
+        width: 36
+        height: 42
+      spriteId: 565d34083f0195a46bf66061db28f256
+    - name: Shield Sheet_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 5
+        y: 0
+        width: 38
+        height: 43
+      spriteId: 596a70abd5b1d31449515e383b53a222
+    - name: Shield Sheet_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 6
+        y: 6
+        width: 36
+        height: 36
+      spriteId: 589f9ceaff9a85542a7dcea0104f802e
+    - name: Shield Sheet_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 5
+        y: 5
+        width: 38
+        height: 38
+      spriteId: 00fe79210c3c6d543af4293483d789b5
+    - name: Shield Sheet_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 6
+        y: 6
+        width: 36
+        height: 36
+      spriteId: df55ec837d3d88940abaa09b8f68b4f2
+    - name: Shield Sheet_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 5
+        y: 5
+        width: 38
+        height: 38
+      spriteId: 29cd11eaf441704478e2505f18ac6793
+    - name: Shield Sheet_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 5
+        y: 6
+        width: 38
+        height: 36
+      spriteId: 87f1b8d8b431e1b49a34e4cd836e3f49
+    - name: Shield Sheet_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 3
+        y: 5
+        width: 40
+        height: 38
+      spriteId: 1f8803057879e87408ee8599db9ad7de
+    - name: Shield Sheet_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 2
+        y: 6
+        width: 40
+        height: 36
+      spriteId: e0e601b1fb65bc94998b8f793033b295
+    - name: Shield Sheet_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 21
+        y: 18
+        width: 5
+        height: 5
+      spriteId: 287c635916f1dc0479e82ae175f69d6c
+    - name: Shield Sheet_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 13
+        y: 12
+        width: 20
+        height: 20
+      spriteId: d732d698720d9dc4a80d6cd23fa078e4
+    - name: Shield Sheet_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 6
+        y: 6
+        width: 36
+        height: 36
+      spriteId: 392c8cdd94999d342bc86c97b14cb9ba
+    - name: Shield Sheet_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 13
+        y: 12
+        width: 21
+        height: 21
+      spriteId: e1ba87cf2e8900a4ea8276339eaf5d10
+    - name: Shield Sheet_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 21
+        y: 19
+        width: 7
+        height: 7
+      spriteId: 2287a111e4387ec4290c046860f87aae
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 50, y: 49}

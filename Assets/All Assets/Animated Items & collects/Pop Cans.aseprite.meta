@@ -1,0 +1,5935 @@
+fileFormatVersion: 2
+guid: 28da7ef9deda38a438aab312215a1b12
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Pop Cans_Frame_0
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 216
+      width: 8
+      height: 10
+    spriteID: eb433307e91bbdd46a5634a643305898
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 216}
+  - name: Pop Cans_Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 234
+      width: 8
+      height: 10
+    spriteID: c8520a9f71191f941b9bab550dc46a19
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 234}
+  - name: Pop Cans_Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 107
+      y: 106
+      width: 6
+      height: 10
+    spriteID: 11cf0737446fd6146a2c3ad8f3e08b6c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 107, y: 106}
+  - name: Pop Cans_Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 122
+      y: 286
+      width: 4
+      height: 10
+    spriteID: 055f3062d768b7a4e851eab1c93f7aef
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 122, y: 286}
+  - name: Pop Cans_Frame_4
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 107
+      y: 124
+      width: 6
+      height: 10
+    spriteID: 0ae767676b22dd043a6c0242ddddabc7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 107, y: 124}
+  - name: Pop Cans_Frame_5
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 252
+      width: 8
+      height: 10
+    spriteID: 40374d15d014be649be093c3c0b27c76
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 252}
+  - name: Pop Cans_Frame_6
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 107
+      y: 142
+      width: 6
+      height: 10
+    spriteID: b8f2661c9b6064c47920109c7985bee6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 107, y: 142}
+  - name: Pop Cans_Frame_7
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 122
+      y: 304
+      width: 4
+      height: 10
+    spriteID: 6a27ba1760659ab45a6ade1fb2a2f4a6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 122, y: 304}
+  - name: Pop Cans_Frame_8
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 107
+      y: 160
+      width: 6
+      height: 10
+    spriteID: 7b26548dcd12c3e4ab9328d61c2eafaa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 107, y: 160}
+  - name: Pop Cans_Frame_9
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 270
+      width: 8
+      height: 10
+    spriteID: 50b2f95b3d378da40aabe524272eaa93
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 270}
+  - name: Pop Cans_Frame_10
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 107
+      y: 178
+      width: 6
+      height: 10
+    spriteID: 6ed82b64e4404ae4799d78a2cac791b9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 107, y: 178}
+  - name: Pop Cans_Frame_11
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 122
+      y: 322
+      width: 4
+      height: 10
+    spriteID: 91a776408cc994f4bba013e337673f43
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 122, y: 322}
+  - name: Pop Cans_Frame_12
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 107
+      y: 196
+      width: 6
+      height: 10
+    spriteID: e5638ebfbe406074cbe00e375ea95dd8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 107, y: 196}
+  - name: Pop Cans_Frame_13
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 288
+      width: 8
+      height: 10
+    spriteID: 3b59372d31a714041855b1656b1831c4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 288}
+  - name: Pop Cans_Frame_14
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 107
+      y: 214
+      width: 6
+      height: 10
+    spriteID: d2c8a58a46ff53747a1b6d690522b1d8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 107, y: 214}
+  - name: Pop Cans_Frame_15
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 122
+      y: 340
+      width: 4
+      height: 10
+    spriteID: ba09fa60fa3bc544887154168fbac607
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 122, y: 340}
+  - name: Pop Cans_Frame_16
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 107
+      y: 232
+      width: 6
+      height: 10
+    spriteID: 2db678641775446488c2fadfeddd4eba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 107, y: 232}
+  - name: Pop Cans_Frame_17
+    originalName: 
+    pivot: {x: 0.5, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 127
+      width: 12
+      height: 12
+    spriteID: 72f1d0439bf2b8440a08463aff2dc636
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 127}
+  - name: Pop Cans_Frame_18
+    originalName: 
+    pivot: {x: 0.5, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 491
+      width: 10
+      height: 12
+    spriteID: 3a7beaebfc9353148bb75208f69d6db1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 491}
+  - name: Pop Cans_Frame_19
+    originalName: 
+    pivot: {x: 0.5, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 496
+      width: 8
+      height: 12
+    spriteID: c361884d9d00b184fa12c2583d3d18f4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 68, y: 496}
+  - name: Pop Cans_Frame_20
+    originalName: 
+    pivot: {x: 0.5, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 87
+      y: 212
+      width: 6
+      height: 12
+    spriteID: 1a6fbef0a3a7fac45af8802a9f1be4f8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 87, y: 212}
+  - name: Pop Cans_Frame_21
+    originalName: 
+    pivot: {x: 0.5, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 42
+      width: 8
+      height: 12
+    spriteID: 6315d1516d9aa8044903de8fe90fa819
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 42}
+  - name: Pop Cans_Frame_22
+    originalName: 
+    pivot: {x: 0.5, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 26
+      y: 23
+      width: 10
+      height: 12
+    spriteID: 4fe4daa9e11e7024cb4019d173e35ad6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 26, y: 23}
+  - name: Pop Cans_Frame_23
+    originalName: 
+    pivot: {x: 0.5, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 62
+      width: 8
+      height: 12
+    spriteID: bf66182829604fa4389d81998659e28c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 62}
+  - name: Pop Cans_Frame_24
+    originalName: 
+    pivot: {x: 0.5, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 87
+      y: 232
+      width: 6
+      height: 12
+    spriteID: d81048b840928b949b6357b1905d881c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 87, y: 232}
+  - name: Pop Cans_Frame_25
+    originalName: 
+    pivot: {x: 0.5, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 87
+      y: 252
+      width: 6
+      height: 12
+    spriteID: e53cf122b11181a4b8df8b8ce106d1aa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 87, y: 252}
+  - name: Pop Cans_Frame_26
+    originalName: 
+    pivot: {x: 0.5, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 82
+      width: 8
+      height: 12
+    spriteID: 5db71a17801f03a49bdcd9213b584888
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 82}
+  - name: Pop Cans_Frame_27
+    originalName: 
+    pivot: {x: 0.5, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 26
+      y: 43
+      width: 10
+      height: 12
+    spriteID: a3ec31aa2089173418fc47099461b092
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 26, y: 43}
+  - name: Pop Cans_Frame_28
+    originalName: 
+    pivot: {x: 0.5, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 87
+      y: 140
+      width: 6
+      height: 13
+    spriteID: 2d81883a2fdc73f4f838e279a9cac9a1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 87, y: 140}
+  - name: Pop Cans_Frame_29
+    originalName: 
+    pivot: {x: 0.5, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 122
+      y: 148
+      width: 4
+      height: 13
+    spriteID: fc2bf7c3f147a81489cecb0ce1c91c92
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 122, y: 148}
+  - name: Pop Cans_Frame_30
+    originalName: 
+    pivot: {x: 0.5, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 87
+      y: 161
+      width: 6
+      height: 13
+    spriteID: 6721cae043a9a264695c7d67c5f8dbaf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 87, y: 161}
+  - name: Pop Cans_Frame_31
+    originalName: 
+    pivot: {x: 0.5, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 122
+      y: 169
+      width: 4
+      height: 13
+    spriteID: f34ed31a08455af44b903029d498ab7f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 122, y: 169}
+  - name: Pop Cans_Frame_32
+    originalName: 
+    pivot: {x: 0.5, y: -0.18181819}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 26
+      y: 4
+      width: 16
+      height: 11
+    spriteID: d603f60b50a10cd49b8e0fa7d02768f9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 26, y: 4}
+  - name: Pop Cans_Frame_33
+    originalName: 
+    pivot: {x: 0.5, y: -0.18181819}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 70
+      width: 14
+      height: 11
+    spriteID: 1901996b91cd88545b457f0eb2689639
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 70}
+  - name: Pop Cans_Frame_34
+    originalName: 
+    pivot: {x: 0.5, y: -0.18181819}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 335
+      width: 12
+      height: 11
+    spriteID: 93e96569c637204438dec323923879b0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 335}
+  - name: Pop Cans_Frame_35
+    originalName: 
+    pivot: {x: 0.5, y: -0.18181819}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 87
+      y: 443
+      width: 6
+      height: 11
+    spriteID: e3849e11600cbdc4e9ec639e166fd7fd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 87, y: 443}
+  - name: Pop Cans_Frame_36
+    originalName: 
+    pivot: {x: 0.5, y: -0.18181819}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 354
+      width: 12
+      height: 11
+    spriteID: 86cdd521537a539478f6ad2643b082fe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 354}
+  - name: Pop Cans_Frame_37
+    originalName: 
+    pivot: {x: 0.5, y: -0.18181819}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 89
+      width: 14
+      height: 11
+    spriteID: 1e529589847fa814d9b7ed0364f8f2b1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 89}
+  - name: Pop Cans_Frame_38
+    originalName: 
+    pivot: {x: 0.5, y: -0.18181819}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 108
+      width: 14
+      height: 11
+    spriteID: bbb9911780faeac46af5b5c8f5be31e7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 108}
+  - name: Pop Cans_Frame_39
+    originalName: 
+    pivot: {x: 0.5, y: -0.18181819}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 373
+      width: 12
+      height: 11
+    spriteID: 3c6f5cb9c5a45894ab89afc0afef9006
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 373}
+  - name: Pop Cans_Frame_40
+    originalName: 
+    pivot: {x: 0.5, y: -0.18181819}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 4
+      width: 10
+      height: 11
+    spriteID: 19a95ed6e424c9b409624efbe8a0b394
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 4}
+  - name: Pop Cans_Frame_41
+    originalName: 
+    pivot: {x: 0.5, y: -0.18181819}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 156
+      width: 8
+      height: 11
+    spriteID: 8b18297f1ce30a74f820f5e4ddf988f1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 156}
+  - name: Pop Cans_Frame_42
+    originalName: 
+    pivot: {x: 0.5, y: -0.18181819}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 87
+      y: 462
+      width: 6
+      height: 11
+    spriteID: bd4dce90a47d32546b9b1aec0495fa22
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 87, y: 462}
+  - name: Pop Cans_Frame_43
+    originalName: 
+    pivot: {x: 0.5, y: -0.18181819}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 175
+      width: 8
+      height: 11
+    spriteID: a70f8a5e7e56ee548bc916e4c3172a79
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 175}
+  - name: Pop Cans_Frame_44
+    originalName: 
+    pivot: {x: 0.5, y: -0.18181819}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 23
+      width: 10
+      height: 11
+    spriteID: 5b492e231517be8469e18d4951c01e85
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 23}
+  - name: Pop Cans_Frame_45
+    originalName: 
+    pivot: {x: 0.5, y: -0.18181819}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 392
+      width: 12
+      height: 11
+    spriteID: 6164c60b2f0e99c4dbf3625e52e5a5a8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 392}
+  - name: Pop Cans_Frame_46
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 411
+      width: 13
+      height: 10
+    spriteID: dd70c59ad40990d4bb8c2a373615b4f5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 411}
+  - name: Pop Cans_Frame_47
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 429
+      width: 13
+      height: 10
+    spriteID: 68753f4a0803bb2409a2e35b14077431
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 429}
+  - name: Pop Cans_Frame_48
+    originalName: 
+    pivot: {x: 0.54545456, y: -0.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 4
+      width: 11
+      height: 10
+    spriteID: e999fa2a90187e146a7431c3299c932e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 68, y: 4}
+  - name: Pop Cans_Frame_49
+    originalName: 
+    pivot: {x: 0.5555556, y: -0.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 102
+      width: 9
+      height: 10
+    spriteID: c68455b3401c09a4f9d8746c7fb668e9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 102}
+  - name: Pop Cans_Frame_50
+    originalName: 
+    pivot: {x: 0.5714286, y: -0.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 87
+      y: 353
+      width: 7
+      height: 10
+    spriteID: f6ee95213e6b3d04987b8e56739229a2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 87, y: 353}
+  - name: Pop Cans_Frame_51
+    originalName: 
+    pivot: {x: 0.5555556, y: -0.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 120
+      width: 9
+      height: 10
+    spriteID: 3184b890a3ab46c43bd269ab345f3936
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 120}
+  - name: Pop Cans_Frame_52
+    originalName: 
+    pivot: {x: 0.54545456, y: -0.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 22
+      width: 11
+      height: 10
+    spriteID: 31dfe5fcb29684b4ebd480b3da5886ac
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 68, y: 22}
+  - name: Pop Cans_Frame_53
+    originalName: 
+    pivot: {x: 0.42857146, y: -0.33333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 87
+      y: 481
+      width: 7
+      height: 9
+    spriteID: 8d1d916da6af08b48a77cbcf52e01b5f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 87, y: 481}
+  - name: Pop Cans_Frame_54
+    originalName: 
+    pivot: {x: 0.5, y: -0.33333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 122
+      y: 80
+      width: 6
+      height: 9
+    spriteID: 1d0b5f5cda8bd0b41bd5152287042b90
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 122, y: 80}
+  - name: Pop Cans_Frame_55
+    originalName: 
+    pivot: {x: 0.5714286, y: -0.33333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 87
+      y: 498
+      width: 7
+      height: 9
+    spriteID: bd769e89e67317747accc7aff20f606b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 87, y: 498}
+  - name: Pop Cans_Frame_56
+    originalName: 
+    pivot: {x: 0.5714286, y: -0.33333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 107
+      y: 4
+      width: 7
+      height: 9
+    spriteID: 343585b9eb45a6c45b7700c13303fc11
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 107, y: 4}
+  - name: Pop Cans_Frame_57
+    originalName: 
+    pivot: {x: 0.5714286, y: -0.33333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 107
+      y: 21
+      width: 7
+      height: 9
+    spriteID: f2a3ab64f8caf124ea606b5458f9e4f1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 107, y: 21}
+  - name: Pop Cans_Frame_58
+    originalName: 
+    pivot: {x: 0.5714286, y: -0.33333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 107
+      y: 38
+      width: 7
+      height: 9
+    spriteID: 8988a2ac7c3a2ae458d457a4e24fe563
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 107, y: 38}
+  - name: Pop Cans_Frame_59
+    originalName: 
+    pivot: {x: 0.5, y: -0.33333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 122
+      y: 97
+      width: 6
+      height: 9
+    spriteID: b0e88489a0bd74748aadfcfe12450d41
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 122, y: 97}
+  - name: Pop Cans_Frame_60
+    originalName: 
+    pivot: {x: 0.42857146, y: -0.33333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 107
+      y: 55
+      width: 7
+      height: 9
+    spriteID: a41c034b92a302d41820a6a84b2faa9b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 107, y: 55}
+  - name: Pop Cans_Frame_61
+    originalName: 
+    pivot: {x: 0.42857146, y: -0.33333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 107
+      y: 72
+      width: 7
+      height: 9
+    spriteID: dd21fa0df40c3304a9467a2824f9b298
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 107, y: 72}
+  - name: Pop Cans_Frame_62
+    originalName: 
+    pivot: {x: 0.42857146, y: -0.33333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 107
+      y: 89
+      width: 7
+      height: 9
+    spriteID: 8cbbfe40ba36c3e4baeae85d361fb258
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 107, y: 89}
+  - name: Pop Cans_Frame_63
+    originalName: 
+    pivot: {x: 0.5, y: -0.33333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 87
+      y: 272
+      width: 8
+      height: 9
+    spriteID: e975c2be785c063459f2f83ffe8da080
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 87, y: 272}
+  - name: Pop Cans_Frame_64
+    originalName: 
+    pivot: {x: 0.5, y: -0.33333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 122
+      y: 114
+      width: 6
+      height: 9
+    spriteID: 09e1ddf54b7768c408188611a2a7413e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 122, y: 114}
+  - name: Pop Cans_Frame_65
+    originalName: 
+    pivot: {x: 0.5, y: -0.33333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 122
+      y: 492
+      width: 4
+      height: 9
+    spriteID: 6d81b0fe12f8207449e37504858a8972
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 122, y: 492}
+  - name: Pop Cans_Frame_66
+    originalName: 
+    pivot: {x: 0.5, y: -0.33333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 151
+      y: 90
+      width: 2
+      height: 9
+    spriteID: d8c50091e80980b458cff7b87c9ef168
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 151, y: 90}
+  - name: Pop Cans_Frame_67
+    originalName: 
+    pivot: {x: 0.5, y: -0.33333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 139
+      y: 4
+      width: 4
+      height: 9
+    spriteID: 0c8770bdac43ec249bb9ac648c932c63
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 139, y: 4}
+  - name: Pop Cans_Frame_68
+    originalName: 
+    pivot: {x: 0.5, y: -0.33333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 122
+      y: 131
+      width: 6
+      height: 9
+    spriteID: 91360b6cde86c3a459969e1ae14cf455
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 122, y: 131}
+  - name: Pop Cans_Frame_69
+    originalName: 
+    pivot: {x: 0.5, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 58
+      width: 8
+      height: 13
+    spriteID: de8270c742bd0e34f9ee2848de4743fb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 68, y: 58}
+  - name: Pop Cans_Frame_70
+    originalName: 
+    pivot: {x: 0.5, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 79
+      width: 8
+      height: 13
+    spriteID: d99435bdba601d74c9855836cf665624
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 68, y: 79}
+  - name: Pop Cans_Frame_71
+    originalName: 
+    pivot: {x: 0.5, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 100
+      width: 8
+      height: 13
+    spriteID: 394e6f77c351a9e4fa661f10e3718144
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 68, y: 100}
+  - name: Pop Cans_Frame_72
+    originalName: 
+    pivot: {x: 0.5, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 121
+      width: 8
+      height: 13
+    spriteID: 0ef4952c5324c754b99489fca0559a27
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 68, y: 121}
+  - name: Pop Cans_Frame_73
+    originalName: 
+    pivot: {x: 0.5, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 142
+      width: 8
+      height: 13
+    spriteID: 7fa66cc9625d4a34eb34c91caab02228
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 68, y: 142}
+  - name: Pop Cans_Frame_74
+    originalName: 
+    pivot: {x: 0.5, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 163
+      width: 8
+      height: 13
+    spriteID: 01f7afb8ac17b044285db564139f339d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 68, y: 163}
+  - name: Pop Cans_Frame_75
+    originalName: 
+    pivot: {x: 0.5, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 184
+      width: 8
+      height: 13
+    spriteID: a02b9dea4f3e27e47a39b9ebf64a20a1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 68, y: 184}
+  - name: Pop Cans_Frame_76
+    originalName: 
+    pivot: {x: 0.5, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 205
+      width: 8
+      height: 13
+    spriteID: 7bf80b7f2678e7d4f9f596fc887dfdea
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 68, y: 205}
+  - name: Pop Cans_Frame_77
+    originalName: 
+    pivot: {x: 0.44444445, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 447
+      width: 9
+      height: 14
+    spriteID: bea2dee2b20578f42b659222cb7408a1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 447}
+  - name: Pop Cans_Frame_78
+    originalName: 
+    pivot: {x: 0.5, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 26
+      y: 351
+      width: 8
+      height: 14
+    spriteID: 52bfc37b1af9c544f852488a50dba70f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 26, y: 351}
+  - name: Pop Cans_Frame_79
+    originalName: 
+    pivot: {x: 0.5, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 26
+      y: 373
+      width: 8
+      height: 14
+    spriteID: 585eebc436af01943ae7fa73311e8f3e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 26, y: 373}
+  - name: Pop Cans_Frame_80
+    originalName: 
+    pivot: {x: 0.5, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 26
+      y: 395
+      width: 8
+      height: 14
+    spriteID: 793c946f351ac5f44b93f50efdd09590
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 26, y: 395}
+  - name: Pop Cans_Frame_81
+    originalName: 
+    pivot: {x: 0.5555556, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 469
+      width: 9
+      height: 14
+    spriteID: 568c5bdea0ae6e74698d66bcb7cb01c9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 469}
+  - name: Pop Cans_Frame_82
+    originalName: 
+    pivot: {x: 0.5, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 26
+      y: 417
+      width: 8
+      height: 14
+    spriteID: d3595f931b5edf54ca1eacec8509fe00
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 26, y: 417}
+  - name: Pop Cans_Frame_83
+    originalName: 
+    pivot: {x: 0.5, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 26
+      y: 439
+      width: 8
+      height: 14
+    spriteID: a31b916415dc4d741998481cc64c8b61
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 26, y: 439}
+  - name: Pop Cans_Frame_84
+    originalName: 
+    pivot: {x: 0.5, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 26
+      y: 461
+      width: 8
+      height: 14
+    spriteID: 303c49f0a3310f846b33b9a3de26bb9f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 26, y: 461}
+  - name: Pop Cans_Frame_85
+    originalName: 
+    pivot: {x: 0.5, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 122
+      y: 358
+      width: 8
+      height: 5
+    spriteID: 87ff5b2d45d648c42b929290c27f5cda
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 122, y: 358}
+  - name: Pop Cans_Frame_86
+    originalName: 
+    pivot: {x: 0.5, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 164
+      y: 4
+      width: 6
+      height: 5
+    spriteID: 7a50c2c2afe64a947a600d6024d93ec2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 164, y: 4}
+  - name: Pop Cans_Frame_87
+    originalName: 
+    pivot: {x: 0.5, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 151
+      y: 64
+      width: 4
+      height: 5
+    spriteID: 235cc6f029ac40245b14d2f351b17d41
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 151, y: 64}
+  - name: Pop Cans_Frame_88
+    originalName: 
+    pivot: {x: 0.5, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 164
+      y: 17
+      width: 6
+      height: 5
+    spriteID: 4e2e791c4790d7d4cb1e2d6d70bf4d54
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 164, y: 17}
+  - name: Pop Cans_Frame_89
+    originalName: 
+    pivot: {x: 0.5, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 122
+      y: 371
+      width: 8
+      height: 5
+    spriteID: 07166727b38c63a4a9b95c79e9cff6ea
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 122, y: 371}
+  - name: Pop Cans_Frame_90
+    originalName: 
+    pivot: {x: 0.5, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 164
+      y: 30
+      width: 6
+      height: 5
+    spriteID: f13e21d13e715ed40968281b1b4aa49d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 164, y: 30}
+  - name: Pop Cans_Frame_91
+    originalName: 
+    pivot: {x: 0.5, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 151
+      y: 77
+      width: 4
+      height: 5
+    spriteID: 05476f3d7a711884d9a256f14a9afbb4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 151, y: 77}
+  - name: Pop Cans_Frame_92
+    originalName: 
+    pivot: {x: 0.5, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 164
+      y: 43
+      width: 6
+      height: 5
+    spriteID: 1a1030170d7ecc34a8bb36026f6660fd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 164, y: 43}
+  - name: Pop Cans_Frame_93
+    originalName: 
+    pivot: {x: 0.5, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 14
+      height: 14
+    spriteID: f1fcfcf2f56d42e4b87b2fcdce45385f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Pop Cans_Frame_94
+    originalName: 
+    pivot: {x: 0.5, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 26
+      width: 12
+      height: 14
+    spriteID: 9ca4cba99215ef9408bdd5071180f71d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 26}
+  - name: Pop Cans_Frame_95
+    originalName: 
+    pivot: {x: 0.5, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 147
+      width: 10
+      height: 14
+    spriteID: a6e29a49e7d6e1d439e0c1fc8d2eb4da
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 147}
+  - name: Pop Cans_Frame_96
+    originalName: 
+    pivot: {x: 0.5, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 194
+      width: 6
+      height: 14
+    spriteID: 84755e0d96b293742bfd6db4e654e9bb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 194}
+  - name: Pop Cans_Frame_97
+    originalName: 
+    pivot: {x: 0.5, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 169
+      width: 10
+      height: 14
+    spriteID: 86ed63f546c8bc1428cdea121df8f7d1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 169}
+  - name: Pop Cans_Frame_98
+    originalName: 
+    pivot: {x: 0.5, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 48
+      width: 12
+      height: 14
+    spriteID: 3f69a678e863b394580309612a1c097b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 48}
+  - name: Pop Cans_Frame_99
+    originalName: 
+    pivot: {x: 0.5, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 26
+      y: 483
+      width: 14
+      height: 8
+    spriteID: 080c5aaf2257013438a424afb38a9536
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 26, y: 483}
+  - name: Pop Cans_Frame_100
+    originalName: 
+    pivot: {x: 0.5, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 87
+      y: 4
+      width: 12
+      height: 8
+    spriteID: 42755fc8519430d408f0160f93c3374e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 87, y: 4}
+  - name: Pop Cans_Frame_101
+    originalName: 
+    pivot: {x: 0.5555556, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 87
+      y: 289
+      width: 9
+      height: 8
+    spriteID: 223d24707f6bd6f4cb4488992be1b75f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 87, y: 289}
+  - name: Pop Cans_Frame_102
+    originalName: 
+    pivot: {x: 0.5714286, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 107
+      y: 466
+      width: 7
+      height: 8
+    spriteID: ef4372fcaf15d65408280c1706416f1d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 107, y: 466}
+  - name: Pop Cans_Frame_103
+    originalName: 
+    pivot: {x: 0.42857146, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 107
+      y: 482
+      width: 7
+      height: 8
+    spriteID: b5ad517890eff3b42bf6c76d1674cbf3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 107, y: 482}
+  - name: Pop Cans_Frame_104
+    originalName: 
+    pivot: {x: 0.44444445, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 87
+      y: 305
+      width: 9
+      height: 8
+    spriteID: 4464e5c259a0b364b9d2f56b92b8549c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 87, y: 305}
+  - name: Pop Cans_Frame_105
+    originalName: 
+    pivot: {x: 0.5, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 87
+      y: 20
+      width: 12
+      height: 8
+    spriteID: fc8dc809255af54458d63095f8792503
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 87, y: 20}
+  - name: Pop Cans_Frame_106
+    originalName: 
+    pivot: {x: 0.5, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 26
+      y: 499
+      width: 14
+      height: 8
+    spriteID: 2895ceac722b92f40ac337dc45d995f9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 26, y: 499}
+  - name: Pop Cans_Frame_107
+    originalName: 
+    pivot: {x: 0.5, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 87
+      y: 36
+      width: 12
+      height: 8
+    spriteID: 050c1212b26c4dd4bb3c6d04f6e8dd08
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 87, y: 36}
+  - name: Pop Cans_Frame_108
+    originalName: 
+    pivot: {x: 0.5555556, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 87
+      y: 321
+      width: 9
+      height: 8
+    spriteID: 57bb1b9b1e8bf6b4894ab4b437299a48
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 87, y: 321}
+  - name: Pop Cans_Frame_109
+    originalName: 
+    pivot: {x: 0.5714286, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 107
+      y: 498
+      width: 7
+      height: 8
+    spriteID: 86e9def7dfae01a46b86b4002496f1e9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 107, y: 498}
+  - name: Pop Cans_Frame_110
+    originalName: 
+    pivot: {x: 0.42857146, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 122
+      y: 64
+      width: 7
+      height: 8
+    spriteID: c616c2f5f22d5e747bb0f4bfa490abb3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 122, y: 64}
+  - name: Pop Cans_Frame_111
+    originalName: 
+    pivot: {x: 0.44444445, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 87
+      y: 337
+      width: 9
+      height: 8
+    spriteID: 6a0de862007ae904fae1c1f5ea7c612e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 87, y: 337}
+  - name: Pop Cans_Frame_112
+    originalName: 
+    pivot: {x: 0.5, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 87
+      y: 52
+      width: 12
+      height: 8
+    spriteID: e5c7701efb8eda04daf0118779bf8886
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 87, y: 52}
+  - name: Pop Cans_Frame_113
+    originalName: 
+    pivot: {x: 0.54545456, y: -0.71428573}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 87
+      y: 182
+      width: 11
+      height: 7
+    spriteID: c50e0dacaa929e2479bdf17152d78fc5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 87, y: 182}
+  - name: Pop Cans_Frame_114
+    originalName: 
+    pivot: {x: 0.5555556, y: -0.71428573}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 122
+      y: 4
+      width: 9
+      height: 7
+    spriteID: f098cd4ac6350984eb4fe1308a370065
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 122, y: 4}
+  - name: Pop Cans_Frame_115
+    originalName: 
+    pivot: {x: 0.5714286, y: -0.71428573}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 122
+      y: 226
+      width: 7
+      height: 7
+    spriteID: 6dfbf4e3d1410dd4cb920e5c04b9c6af
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 122, y: 226}
+  - name: Pop Cans_Frame_116
+    originalName: 
+    pivot: {x: 0.6, y: -0.71428573}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 151
+      y: 4
+      width: 5
+      height: 7
+    spriteID: 589f8f971ee825347825b96795031789
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 151, y: 4}
+  - name: Pop Cans_Frame_117
+    originalName: 
+    pivot: {x: 0.4, y: -0.71428573}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 151
+      y: 19
+      width: 5
+      height: 7
+    spriteID: fdf7f02cf924e34488a16fefe78cd7f6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 151, y: 19}
+  - name: Pop Cans_Frame_118
+    originalName: 
+    pivot: {x: 0.42857146, y: -0.71428573}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 122
+      y: 241
+      width: 7
+      height: 7
+    spriteID: f3a1d2d935484dc4d9bea6b238b3d2b0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 122, y: 241}
+  - name: Pop Cans_Frame_119
+    originalName: 
+    pivot: {x: 0.44444445, y: -0.71428573}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 122
+      y: 19
+      width: 9
+      height: 7
+    spriteID: 46a39f00fe2227f4aa7d423da5f5ce87
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 122, y: 19}
+  - name: Pop Cans_Frame_120
+    originalName: 
+    pivot: {x: 0.45454547, y: -0.71428573}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 87
+      y: 197
+      width: 11
+      height: 7
+    spriteID: 6779159bd7eaab74f81e8ff5d67db338
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 87, y: 197}
+  - name: Pop Cans_Frame_121
+    originalName: 
+    pivot: {x: 0.44444445, y: -0.71428573}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 122
+      y: 34
+      width: 9
+      height: 7
+    spriteID: ee571d754662f5143b80e2f2f8a97708
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 122, y: 34}
+  - name: Pop Cans_Frame_122
+    originalName: 
+    pivot: {x: 0.42857146, y: -0.71428573}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 122
+      y: 256
+      width: 7
+      height: 7
+    spriteID: a79dc293e07bb264a93023caadb6fe4d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 122, y: 256}
+  - name: Pop Cans_Frame_123
+    originalName: 
+    pivot: {x: 0.4, y: -0.71428573}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 151
+      y: 34
+      width: 5
+      height: 7
+    spriteID: 83e87bde816079d499e549c3fa5e4b54
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 151, y: 34}
+  - name: Pop Cans_Frame_124
+    originalName: 
+    pivot: {x: 0.6, y: -0.71428573}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 151
+      y: 49
+      width: 5
+      height: 7
+    spriteID: 83aeaa1d32182d24e8f35d7549ab47d0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 151, y: 49}
+  - name: Pop Cans_Frame_125
+    originalName: 
+    pivot: {x: 0.5714286, y: -0.71428573}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 122
+      y: 271
+      width: 7
+      height: 7
+    spriteID: 2889526f18c01c649bd944cf1ad1fc5d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 122, y: 271}
+  - name: Pop Cans_Frame_126
+    originalName: 
+    pivot: {x: 0.5555556, y: -0.71428573}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 122
+      y: 49
+      width: 9
+      height: 7
+    spriteID: ee75304e4f9e55d44a25cebc29fb4a56
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 122, y: 49}
+  - name: Pop Cans_Frame_127
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 191
+      width: 14
+      height: 10
+    spriteID: 9152eb0f1a7448a4bb9896b9c40125f3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 191}
+  - name: Pop Cans_Frame_128
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 26
+      y: 63
+      width: 12
+      height: 10
+    spriteID: 390af715e6df3d945af785ef5b685db8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 26, y: 63}
+  - name: Pop Cans_Frame_129
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 226
+      width: 10
+      height: 10
+    spriteID: 884961ee07da2364a978854b514b4e31
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 68, y: 226}
+  - name: Pop Cans_Frame_130
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 306
+      width: 8
+      height: 10
+    spriteID: 4927c799de2a73248904e67c671c9032
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 306}
+  - name: Pop Cans_Frame_131
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 107
+      y: 250
+      width: 6
+      height: 10
+    spriteID: 4ed7fc92a1dd3234392f525ca923ae8a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 107, y: 250}
+  - name: Pop Cans_Frame_132
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 122
+      y: 384
+      width: 4
+      height: 10
+    spriteID: c504a81886ef88746adcb6bbd1523591
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 122, y: 384}
+  - name: Pop Cans_Frame_133
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 107
+      y: 268
+      width: 6
+      height: 10
+    spriteID: 4d7177947000d804984842060ff75fa9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 107, y: 268}
+  - name: Pop Cans_Frame_134
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 324
+      width: 8
+      height: 10
+    spriteID: 36448e5a07e44ad41af95b5635f315da
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 324}
+  - name: Pop Cans_Frame_135
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 244
+      width: 10
+      height: 10
+    spriteID: 75c57c5eb4cff9442a091f6f7c660467
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 68, y: 244}
+  - name: Pop Cans_Frame_136
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 26
+      y: 81
+      width: 12
+      height: 10
+    spriteID: 9010070583471784ca19103fce7607dd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 26, y: 81}
+  - name: Pop Cans_Frame_137
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 209
+      width: 14
+      height: 10
+    spriteID: 5a5b789d1df2ec1419dc9b1b8a8157e4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 209}
+  - name: Pop Cans_Frame_138
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 26
+      y: 99
+      width: 12
+      height: 10
+    spriteID: f0ccda1bf2dad034fab6a3c0408219ce
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 26, y: 99}
+  - name: Pop Cans_Frame_139
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 262
+      width: 10
+      height: 10
+    spriteID: ca7769ec8ce10134f8eaa7a2a4c79765
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 68, y: 262}
+  - name: Pop Cans_Frame_140
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 342
+      width: 8
+      height: 10
+    spriteID: 8eb7cbfe2db8d1943a084dd10399742a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 342}
+  - name: Pop Cans_Frame_141
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 107
+      y: 286
+      width: 6
+      height: 10
+    spriteID: 7a9e51f524d9165409ef6105c0a2c590
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 107, y: 286}
+  - name: Pop Cans_Frame_142
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 122
+      y: 402
+      width: 4
+      height: 10
+    spriteID: 5e3919908e480794d88fd5ba23fa908b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 122, y: 402}
+  - name: Pop Cans_Frame_143
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 107
+      y: 304
+      width: 6
+      height: 10
+    spriteID: d1f15a311868f9543b2580ba7dc28232
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 107, y: 304}
+  - name: Pop Cans_Frame_144
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 360
+      width: 8
+      height: 10
+    spriteID: 458b8a47350e0ea4e9b2037a2862381f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 360}
+  - name: Pop Cans_Frame_145
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 280
+      width: 10
+      height: 10
+    spriteID: 2557db793daad1e41b600ffdc0e34bc9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 68, y: 280}
+  - name: Pop Cans_Frame_146
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 26
+      y: 117
+      width: 12
+      height: 10
+    spriteID: d1260e1e5cb52bb409af5db40018053d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 26, y: 117}
+  - name: Pop Cans_Frame_147
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 227
+      width: 14
+      height: 10
+    spriteID: 5821116ac367e0948b86e8e37e24a316
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 227}
+  - name: Pop Cans_Frame_148
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 26
+      y: 135
+      width: 12
+      height: 10
+    spriteID: a9078a3f550d6f94a962d561c1af2e19
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 26, y: 135}
+  - name: Pop Cans_Frame_149
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 298
+      width: 10
+      height: 10
+    spriteID: 05dd053429007c14e8790d1b593f0cb9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 68, y: 298}
+  - name: Pop Cans_Frame_150
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 378
+      width: 8
+      height: 10
+    spriteID: 3f36ff342fc44354b9a0669713fa1605
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 378}
+  - name: Pop Cans_Frame_151
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 107
+      y: 322
+      width: 6
+      height: 10
+    spriteID: 952ebbb8bb9097543ad0dfe73ae3771f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 107, y: 322}
+  - name: Pop Cans_Frame_152
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 122
+      y: 420
+      width: 4
+      height: 10
+    spriteID: 19350b5ae64f82b48a1cba872a934e6c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 122, y: 420}
+  - name: Pop Cans_Frame_153
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 107
+      y: 340
+      width: 6
+      height: 10
+    spriteID: bcc8418da24233644a12f0abdcf06c1e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 107, y: 340}
+  - name: Pop Cans_Frame_154
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 396
+      width: 8
+      height: 10
+    spriteID: 69935d3d093b7b74abfb55fe0b326d28
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 396}
+  - name: Pop Cans_Frame_155
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 316
+      width: 10
+      height: 10
+    spriteID: 00db4f98119662745b5f0683aef92784
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 68, y: 316}
+  - name: Pop Cans_Frame_156
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 26
+      y: 153
+      width: 12
+      height: 10
+    spriteID: 0b809957b4cc824469841df61821de68
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 26, y: 153}
+  - name: Pop Cans_Frame_157
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 245
+      width: 14
+      height: 10
+    spriteID: 8fb88d1bb684ad64b8556482b5c07a5f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 245}
+  - name: Pop Cans_Frame_158
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 26
+      y: 171
+      width: 12
+      height: 10
+    spriteID: 24b1d662a4a801c45a4915a0f155e7b9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 26, y: 171}
+  - name: Pop Cans_Frame_159
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 334
+      width: 10
+      height: 10
+    spriteID: 670fd992447fbc14fad4d08ce258760f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 68, y: 334}
+  - name: Pop Cans_Frame_160
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 414
+      width: 8
+      height: 10
+    spriteID: 7f236d184ac888a42844a12507abe2a1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 414}
+  - name: Pop Cans_Frame_161
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 107
+      y: 358
+      width: 6
+      height: 10
+    spriteID: 5e9ffb3cd6b0844498714358e22711f5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 107, y: 358}
+  - name: Pop Cans_Frame_162
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 122
+      y: 438
+      width: 4
+      height: 10
+    spriteID: 55ff31084ad2b1547951d74a96713c0d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 122, y: 438}
+  - name: Pop Cans_Frame_163
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 107
+      y: 376
+      width: 6
+      height: 10
+    spriteID: 60e91b09e2c10914ab736760292a4759
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 107, y: 376}
+  - name: Pop Cans_Frame_164
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 432
+      width: 8
+      height: 10
+    spriteID: 4ba1d47f28eb62f46a3cee985531f11c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 432}
+  - name: Pop Cans_Frame_165
+    originalName: 
+    pivot: {x: 0.54545456, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 40
+      width: 11
+      height: 10
+    spriteID: be81da0e17e9d674b88850a7393c5fa0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 68, y: 40}
+  - name: Pop Cans_Frame_166
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 26
+      y: 189
+      width: 12
+      height: 10
+    spriteID: 3c42dfb6ee4fcbd4ab2b1905a23f5ad9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 26, y: 189}
+  - name: Pop Cans_Frame_167
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 263
+      width: 14
+      height: 10
+    spriteID: 9417155a84fc9b748aa2e620b61f72a2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 263}
+  - name: Pop Cans_Frame_168
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 26
+      y: 207
+      width: 12
+      height: 10
+    spriteID: 8a30cd288eed8034b82f6772eb11263c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 26, y: 207}
+  - name: Pop Cans_Frame_169
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 352
+      width: 10
+      height: 10
+    spriteID: 1c197aca7c5a22044b1ff323822f5288
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 68, y: 352}
+  - name: Pop Cans_Frame_170
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 450
+      width: 8
+      height: 10
+    spriteID: 4e6160f1e28903f449550241610e730d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 450}
+  - name: Pop Cans_Frame_171
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 107
+      y: 394
+      width: 6
+      height: 10
+    spriteID: c08570ec879f5f147b97c565b96bd025
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 107, y: 394}
+  - name: Pop Cans_Frame_172
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 122
+      y: 456
+      width: 4
+      height: 10
+    spriteID: c2feeb9b70740ff439a2a8e80f9f48e7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 122, y: 456}
+  - name: Pop Cans_Frame_173
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 107
+      y: 412
+      width: 6
+      height: 10
+    spriteID: b250460ddc2ea8945ac75482d628c94b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 107, y: 412}
+  - name: Pop Cans_Frame_174
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 468
+      width: 8
+      height: 10
+    spriteID: 3540b7bed692bbd458b245d817996429
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 468}
+  - name: Pop Cans_Frame_175
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 370
+      width: 10
+      height: 10
+    spriteID: eba4fbd463134004c8a83c6b19269bbd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 68, y: 370}
+  - name: Pop Cans_Frame_176
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 26
+      y: 225
+      width: 12
+      height: 10
+    spriteID: ef0e1288901964a4aaa59a6917025c74
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 26, y: 225}
+  - name: Pop Cans_Frame_177
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 281
+      width: 14
+      height: 10
+    spriteID: 164f68bc01c08d5419c1009eb8b47def
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 281}
+  - name: Pop Cans_Frame_178
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 26
+      y: 243
+      width: 12
+      height: 10
+    spriteID: 3cf4bf1388835a843ad4c8da6ebc4755
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 26, y: 243}
+  - name: Pop Cans_Frame_179
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 388
+      width: 10
+      height: 10
+    spriteID: a2dbb4de6ab32e54eb920232640610fd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 68, y: 388}
+  - name: Pop Cans_Frame_180
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 486
+      width: 8
+      height: 10
+    spriteID: bfe20574c4c598c4484eff3828d00cdb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 486}
+  - name: Pop Cans_Frame_181
+    originalName: 
+    pivot: {x: 0.42857146, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 87
+      y: 371
+      width: 7
+      height: 10
+    spriteID: 1cdd97caae047e04db74f10705c35675
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 87, y: 371}
+  - name: Pop Cans_Frame_182
+    originalName: 
+    pivot: {x: 0.4, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 122
+      y: 190
+      width: 5
+      height: 10
+    spriteID: 44160f6e7c8584b4ea60f96e0c3fa4d0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 122, y: 190}
+  - name: Pop Cans_Frame_183
+    originalName: 
+    pivot: {x: 0.5714286, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 87
+      y: 389
+      width: 7
+      height: 10
+    spriteID: 888a0526100cc6a499c94f3bbb893f60
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 87, y: 389}
+  - name: Pop Cans_Frame_184
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 87
+      y: 68
+      width: 8
+      height: 10
+    spriteID: f3f8acec347d751419910fb5675a901e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 87, y: 68}
+  - name: Pop Cans_Frame_185
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 406
+      width: 10
+      height: 10
+    spriteID: 56eeed1055f3fc747b75b51e3a8d8bd8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 68, y: 406}
+  - name: Pop Cans_Frame_186
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 26
+      y: 261
+      width: 12
+      height: 10
+    spriteID: ac332d1c93a3f49409b55f1ad4e9a189
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 26, y: 261}
+  - name: Pop Cans_Frame_187
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 299
+      width: 14
+      height: 10
+    spriteID: d0e8ef29021c4b942bae4e43d3c68dcd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 299}
+  - name: Pop Cans_Frame_188
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 26
+      y: 279
+      width: 12
+      height: 10
+    spriteID: e46fdcd79724aa346aca0ac68db62050
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 26, y: 279}
+  - name: Pop Cans_Frame_189
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 424
+      width: 10
+      height: 10
+    spriteID: 476ebeea80007ca4c91c492585258816
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 68, y: 424}
+  - name: Pop Cans_Frame_190
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 87
+      y: 86
+      width: 8
+      height: 10
+    spriteID: a0a86f2916245e14e9246adb1c09ccad
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 87, y: 86}
+  - name: Pop Cans_Frame_191
+    originalName: 
+    pivot: {x: 0.42857146, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 87
+      y: 407
+      width: 7
+      height: 10
+    spriteID: 6f7f144deef5a7643b861c75a00645fa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 87, y: 407}
+  - name: Pop Cans_Frame_192
+    originalName: 
+    pivot: {x: 0.4, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 122
+      y: 208
+      width: 5
+      height: 10
+    spriteID: ef3ede1eb47e2ad4c84b1026382c2f03
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 122, y: 208}
+  - name: Pop Cans_Frame_193
+    originalName: 
+    pivot: {x: 0.5714286, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 87
+      y: 425
+      width: 7
+      height: 10
+    spriteID: 0df1988a87677224b84dc393d5fbbf25
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 87, y: 425}
+  - name: Pop Cans_Frame_194
+    originalName: 
+    pivot: {x: 0.5555556, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 138
+      width: 9
+      height: 10
+    spriteID: e33133a22a7d457469973d07829eb3b7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 138}
+  - name: Pop Cans_Frame_195
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 442
+      width: 10
+      height: 10
+    spriteID: 75288a3bf9e92ae409146b936c42a722
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 68, y: 442}
+  - name: Pop Cans_Frame_196
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 26
+      y: 297
+      width: 12
+      height: 10
+    spriteID: 20aeda37b3ca04c4eadaae949b7d3d61
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 26, y: 297}
+  - name: Pop Cans_Frame_197
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 317
+      width: 14
+      height: 10
+    spriteID: a78d71135fd2b5e42ae1b35e9ace7e22
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 317}
+  - name: Pop Cans_Frame_198
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 26
+      y: 315
+      width: 12
+      height: 10
+    spriteID: 325d5efd2464cba448a00d7db9879b9d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 26, y: 315}
+  - name: Pop Cans_Frame_199
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 460
+      width: 10
+      height: 10
+    spriteID: 43d7ba0749d65fb42ae7d33d31e3e287
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 68, y: 460}
+  - name: Pop Cans_Frame_200
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 87
+      y: 104
+      width: 8
+      height: 10
+    spriteID: 17f7c3d00a2ba794c8703a24bc846d4e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 87, y: 104}
+  - name: Pop Cans_Frame_201
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 107
+      y: 430
+      width: 6
+      height: 10
+    spriteID: 704c249d74747b54ba216290c2e71c57
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 107, y: 430}
+  - name: Pop Cans_Frame_202
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 122
+      y: 474
+      width: 4
+      height: 10
+    spriteID: 5e1845ec0d4db594ab38aeffbac2acbc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 122, y: 474}
+  - name: Pop Cans_Frame_203
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 107
+      y: 448
+      width: 6
+      height: 10
+    spriteID: 009938dedacdcae4eb029847e3b1e7a2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 107, y: 448}
+  - name: Pop Cans_Frame_204
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 87
+      y: 122
+      width: 8
+      height: 10
+    spriteID: 87e7bef5f3f907e40a36cbee4ecc6cff
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 87, y: 122}
+  - name: Pop Cans_Frame_205
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 478
+      width: 10
+      height: 10
+    spriteID: 0c3d0f321e806ab429d4d1999165c7bc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 68, y: 478}
+  - name: Pop Cans_Frame_206
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 26
+      y: 333
+      width: 12
+      height: 10
+    spriteID: efa582667ff041643b90bb55d7d67ce8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 26, y: 333}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 1280849376
+    name: Pop Cans
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Pop Cans_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 4
+        y: 3
+        width: 8
+        height: 10
+      spriteId: eb433307e91bbdd46a5634a643305898
+    - name: Pop Cans_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 4
+        y: 3
+        width: 8
+        height: 10
+      spriteId: c8520a9f71191f941b9bab550dc46a19
+    - name: Pop Cans_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 5
+        y: 3
+        width: 6
+        height: 10
+      spriteId: 11cf0737446fd6146a2c3ad8f3e08b6c
+    - name: Pop Cans_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 6
+        y: 3
+        width: 4
+        height: 10
+      spriteId: 055f3062d768b7a4e851eab1c93f7aef
+    - name: Pop Cans_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 5
+        y: 3
+        width: 6
+        height: 10
+      spriteId: 0ae767676b22dd043a6c0242ddddabc7
+    - name: Pop Cans_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 4
+        y: 3
+        width: 8
+        height: 10
+      spriteId: 40374d15d014be649be093c3c0b27c76
+    - name: Pop Cans_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 5
+        y: 3
+        width: 6
+        height: 10
+      spriteId: b8f2661c9b6064c47920109c7985bee6
+    - name: Pop Cans_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 6
+        y: 3
+        width: 4
+        height: 10
+      spriteId: 6a27ba1760659ab45a6ade1fb2a2f4a6
+    - name: Pop Cans_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 5
+        y: 3
+        width: 6
+        height: 10
+      spriteId: 7b26548dcd12c3e4ab9328d61c2eafaa
+    - name: Pop Cans_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 4
+        y: 3
+        width: 8
+        height: 10
+      spriteId: 50b2f95b3d378da40aabe524272eaa93
+    - name: Pop Cans_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 5
+        y: 3
+        width: 6
+        height: 10
+      spriteId: 6ed82b64e4404ae4799d78a2cac791b9
+    - name: Pop Cans_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 6
+        y: 3
+        width: 4
+        height: 10
+      spriteId: 91a776408cc994f4bba013e337673f43
+    - name: Pop Cans_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 5
+        y: 3
+        width: 6
+        height: 10
+      spriteId: e5638ebfbe406074cbe00e375ea95dd8
+    - name: Pop Cans_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 4
+        y: 3
+        width: 8
+        height: 10
+      spriteId: 3b59372d31a714041855b1656b1831c4
+    - name: Pop Cans_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 5
+        y: 3
+        width: 6
+        height: 10
+      spriteId: d2c8a58a46ff53747a1b6d690522b1d8
+    - name: Pop Cans_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 6
+        y: 3
+        width: 4
+        height: 10
+      spriteId: ba09fa60fa3bc544887154168fbac607
+    - name: Pop Cans_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 5
+        y: 3
+        width: 6
+        height: 10
+      spriteId: 2db678641775446488c2fadfeddd4eba
+    - name: Pop Cans_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 2
+        y: 2
+        width: 12
+        height: 12
+      spriteId: 72f1d0439bf2b8440a08463aff2dc636
+    - name: Pop Cans_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 3
+        y: 2
+        width: 10
+        height: 12
+      spriteId: 3a7beaebfc9353148bb75208f69d6db1
+    - name: Pop Cans_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 4
+        y: 2
+        width: 8
+        height: 12
+      spriteId: c361884d9d00b184fa12c2583d3d18f4
+    - name: Pop Cans_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 5
+        y: 2
+        width: 6
+        height: 12
+      spriteId: 1a6fbef0a3a7fac45af8802a9f1be4f8
+    - name: Pop Cans_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 4
+        y: 2
+        width: 8
+        height: 12
+      spriteId: 6315d1516d9aa8044903de8fe90fa819
+    - name: Pop Cans_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 3
+        y: 2
+        width: 10
+        height: 12
+      spriteId: 4fe4daa9e11e7024cb4019d173e35ad6
+    - name: Pop Cans_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 4
+        y: 2
+        width: 8
+        height: 12
+      spriteId: bf66182829604fa4389d81998659e28c
+    - name: Pop Cans_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 5
+        y: 2
+        width: 6
+        height: 12
+      spriteId: d81048b840928b949b6357b1905d881c
+    - name: Pop Cans_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 5
+        y: 2
+        width: 6
+        height: 12
+      spriteId: e53cf122b11181a4b8df8b8ce106d1aa
+    - name: Pop Cans_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 4
+        y: 2
+        width: 8
+        height: 12
+      spriteId: 5db71a17801f03a49bdcd9213b584888
+    - name: Pop Cans_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 3
+        y: 2
+        width: 10
+        height: 12
+      spriteId: a3ec31aa2089173418fc47099461b092
+    - name: Pop Cans_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 5
+        y: 1
+        width: 6
+        height: 13
+      spriteId: 2d81883a2fdc73f4f838e279a9cac9a1
+    - name: Pop Cans_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 6
+        y: 1
+        width: 4
+        height: 13
+      spriteId: fc2bf7c3f147a81489cecb0ce1c91c92
+    - name: Pop Cans_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 5
+        y: 1
+        width: 6
+        height: 13
+      spriteId: 6721cae043a9a264695c7d67c5f8dbaf
+    - name: Pop Cans_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 6
+        y: 1
+        width: 4
+        height: 13
+      spriteId: f34ed31a08455af44b903029d498ab7f
+    - name: Pop Cans_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 0
+        y: 2
+        width: 16
+        height: 11
+      spriteId: d603f60b50a10cd49b8e0fa7d02768f9
+    - name: Pop Cans_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 1
+        y: 2
+        width: 14
+        height: 11
+      spriteId: 1901996b91cd88545b457f0eb2689639
+    - name: Pop Cans_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 2
+        y: 2
+        width: 12
+        height: 11
+      spriteId: 93e96569c637204438dec323923879b0
+    - name: Pop Cans_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 5
+        y: 2
+        width: 6
+        height: 11
+      spriteId: e3849e11600cbdc4e9ec639e166fd7fd
+    - name: Pop Cans_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 2
+        y: 2
+        width: 12
+        height: 11
+      spriteId: 86cdd521537a539478f6ad2643b082fe
+    - name: Pop Cans_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 1
+        y: 2
+        width: 14
+        height: 11
+      spriteId: 1e529589847fa814d9b7ed0364f8f2b1
+    - name: Pop Cans_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 1
+        y: 2
+        width: 14
+        height: 11
+      spriteId: bbb9911780faeac46af5b5c8f5be31e7
+    - name: Pop Cans_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 2
+        y: 2
+        width: 12
+        height: 11
+      spriteId: 3c6f5cb9c5a45894ab89afc0afef9006
+    - name: Pop Cans_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: 3
+        y: 2
+        width: 10
+        height: 11
+      spriteId: 19a95ed6e424c9b409624efbe8a0b394
+    - name: Pop Cans_Frame_41
+      frameIndex: 41
+      cellRect:
+        x: 4
+        y: 2
+        width: 8
+        height: 11
+      spriteId: 8b18297f1ce30a74f820f5e4ddf988f1
+    - name: Pop Cans_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: 5
+        y: 2
+        width: 6
+        height: 11
+      spriteId: bd4dce90a47d32546b9b1aec0495fa22
+    - name: Pop Cans_Frame_43
+      frameIndex: 43
+      cellRect:
+        x: 4
+        y: 2
+        width: 8
+        height: 11
+      spriteId: a70f8a5e7e56ee548bc916e4c3172a79
+    - name: Pop Cans_Frame_44
+      frameIndex: 44
+      cellRect:
+        x: 3
+        y: 2
+        width: 10
+        height: 11
+      spriteId: 5b492e231517be8469e18d4951c01e85
+    - name: Pop Cans_Frame_45
+      frameIndex: 45
+      cellRect:
+        x: 2
+        y: 2
+        width: 12
+        height: 11
+      spriteId: 6164c60b2f0e99c4dbf3625e52e5a5a8
+    - name: Pop Cans_Frame_46
+      frameIndex: 46
+      cellRect:
+        x: 1
+        y: 2
+        width: 13
+        height: 10
+      spriteId: dd70c59ad40990d4bb8c2a373615b4f5
+    - name: Pop Cans_Frame_47
+      frameIndex: 47
+      cellRect:
+        x: 1
+        y: 2
+        width: 13
+        height: 10
+      spriteId: 68753f4a0803bb2409a2e35b14077431
+    - name: Pop Cans_Frame_48
+      frameIndex: 48
+      cellRect:
+        x: 2
+        y: 2
+        width: 11
+        height: 10
+      spriteId: e999fa2a90187e146a7431c3299c932e
+    - name: Pop Cans_Frame_49
+      frameIndex: 49
+      cellRect:
+        x: 3
+        y: 2
+        width: 9
+        height: 10
+      spriteId: c68455b3401c09a4f9d8746c7fb668e9
+    - name: Pop Cans_Frame_50
+      frameIndex: 50
+      cellRect:
+        x: 4
+        y: 2
+        width: 7
+        height: 10
+      spriteId: f6ee95213e6b3d04987b8e56739229a2
+    - name: Pop Cans_Frame_51
+      frameIndex: 51
+      cellRect:
+        x: 3
+        y: 2
+        width: 9
+        height: 10
+      spriteId: 3184b890a3ab46c43bd269ab345f3936
+    - name: Pop Cans_Frame_52
+      frameIndex: 52
+      cellRect:
+        x: 2
+        y: 2
+        width: 11
+        height: 10
+      spriteId: 31dfe5fcb29684b4ebd480b3da5886ac
+    - name: Pop Cans_Frame_53
+      frameIndex: 53
+      cellRect:
+        x: 5
+        y: 3
+        width: 7
+        height: 9
+      spriteId: 8d1d916da6af08b48a77cbcf52e01b5f
+    - name: Pop Cans_Frame_54
+      frameIndex: 54
+      cellRect:
+        x: 5
+        y: 3
+        width: 6
+        height: 9
+      spriteId: 1d0b5f5cda8bd0b41bd5152287042b90
+    - name: Pop Cans_Frame_55
+      frameIndex: 55
+      cellRect:
+        x: 4
+        y: 3
+        width: 7
+        height: 9
+      spriteId: bd769e89e67317747accc7aff20f606b
+    - name: Pop Cans_Frame_56
+      frameIndex: 56
+      cellRect:
+        x: 4
+        y: 3
+        width: 7
+        height: 9
+      spriteId: 343585b9eb45a6c45b7700c13303fc11
+    - name: Pop Cans_Frame_57
+      frameIndex: 57
+      cellRect:
+        x: 4
+        y: 3
+        width: 7
+        height: 9
+      spriteId: f2a3ab64f8caf124ea606b5458f9e4f1
+    - name: Pop Cans_Frame_58
+      frameIndex: 58
+      cellRect:
+        x: 4
+        y: 3
+        width: 7
+        height: 9
+      spriteId: 8988a2ac7c3a2ae458d457a4e24fe563
+    - name: Pop Cans_Frame_59
+      frameIndex: 59
+      cellRect:
+        x: 5
+        y: 3
+        width: 6
+        height: 9
+      spriteId: b0e88489a0bd74748aadfcfe12450d41
+    - name: Pop Cans_Frame_60
+      frameIndex: 60
+      cellRect:
+        x: 5
+        y: 3
+        width: 7
+        height: 9
+      spriteId: a41c034b92a302d41820a6a84b2faa9b
+    - name: Pop Cans_Frame_61
+      frameIndex: 61
+      cellRect:
+        x: 5
+        y: 3
+        width: 7
+        height: 9
+      spriteId: dd21fa0df40c3304a9467a2824f9b298
+    - name: Pop Cans_Frame_62
+      frameIndex: 62
+      cellRect:
+        x: 5
+        y: 3
+        width: 7
+        height: 9
+      spriteId: 8cbbfe40ba36c3e4baeae85d361fb258
+    - name: Pop Cans_Frame_63
+      frameIndex: 63
+      cellRect:
+        x: 4
+        y: 3
+        width: 8
+        height: 9
+      spriteId: e975c2be785c063459f2f83ffe8da080
+    - name: Pop Cans_Frame_64
+      frameIndex: 64
+      cellRect:
+        x: 5
+        y: 3
+        width: 6
+        height: 9
+      spriteId: 09e1ddf54b7768c408188611a2a7413e
+    - name: Pop Cans_Frame_65
+      frameIndex: 65
+      cellRect:
+        x: 6
+        y: 3
+        width: 4
+        height: 9
+      spriteId: 6d81b0fe12f8207449e37504858a8972
+    - name: Pop Cans_Frame_66
+      frameIndex: 66
+      cellRect:
+        x: 7
+        y: 3
+        width: 2
+        height: 9
+      spriteId: d8c50091e80980b458cff7b87c9ef168
+    - name: Pop Cans_Frame_67
+      frameIndex: 67
+      cellRect:
+        x: 6
+        y: 3
+        width: 4
+        height: 9
+      spriteId: 0c8770bdac43ec249bb9ac648c932c63
+    - name: Pop Cans_Frame_68
+      frameIndex: 68
+      cellRect:
+        x: 5
+        y: 3
+        width: 6
+        height: 9
+      spriteId: 91360b6cde86c3a459969e1ae14cf455
+    - name: Pop Cans_Frame_69
+      frameIndex: 69
+      cellRect:
+        x: 4
+        y: 1
+        width: 8
+        height: 13
+      spriteId: de8270c742bd0e34f9ee2848de4743fb
+    - name: Pop Cans_Frame_70
+      frameIndex: 70
+      cellRect:
+        x: 4
+        y: 1
+        width: 8
+        height: 13
+      spriteId: d99435bdba601d74c9855836cf665624
+    - name: Pop Cans_Frame_71
+      frameIndex: 71
+      cellRect:
+        x: 4
+        y: 1
+        width: 8
+        height: 13
+      spriteId: 394e6f77c351a9e4fa661f10e3718144
+    - name: Pop Cans_Frame_72
+      frameIndex: 72
+      cellRect:
+        x: 4
+        y: 1
+        width: 8
+        height: 13
+      spriteId: 0ef4952c5324c754b99489fca0559a27
+    - name: Pop Cans_Frame_73
+      frameIndex: 73
+      cellRect:
+        x: 4
+        y: 1
+        width: 8
+        height: 13
+      spriteId: 7fa66cc9625d4a34eb34c91caab02228
+    - name: Pop Cans_Frame_74
+      frameIndex: 74
+      cellRect:
+        x: 4
+        y: 1
+        width: 8
+        height: 13
+      spriteId: 01f7afb8ac17b044285db564139f339d
+    - name: Pop Cans_Frame_75
+      frameIndex: 75
+      cellRect:
+        x: 4
+        y: 1
+        width: 8
+        height: 13
+      spriteId: a02b9dea4f3e27e47a39b9ebf64a20a1
+    - name: Pop Cans_Frame_76
+      frameIndex: 76
+      cellRect:
+        x: 4
+        y: 1
+        width: 8
+        height: 13
+      spriteId: 7bf80b7f2678e7d4f9f596fc887dfdea
+    - name: Pop Cans_Frame_77
+      frameIndex: 77
+      cellRect:
+        x: 4
+        y: 1
+        width: 9
+        height: 14
+      spriteId: bea2dee2b20578f42b659222cb7408a1
+    - name: Pop Cans_Frame_78
+      frameIndex: 78
+      cellRect:
+        x: 4
+        y: 1
+        width: 8
+        height: 14
+      spriteId: 52bfc37b1af9c544f852488a50dba70f
+    - name: Pop Cans_Frame_79
+      frameIndex: 79
+      cellRect:
+        x: 4
+        y: 1
+        width: 8
+        height: 14
+      spriteId: 585eebc436af01943ae7fa73311e8f3e
+    - name: Pop Cans_Frame_80
+      frameIndex: 80
+      cellRect:
+        x: 4
+        y: 1
+        width: 8
+        height: 14
+      spriteId: 793c946f351ac5f44b93f50efdd09590
+    - name: Pop Cans_Frame_81
+      frameIndex: 81
+      cellRect:
+        x: 3
+        y: 1
+        width: 9
+        height: 14
+      spriteId: 568c5bdea0ae6e74698d66bcb7cb01c9
+    - name: Pop Cans_Frame_82
+      frameIndex: 82
+      cellRect:
+        x: 4
+        y: 1
+        width: 8
+        height: 14
+      spriteId: d3595f931b5edf54ca1eacec8509fe00
+    - name: Pop Cans_Frame_83
+      frameIndex: 83
+      cellRect:
+        x: 4
+        y: 1
+        width: 8
+        height: 14
+      spriteId: a31b916415dc4d741998481cc64c8b61
+    - name: Pop Cans_Frame_84
+      frameIndex: 84
+      cellRect:
+        x: 4
+        y: 1
+        width: 8
+        height: 14
+      spriteId: 303c49f0a3310f846b33b9a3de26bb9f
+    - name: Pop Cans_Frame_85
+      frameIndex: 85
+      cellRect:
+        x: 4
+        y: 5
+        width: 8
+        height: 5
+      spriteId: 87ff5b2d45d648c42b929290c27f5cda
+    - name: Pop Cans_Frame_86
+      frameIndex: 86
+      cellRect:
+        x: 5
+        y: 5
+        width: 6
+        height: 5
+      spriteId: 7a50c2c2afe64a947a600d6024d93ec2
+    - name: Pop Cans_Frame_87
+      frameIndex: 87
+      cellRect:
+        x: 6
+        y: 5
+        width: 4
+        height: 5
+      spriteId: 235cc6f029ac40245b14d2f351b17d41
+    - name: Pop Cans_Frame_88
+      frameIndex: 88
+      cellRect:
+        x: 5
+        y: 5
+        width: 6
+        height: 5
+      spriteId: 4e2e791c4790d7d4cb1e2d6d70bf4d54
+    - name: Pop Cans_Frame_89
+      frameIndex: 89
+      cellRect:
+        x: 4
+        y: 5
+        width: 8
+        height: 5
+      spriteId: 07166727b38c63a4a9b95c79e9cff6ea
+    - name: Pop Cans_Frame_90
+      frameIndex: 90
+      cellRect:
+        x: 5
+        y: 5
+        width: 6
+        height: 5
+      spriteId: f13e21d13e715ed40968281b1b4aa49d
+    - name: Pop Cans_Frame_91
+      frameIndex: 91
+      cellRect:
+        x: 6
+        y: 5
+        width: 4
+        height: 5
+      spriteId: 05476f3d7a711884d9a256f14a9afbb4
+    - name: Pop Cans_Frame_92
+      frameIndex: 92
+      cellRect:
+        x: 5
+        y: 5
+        width: 6
+        height: 5
+      spriteId: 1a1030170d7ecc34a8bb36026f6660fd
+    - name: Pop Cans_Frame_93
+      frameIndex: 93
+      cellRect:
+        x: 1
+        y: 1
+        width: 14
+        height: 14
+      spriteId: f1fcfcf2f56d42e4b87b2fcdce45385f
+    - name: Pop Cans_Frame_94
+      frameIndex: 94
+      cellRect:
+        x: 2
+        y: 1
+        width: 12
+        height: 14
+      spriteId: 9ca4cba99215ef9408bdd5071180f71d
+    - name: Pop Cans_Frame_95
+      frameIndex: 95
+      cellRect:
+        x: 3
+        y: 1
+        width: 10
+        height: 14
+      spriteId: a6e29a49e7d6e1d439e0c1fc8d2eb4da
+    - name: Pop Cans_Frame_96
+      frameIndex: 96
+      cellRect:
+        x: 5
+        y: 1
+        width: 6
+        height: 14
+      spriteId: 84755e0d96b293742bfd6db4e654e9bb
+    - name: Pop Cans_Frame_97
+      frameIndex: 97
+      cellRect:
+        x: 3
+        y: 1
+        width: 10
+        height: 14
+      spriteId: 86ed63f546c8bc1428cdea121df8f7d1
+    - name: Pop Cans_Frame_98
+      frameIndex: 98
+      cellRect:
+        x: 2
+        y: 1
+        width: 12
+        height: 14
+      spriteId: 3f69a678e863b394580309612a1c097b
+    - name: Pop Cans_Frame_99
+      frameIndex: 99
+      cellRect:
+        x: 1
+        y: 4
+        width: 14
+        height: 8
+      spriteId: 080c5aaf2257013438a424afb38a9536
+    - name: Pop Cans_Frame_100
+      frameIndex: 100
+      cellRect:
+        x: 2
+        y: 4
+        width: 12
+        height: 8
+      spriteId: 42755fc8519430d408f0160f93c3374e
+    - name: Pop Cans_Frame_101
+      frameIndex: 101
+      cellRect:
+        x: 3
+        y: 4
+        width: 9
+        height: 8
+      spriteId: 223d24707f6bd6f4cb4488992be1b75f
+    - name: Pop Cans_Frame_102
+      frameIndex: 102
+      cellRect:
+        x: 4
+        y: 4
+        width: 7
+        height: 8
+      spriteId: ef4372fcaf15d65408280c1706416f1d
+    - name: Pop Cans_Frame_103
+      frameIndex: 103
+      cellRect:
+        x: 5
+        y: 4
+        width: 7
+        height: 8
+      spriteId: b5ad517890eff3b42bf6c76d1674cbf3
+    - name: Pop Cans_Frame_104
+      frameIndex: 104
+      cellRect:
+        x: 4
+        y: 4
+        width: 9
+        height: 8
+      spriteId: 4464e5c259a0b364b9d2f56b92b8549c
+    - name: Pop Cans_Frame_105
+      frameIndex: 105
+      cellRect:
+        x: 2
+        y: 4
+        width: 12
+        height: 8
+      spriteId: fc8dc809255af54458d63095f8792503
+    - name: Pop Cans_Frame_106
+      frameIndex: 106
+      cellRect:
+        x: 1
+        y: 4
+        width: 14
+        height: 8
+      spriteId: 2895ceac722b92f40ac337dc45d995f9
+    - name: Pop Cans_Frame_107
+      frameIndex: 107
+      cellRect:
+        x: 2
+        y: 4
+        width: 12
+        height: 8
+      spriteId: 050c1212b26c4dd4bb3c6d04f6e8dd08
+    - name: Pop Cans_Frame_108
+      frameIndex: 108
+      cellRect:
+        x: 3
+        y: 4
+        width: 9
+        height: 8
+      spriteId: 57bb1b9b1e8bf6b4894ab4b437299a48
+    - name: Pop Cans_Frame_109
+      frameIndex: 109
+      cellRect:
+        x: 4
+        y: 4
+        width: 7
+        height: 8
+      spriteId: 86e9def7dfae01a46b86b4002496f1e9
+    - name: Pop Cans_Frame_110
+      frameIndex: 110
+      cellRect:
+        x: 5
+        y: 4
+        width: 7
+        height: 8
+      spriteId: c616c2f5f22d5e747bb0f4bfa490abb3
+    - name: Pop Cans_Frame_111
+      frameIndex: 111
+      cellRect:
+        x: 4
+        y: 4
+        width: 9
+        height: 8
+      spriteId: 6a0de862007ae904fae1c1f5ea7c612e
+    - name: Pop Cans_Frame_112
+      frameIndex: 112
+      cellRect:
+        x: 2
+        y: 4
+        width: 12
+        height: 8
+      spriteId: e5c7701efb8eda04daf0118779bf8886
+    - name: Pop Cans_Frame_113
+      frameIndex: 113
+      cellRect:
+        x: 2
+        y: 5
+        width: 11
+        height: 7
+      spriteId: c50e0dacaa929e2479bdf17152d78fc5
+    - name: Pop Cans_Frame_114
+      frameIndex: 114
+      cellRect:
+        x: 3
+        y: 5
+        width: 9
+        height: 7
+      spriteId: f098cd4ac6350984eb4fe1308a370065
+    - name: Pop Cans_Frame_115
+      frameIndex: 115
+      cellRect:
+        x: 4
+        y: 5
+        width: 7
+        height: 7
+      spriteId: 6dfbf4e3d1410dd4cb920e5c04b9c6af
+    - name: Pop Cans_Frame_116
+      frameIndex: 116
+      cellRect:
+        x: 5
+        y: 5
+        width: 5
+        height: 7
+      spriteId: 589f8f971ee825347825b96795031789
+    - name: Pop Cans_Frame_117
+      frameIndex: 117
+      cellRect:
+        x: 6
+        y: 5
+        width: 5
+        height: 7
+      spriteId: fdf7f02cf924e34488a16fefe78cd7f6
+    - name: Pop Cans_Frame_118
+      frameIndex: 118
+      cellRect:
+        x: 5
+        y: 5
+        width: 7
+        height: 7
+      spriteId: f3a1d2d935484dc4d9bea6b238b3d2b0
+    - name: Pop Cans_Frame_119
+      frameIndex: 119
+      cellRect:
+        x: 4
+        y: 5
+        width: 9
+        height: 7
+      spriteId: 46a39f00fe2227f4aa7d423da5f5ce87
+    - name: Pop Cans_Frame_120
+      frameIndex: 120
+      cellRect:
+        x: 3
+        y: 5
+        width: 11
+        height: 7
+      spriteId: 6779159bd7eaab74f81e8ff5d67db338
+    - name: Pop Cans_Frame_121
+      frameIndex: 121
+      cellRect:
+        x: 4
+        y: 5
+        width: 9
+        height: 7
+      spriteId: ee571d754662f5143b80e2f2f8a97708
+    - name: Pop Cans_Frame_122
+      frameIndex: 122
+      cellRect:
+        x: 5
+        y: 5
+        width: 7
+        height: 7
+      spriteId: a79dc293e07bb264a93023caadb6fe4d
+    - name: Pop Cans_Frame_123
+      frameIndex: 123
+      cellRect:
+        x: 6
+        y: 5
+        width: 5
+        height: 7
+      spriteId: 83e87bde816079d499e549c3fa5e4b54
+    - name: Pop Cans_Frame_124
+      frameIndex: 124
+      cellRect:
+        x: 5
+        y: 5
+        width: 5
+        height: 7
+      spriteId: 83aeaa1d32182d24e8f35d7549ab47d0
+    - name: Pop Cans_Frame_125
+      frameIndex: 125
+      cellRect:
+        x: 4
+        y: 5
+        width: 7
+        height: 7
+      spriteId: 2889526f18c01c649bd944cf1ad1fc5d
+    - name: Pop Cans_Frame_126
+      frameIndex: 126
+      cellRect:
+        x: 3
+        y: 5
+        width: 9
+        height: 7
+      spriteId: ee75304e4f9e55d44a25cebc29fb4a56
+    - name: Pop Cans_Frame_127
+      frameIndex: 127
+      cellRect:
+        x: 1
+        y: 3
+        width: 14
+        height: 10
+      spriteId: 9152eb0f1a7448a4bb9896b9c40125f3
+    - name: Pop Cans_Frame_128
+      frameIndex: 128
+      cellRect:
+        x: 2
+        y: 3
+        width: 12
+        height: 10
+      spriteId: 390af715e6df3d945af785ef5b685db8
+    - name: Pop Cans_Frame_129
+      frameIndex: 129
+      cellRect:
+        x: 3
+        y: 3
+        width: 10
+        height: 10
+      spriteId: 884961ee07da2364a978854b514b4e31
+    - name: Pop Cans_Frame_130
+      frameIndex: 130
+      cellRect:
+        x: 4
+        y: 3
+        width: 8
+        height: 10
+      spriteId: 4927c799de2a73248904e67c671c9032
+    - name: Pop Cans_Frame_131
+      frameIndex: 131
+      cellRect:
+        x: 5
+        y: 3
+        width: 6
+        height: 10
+      spriteId: 4ed7fc92a1dd3234392f525ca923ae8a
+    - name: Pop Cans_Frame_132
+      frameIndex: 132
+      cellRect:
+        x: 6
+        y: 3
+        width: 4
+        height: 10
+      spriteId: c504a81886ef88746adcb6bbd1523591
+    - name: Pop Cans_Frame_133
+      frameIndex: 133
+      cellRect:
+        x: 5
+        y: 3
+        width: 6
+        height: 10
+      spriteId: 4d7177947000d804984842060ff75fa9
+    - name: Pop Cans_Frame_134
+      frameIndex: 134
+      cellRect:
+        x: 4
+        y: 3
+        width: 8
+        height: 10
+      spriteId: 36448e5a07e44ad41af95b5635f315da
+    - name: Pop Cans_Frame_135
+      frameIndex: 135
+      cellRect:
+        x: 3
+        y: 3
+        width: 10
+        height: 10
+      spriteId: 75c57c5eb4cff9442a091f6f7c660467
+    - name: Pop Cans_Frame_136
+      frameIndex: 136
+      cellRect:
+        x: 2
+        y: 3
+        width: 12
+        height: 10
+      spriteId: 9010070583471784ca19103fce7607dd
+    - name: Pop Cans_Frame_137
+      frameIndex: 137
+      cellRect:
+        x: 1
+        y: 3
+        width: 14
+        height: 10
+      spriteId: 5a5b789d1df2ec1419dc9b1b8a8157e4
+    - name: Pop Cans_Frame_138
+      frameIndex: 138
+      cellRect:
+        x: 2
+        y: 3
+        width: 12
+        height: 10
+      spriteId: f0ccda1bf2dad034fab6a3c0408219ce
+    - name: Pop Cans_Frame_139
+      frameIndex: 139
+      cellRect:
+        x: 3
+        y: 3
+        width: 10
+        height: 10
+      spriteId: ca7769ec8ce10134f8eaa7a2a4c79765
+    - name: Pop Cans_Frame_140
+      frameIndex: 140
+      cellRect:
+        x: 4
+        y: 3
+        width: 8
+        height: 10
+      spriteId: 8eb7cbfe2db8d1943a084dd10399742a
+    - name: Pop Cans_Frame_141
+      frameIndex: 141
+      cellRect:
+        x: 5
+        y: 3
+        width: 6
+        height: 10
+      spriteId: 7a9e51f524d9165409ef6105c0a2c590
+    - name: Pop Cans_Frame_142
+      frameIndex: 142
+      cellRect:
+        x: 6
+        y: 3
+        width: 4
+        height: 10
+      spriteId: 5e3919908e480794d88fd5ba23fa908b
+    - name: Pop Cans_Frame_143
+      frameIndex: 143
+      cellRect:
+        x: 5
+        y: 3
+        width: 6
+        height: 10
+      spriteId: d1f15a311868f9543b2580ba7dc28232
+    - name: Pop Cans_Frame_144
+      frameIndex: 144
+      cellRect:
+        x: 4
+        y: 3
+        width: 8
+        height: 10
+      spriteId: 458b8a47350e0ea4e9b2037a2862381f
+    - name: Pop Cans_Frame_145
+      frameIndex: 145
+      cellRect:
+        x: 3
+        y: 3
+        width: 10
+        height: 10
+      spriteId: 2557db793daad1e41b600ffdc0e34bc9
+    - name: Pop Cans_Frame_146
+      frameIndex: 146
+      cellRect:
+        x: 2
+        y: 3
+        width: 12
+        height: 10
+      spriteId: d1260e1e5cb52bb409af5db40018053d
+    - name: Pop Cans_Frame_147
+      frameIndex: 147
+      cellRect:
+        x: 1
+        y: 3
+        width: 14
+        height: 10
+      spriteId: 5821116ac367e0948b86e8e37e24a316
+    - name: Pop Cans_Frame_148
+      frameIndex: 148
+      cellRect:
+        x: 2
+        y: 3
+        width: 12
+        height: 10
+      spriteId: a9078a3f550d6f94a962d561c1af2e19
+    - name: Pop Cans_Frame_149
+      frameIndex: 149
+      cellRect:
+        x: 3
+        y: 3
+        width: 10
+        height: 10
+      spriteId: 05dd053429007c14e8790d1b593f0cb9
+    - name: Pop Cans_Frame_150
+      frameIndex: 150
+      cellRect:
+        x: 4
+        y: 3
+        width: 8
+        height: 10
+      spriteId: 3f36ff342fc44354b9a0669713fa1605
+    - name: Pop Cans_Frame_151
+      frameIndex: 151
+      cellRect:
+        x: 5
+        y: 3
+        width: 6
+        height: 10
+      spriteId: 952ebbb8bb9097543ad0dfe73ae3771f
+    - name: Pop Cans_Frame_152
+      frameIndex: 152
+      cellRect:
+        x: 6
+        y: 3
+        width: 4
+        height: 10
+      spriteId: 19350b5ae64f82b48a1cba872a934e6c
+    - name: Pop Cans_Frame_153
+      frameIndex: 153
+      cellRect:
+        x: 5
+        y: 3
+        width: 6
+        height: 10
+      spriteId: bcc8418da24233644a12f0abdcf06c1e
+    - name: Pop Cans_Frame_154
+      frameIndex: 154
+      cellRect:
+        x: 4
+        y: 3
+        width: 8
+        height: 10
+      spriteId: 69935d3d093b7b74abfb55fe0b326d28
+    - name: Pop Cans_Frame_155
+      frameIndex: 155
+      cellRect:
+        x: 3
+        y: 3
+        width: 10
+        height: 10
+      spriteId: 00db4f98119662745b5f0683aef92784
+    - name: Pop Cans_Frame_156
+      frameIndex: 156
+      cellRect:
+        x: 2
+        y: 3
+        width: 12
+        height: 10
+      spriteId: 0b809957b4cc824469841df61821de68
+    - name: Pop Cans_Frame_157
+      frameIndex: 157
+      cellRect:
+        x: 1
+        y: 3
+        width: 14
+        height: 10
+      spriteId: 8fb88d1bb684ad64b8556482b5c07a5f
+    - name: Pop Cans_Frame_158
+      frameIndex: 158
+      cellRect:
+        x: 2
+        y: 3
+        width: 12
+        height: 10
+      spriteId: 24b1d662a4a801c45a4915a0f155e7b9
+    - name: Pop Cans_Frame_159
+      frameIndex: 159
+      cellRect:
+        x: 3
+        y: 3
+        width: 10
+        height: 10
+      spriteId: 670fd992447fbc14fad4d08ce258760f
+    - name: Pop Cans_Frame_160
+      frameIndex: 160
+      cellRect:
+        x: 4
+        y: 3
+        width: 8
+        height: 10
+      spriteId: 7f236d184ac888a42844a12507abe2a1
+    - name: Pop Cans_Frame_161
+      frameIndex: 161
+      cellRect:
+        x: 5
+        y: 3
+        width: 6
+        height: 10
+      spriteId: 5e9ffb3cd6b0844498714358e22711f5
+    - name: Pop Cans_Frame_162
+      frameIndex: 162
+      cellRect:
+        x: 6
+        y: 3
+        width: 4
+        height: 10
+      spriteId: 55ff31084ad2b1547951d74a96713c0d
+    - name: Pop Cans_Frame_163
+      frameIndex: 163
+      cellRect:
+        x: 5
+        y: 3
+        width: 6
+        height: 10
+      spriteId: 60e91b09e2c10914ab736760292a4759
+    - name: Pop Cans_Frame_164
+      frameIndex: 164
+      cellRect:
+        x: 4
+        y: 3
+        width: 8
+        height: 10
+      spriteId: 4ba1d47f28eb62f46a3cee985531f11c
+    - name: Pop Cans_Frame_165
+      frameIndex: 165
+      cellRect:
+        x: 2
+        y: 3
+        width: 11
+        height: 10
+      spriteId: be81da0e17e9d674b88850a7393c5fa0
+    - name: Pop Cans_Frame_166
+      frameIndex: 166
+      cellRect:
+        x: 2
+        y: 3
+        width: 12
+        height: 10
+      spriteId: 3c42dfb6ee4fcbd4ab2b1905a23f5ad9
+    - name: Pop Cans_Frame_167
+      frameIndex: 167
+      cellRect:
+        x: 1
+        y: 3
+        width: 14
+        height: 10
+      spriteId: 9417155a84fc9b748aa2e620b61f72a2
+    - name: Pop Cans_Frame_168
+      frameIndex: 168
+      cellRect:
+        x: 2
+        y: 3
+        width: 12
+        height: 10
+      spriteId: 8a30cd288eed8034b82f6772eb11263c
+    - name: Pop Cans_Frame_169
+      frameIndex: 169
+      cellRect:
+        x: 3
+        y: 3
+        width: 10
+        height: 10
+      spriteId: 1c197aca7c5a22044b1ff323822f5288
+    - name: Pop Cans_Frame_170
+      frameIndex: 170
+      cellRect:
+        x: 4
+        y: 3
+        width: 8
+        height: 10
+      spriteId: 4e6160f1e28903f449550241610e730d
+    - name: Pop Cans_Frame_171
+      frameIndex: 171
+      cellRect:
+        x: 5
+        y: 3
+        width: 6
+        height: 10
+      spriteId: c08570ec879f5f147b97c565b96bd025
+    - name: Pop Cans_Frame_172
+      frameIndex: 172
+      cellRect:
+        x: 6
+        y: 3
+        width: 4
+        height: 10
+      spriteId: c2feeb9b70740ff439a2a8e80f9f48e7
+    - name: Pop Cans_Frame_173
+      frameIndex: 173
+      cellRect:
+        x: 5
+        y: 3
+        width: 6
+        height: 10
+      spriteId: b250460ddc2ea8945ac75482d628c94b
+    - name: Pop Cans_Frame_174
+      frameIndex: 174
+      cellRect:
+        x: 4
+        y: 3
+        width: 8
+        height: 10
+      spriteId: 3540b7bed692bbd458b245d817996429
+    - name: Pop Cans_Frame_175
+      frameIndex: 175
+      cellRect:
+        x: 3
+        y: 3
+        width: 10
+        height: 10
+      spriteId: eba4fbd463134004c8a83c6b19269bbd
+    - name: Pop Cans_Frame_176
+      frameIndex: 176
+      cellRect:
+        x: 2
+        y: 3
+        width: 12
+        height: 10
+      spriteId: ef0e1288901964a4aaa59a6917025c74
+    - name: Pop Cans_Frame_177
+      frameIndex: 177
+      cellRect:
+        x: 1
+        y: 3
+        width: 14
+        height: 10
+      spriteId: 164f68bc01c08d5419c1009eb8b47def
+    - name: Pop Cans_Frame_178
+      frameIndex: 178
+      cellRect:
+        x: 2
+        y: 3
+        width: 12
+        height: 10
+      spriteId: 3cf4bf1388835a843ad4c8da6ebc4755
+    - name: Pop Cans_Frame_179
+      frameIndex: 179
+      cellRect:
+        x: 3
+        y: 3
+        width: 10
+        height: 10
+      spriteId: a2dbb4de6ab32e54eb920232640610fd
+    - name: Pop Cans_Frame_180
+      frameIndex: 180
+      cellRect:
+        x: 4
+        y: 3
+        width: 8
+        height: 10
+      spriteId: bfe20574c4c598c4484eff3828d00cdb
+    - name: Pop Cans_Frame_181
+      frameIndex: 181
+      cellRect:
+        x: 5
+        y: 3
+        width: 7
+        height: 10
+      spriteId: 1cdd97caae047e04db74f10705c35675
+    - name: Pop Cans_Frame_182
+      frameIndex: 182
+      cellRect:
+        x: 6
+        y: 3
+        width: 5
+        height: 10
+      spriteId: 44160f6e7c8584b4ea60f96e0c3fa4d0
+    - name: Pop Cans_Frame_183
+      frameIndex: 183
+      cellRect:
+        x: 4
+        y: 3
+        width: 7
+        height: 10
+      spriteId: 888a0526100cc6a499c94f3bbb893f60
+    - name: Pop Cans_Frame_184
+      frameIndex: 184
+      cellRect:
+        x: 4
+        y: 3
+        width: 8
+        height: 10
+      spriteId: f3f8acec347d751419910fb5675a901e
+    - name: Pop Cans_Frame_185
+      frameIndex: 185
+      cellRect:
+        x: 3
+        y: 3
+        width: 10
+        height: 10
+      spriteId: 56eeed1055f3fc747b75b51e3a8d8bd8
+    - name: Pop Cans_Frame_186
+      frameIndex: 186
+      cellRect:
+        x: 2
+        y: 3
+        width: 12
+        height: 10
+      spriteId: ac332d1c93a3f49409b55f1ad4e9a189
+    - name: Pop Cans_Frame_187
+      frameIndex: 187
+      cellRect:
+        x: 1
+        y: 3
+        width: 14
+        height: 10
+      spriteId: d0e8ef29021c4b942bae4e43d3c68dcd
+    - name: Pop Cans_Frame_188
+      frameIndex: 188
+      cellRect:
+        x: 2
+        y: 3
+        width: 12
+        height: 10
+      spriteId: e46fdcd79724aa346aca0ac68db62050
+    - name: Pop Cans_Frame_189
+      frameIndex: 189
+      cellRect:
+        x: 3
+        y: 3
+        width: 10
+        height: 10
+      spriteId: 476ebeea80007ca4c91c492585258816
+    - name: Pop Cans_Frame_190
+      frameIndex: 190
+      cellRect:
+        x: 4
+        y: 3
+        width: 8
+        height: 10
+      spriteId: a0a86f2916245e14e9246adb1c09ccad
+    - name: Pop Cans_Frame_191
+      frameIndex: 191
+      cellRect:
+        x: 5
+        y: 3
+        width: 7
+        height: 10
+      spriteId: 6f7f144deef5a7643b861c75a00645fa
+    - name: Pop Cans_Frame_192
+      frameIndex: 192
+      cellRect:
+        x: 6
+        y: 3
+        width: 5
+        height: 10
+      spriteId: ef3ede1eb47e2ad4c84b1026382c2f03
+    - name: Pop Cans_Frame_193
+      frameIndex: 193
+      cellRect:
+        x: 4
+        y: 3
+        width: 7
+        height: 10
+      spriteId: 0df1988a87677224b84dc393d5fbbf25
+    - name: Pop Cans_Frame_194
+      frameIndex: 194
+      cellRect:
+        x: 3
+        y: 3
+        width: 9
+        height: 10
+      spriteId: e33133a22a7d457469973d07829eb3b7
+    - name: Pop Cans_Frame_195
+      frameIndex: 195
+      cellRect:
+        x: 3
+        y: 3
+        width: 10
+        height: 10
+      spriteId: 75288a3bf9e92ae409146b936c42a722
+    - name: Pop Cans_Frame_196
+      frameIndex: 196
+      cellRect:
+        x: 2
+        y: 3
+        width: 12
+        height: 10
+      spriteId: 20aeda37b3ca04c4eadaae949b7d3d61
+    - name: Pop Cans_Frame_197
+      frameIndex: 197
+      cellRect:
+        x: 1
+        y: 3
+        width: 14
+        height: 10
+      spriteId: a78d71135fd2b5e42ae1b35e9ace7e22
+    - name: Pop Cans_Frame_198
+      frameIndex: 198
+      cellRect:
+        x: 2
+        y: 3
+        width: 12
+        height: 10
+      spriteId: 325d5efd2464cba448a00d7db9879b9d
+    - name: Pop Cans_Frame_199
+      frameIndex: 199
+      cellRect:
+        x: 3
+        y: 3
+        width: 10
+        height: 10
+      spriteId: 43d7ba0749d65fb42ae7d33d31e3e287
+    - name: Pop Cans_Frame_200
+      frameIndex: 200
+      cellRect:
+        x: 4
+        y: 3
+        width: 8
+        height: 10
+      spriteId: 17f7c3d00a2ba794c8703a24bc846d4e
+    - name: Pop Cans_Frame_201
+      frameIndex: 201
+      cellRect:
+        x: 5
+        y: 3
+        width: 6
+        height: 10
+      spriteId: 704c249d74747b54ba216290c2e71c57
+    - name: Pop Cans_Frame_202
+      frameIndex: 202
+      cellRect:
+        x: 6
+        y: 3
+        width: 4
+        height: 10
+      spriteId: 5e1845ec0d4db594ab38aeffbac2acbc
+    - name: Pop Cans_Frame_203
+      frameIndex: 203
+      cellRect:
+        x: 5
+        y: 3
+        width: 6
+        height: 10
+      spriteId: 009938dedacdcae4eb029847e3b1e7a2
+    - name: Pop Cans_Frame_204
+      frameIndex: 204
+      cellRect:
+        x: 4
+        y: 3
+        width: 8
+        height: 10
+      spriteId: 87e7bef5f3f907e40a36cbee4ecc6cff
+    - name: Pop Cans_Frame_205
+      frameIndex: 205
+      cellRect:
+        x: 3
+        y: 3
+        width: 10
+        height: 10
+      spriteId: 0c3d0f321e806ab429d4d1999165c7bc
+    - name: Pop Cans_Frame_206
+      frameIndex: 206
+      cellRect:
+        x: 2
+        y: 3
+        width: 12
+        height: 10
+      spriteId: efa582667ff041643b90bb55d7d67ce8
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 16, y: 16}

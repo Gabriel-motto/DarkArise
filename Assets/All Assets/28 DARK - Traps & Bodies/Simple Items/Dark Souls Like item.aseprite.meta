@@ -1,0 +1,811 @@
+fileFormatVersion: 2
+guid: ea49e8f363097db4f8162a02f4a5b6e7
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Dark Souls Like item_Frame_0
+    originalName: 
+    pivot: {x: 0.5, y: 0.4}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 16
+      height: 20
+    spriteID: 959a79028692c264fb5b8ba864666d4b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Dark Souls Like item_Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.4}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 32
+      width: 16
+      height: 20
+    spriteID: af074f239c90a36448ae4db1dce1e2e8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 32}
+  - name: Dark Souls Like item_Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.4}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 60
+      width: 16
+      height: 20
+    spriteID: eced581ed99080548aa6db941721e2ec
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 60}
+  - name: Dark Souls Like item_Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.4}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 88
+      width: 16
+      height: 20
+    spriteID: 3643cfee9600ce441b14a2022cb79040
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 88}
+  - name: Dark Souls Like item_Frame_4
+    originalName: 
+    pivot: {x: 0.5, y: 0.4}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 116
+      width: 16
+      height: 20
+    spriteID: b8c11aee7179fab45aa3e8c7154b7f58
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 116}
+  - name: Dark Souls Like item_Frame_5
+    originalName: 
+    pivot: {x: 0.5, y: 0.4}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 144
+      width: 16
+      height: 20
+    spriteID: 4391706f479cea7458073269130952e7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 144}
+  - name: Dark Souls Like item_Frame_6
+    originalName: 
+    pivot: {x: 0.5, y: 0.4}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 172
+      width: 16
+      height: 20
+    spriteID: b0fe5b9c6754bb5458b256f5263b9963
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 172}
+  - name: Dark Souls Like item_Frame_7
+    originalName: 
+    pivot: {x: 0.5, y: 0.4}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 200
+      width: 16
+      height: 20
+    spriteID: e88ca34617e0c7e43a489a32fe5ffc80
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 200}
+  - name: Dark Souls Like item_Frame_8
+    originalName: 
+    pivot: {x: 0.5, y: 0.4}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 228
+      width: 16
+      height: 20
+    spriteID: dafc2d216943af64c8924edac9f5075f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 228}
+  - name: Dark Souls Like item_Frame_9
+    originalName: 
+    pivot: {x: 0.5, y: 0.4}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 28
+      y: 4
+      width: 16
+      height: 20
+    spriteID: bfe5be71b37282649b0aa5f51f7a351e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 28, y: 4}
+  - name: Dark Souls Like item_Frame_10
+    originalName: 
+    pivot: {x: 0.5, y: 0.4}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 28
+      y: 32
+      width: 16
+      height: 20
+    spriteID: 605e28f621ff23f4285bc658192dbd2a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 28, y: 32}
+  - name: Dark Souls Like item_Frame_11
+    originalName: 
+    pivot: {x: 0.5, y: 0.4}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 28
+      y: 60
+      width: 16
+      height: 20
+    spriteID: 3fb9d2f8ef6b42c4dbcaf42de0c494e5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 28, y: 60}
+  - name: Dark Souls Like item_Frame_12
+    originalName: 
+    pivot: {x: 0.5, y: 0.4}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 28
+      y: 88
+      width: 16
+      height: 20
+    spriteID: fe32bb40449077b418d4f61f188e0c33
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 28, y: 88}
+  - name: Dark Souls Like item_Frame_13
+    originalName: 
+    pivot: {x: 0.5, y: 0.4}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 28
+      y: 116
+      width: 16
+      height: 20
+    spriteID: d86dc9e2b724858409a290709e0d97dc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 28, y: 116}
+  - name: Dark Souls Like item_Frame_14
+    originalName: 
+    pivot: {x: 0.5, y: 0.4}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 28
+      y: 144
+      width: 16
+      height: 20
+    spriteID: 5face29b50ccdd440b314b9411e54b55
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 28, y: 144}
+  - name: Dark Souls Like item_Frame_15
+    originalName: 
+    pivot: {x: 0.5, y: 0.4}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 28
+      y: 172
+      width: 16
+      height: 20
+    spriteID: 91b087a1262ebbc42b150508a17b6824
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 28, y: 172}
+  - name: Dark Souls Like item_Frame_16
+    originalName: 
+    pivot: {x: 0.5, y: 0.4}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 28
+      y: 200
+      width: 16
+      height: 20
+    spriteID: bdb204cb8cadfae469403d8468e7ee9d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 28, y: 200}
+  - name: Dark Souls Like item_Frame_17
+    originalName: 
+    pivot: {x: 0.5, y: 0.4}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 28
+      y: 228
+      width: 16
+      height: 20
+    spriteID: 4ccf890f5f0687c4e9c8398749d0d3ae
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 28, y: 228}
+  - name: Dark Souls Like item_Frame_18
+    originalName: 
+    pivot: {x: 0.5, y: 0.4}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 52
+      y: 4
+      width: 16
+      height: 20
+    spriteID: c967e02f48951ee4bba9f201b8c23d5d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 52, y: 4}
+  - name: Dark Souls Like item_Frame_19
+    originalName: 
+    pivot: {x: 0.5, y: 0.4}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 52
+      y: 32
+      width: 16
+      height: 20
+    spriteID: 5ae1dee1dabb3f1448236efac6e25f02
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 52, y: 32}
+  - name: Dark Souls Like item_Frame_20
+    originalName: 
+    pivot: {x: 0.5, y: 0.4}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 52
+      y: 60
+      width: 16
+      height: 20
+    spriteID: 9b78eac862c8be54f9a122a34414cc1e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 52, y: 60}
+  - name: Dark Souls Like item_Frame_21
+    originalName: 
+    pivot: {x: 0.5, y: 0.4}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 52
+      y: 88
+      width: 16
+      height: 20
+    spriteID: 0b5023f17196e43498573ecb4256a252
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 52, y: 88}
+  - name: Dark Souls Like item_Frame_22
+    originalName: 
+    pivot: {x: 0.5, y: 0.4}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 52
+      y: 116
+      width: 16
+      height: 20
+    spriteID: bb81f10ebfaf20d4d993148a765c0212
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 52, y: 116}
+  - name: Dark Souls Like item_Frame_23
+    originalName: 
+    pivot: {x: 0.5, y: 0.4}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 52
+      y: 144
+      width: 16
+      height: 20
+    spriteID: c0ce97e41d463b74faab52ed3ad73119
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 52, y: 144}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 266942580
+    name: Dark Souls Like item
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Dark Souls Like item_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: -4
+        y: -8
+        width: 16
+        height: 20
+      spriteId: 959a79028692c264fb5b8ba864666d4b
+    - name: Dark Souls Like item_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: -4
+        y: -8
+        width: 16
+        height: 20
+      spriteId: af074f239c90a36448ae4db1dce1e2e8
+    - name: Dark Souls Like item_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: -4
+        y: -8
+        width: 16
+        height: 20
+      spriteId: eced581ed99080548aa6db941721e2ec
+    - name: Dark Souls Like item_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: -4
+        y: -8
+        width: 16
+        height: 20
+      spriteId: 3643cfee9600ce441b14a2022cb79040
+    - name: Dark Souls Like item_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: -4
+        y: -8
+        width: 16
+        height: 20
+      spriteId: b8c11aee7179fab45aa3e8c7154b7f58
+    - name: Dark Souls Like item_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: -4
+        y: -8
+        width: 16
+        height: 20
+      spriteId: 4391706f479cea7458073269130952e7
+    - name: Dark Souls Like item_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: -4
+        y: -8
+        width: 16
+        height: 20
+      spriteId: b0fe5b9c6754bb5458b256f5263b9963
+    - name: Dark Souls Like item_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: -4
+        y: -8
+        width: 16
+        height: 20
+      spriteId: e88ca34617e0c7e43a489a32fe5ffc80
+    - name: Dark Souls Like item_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: -4
+        y: -8
+        width: 16
+        height: 20
+      spriteId: dafc2d216943af64c8924edac9f5075f
+    - name: Dark Souls Like item_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: -4
+        y: -8
+        width: 16
+        height: 20
+      spriteId: bfe5be71b37282649b0aa5f51f7a351e
+    - name: Dark Souls Like item_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: -4
+        y: -8
+        width: 16
+        height: 20
+      spriteId: 605e28f621ff23f4285bc658192dbd2a
+    - name: Dark Souls Like item_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: -4
+        y: -8
+        width: 16
+        height: 20
+      spriteId: 3fb9d2f8ef6b42c4dbcaf42de0c494e5
+    - name: Dark Souls Like item_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: -4
+        y: -8
+        width: 16
+        height: 20
+      spriteId: fe32bb40449077b418d4f61f188e0c33
+    - name: Dark Souls Like item_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: -4
+        y: -8
+        width: 16
+        height: 20
+      spriteId: d86dc9e2b724858409a290709e0d97dc
+    - name: Dark Souls Like item_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: -4
+        y: -8
+        width: 16
+        height: 20
+      spriteId: 5face29b50ccdd440b314b9411e54b55
+    - name: Dark Souls Like item_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: -4
+        y: -8
+        width: 16
+        height: 20
+      spriteId: 91b087a1262ebbc42b150508a17b6824
+    - name: Dark Souls Like item_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: -4
+        y: -8
+        width: 16
+        height: 20
+      spriteId: bdb204cb8cadfae469403d8468e7ee9d
+    - name: Dark Souls Like item_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: -4
+        y: -8
+        width: 16
+        height: 20
+      spriteId: 4ccf890f5f0687c4e9c8398749d0d3ae
+    - name: Dark Souls Like item_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: -4
+        y: -8
+        width: 16
+        height: 20
+      spriteId: c967e02f48951ee4bba9f201b8c23d5d
+    - name: Dark Souls Like item_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: -4
+        y: -8
+        width: 16
+        height: 20
+      spriteId: 5ae1dee1dabb3f1448236efac6e25f02
+    - name: Dark Souls Like item_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: -4
+        y: -8
+        width: 16
+        height: 20
+      spriteId: 9b78eac862c8be54f9a122a34414cc1e
+    - name: Dark Souls Like item_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: -4
+        y: -8
+        width: 16
+        height: 20
+      spriteId: 0b5023f17196e43498573ecb4256a252
+    - name: Dark Souls Like item_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: -4
+        y: -8
+        width: 16
+        height: 20
+      spriteId: bb81f10ebfaf20d4d993148a765c0212
+    - name: Dark Souls Like item_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: -4
+        y: -8
+        width: 16
+        height: 20
+      spriteId: c0ce97e41d463b74faab52ed3ad73119
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 8, y: 8}

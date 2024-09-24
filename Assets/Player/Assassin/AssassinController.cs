@@ -6,31 +6,35 @@ using UnityEngine;
 
 public class SamuraiController : MonoBehaviour
 {
-    private Animator assassinAnimator;
-    private GameObject blasterGhost;
-    private Animator blasterAnimator;
-    private GameObject currentPlatformStanding;
+    //Player variables
+    [SerializeField] private Rigidbody2D player;
+    [SerializeField] private BoxCollider2D playerCollider;
+    private Animator PlayerAnimator;
 
-    [SerializeField]
-    Rigidbody2D player;
-
-    public BoxCollider2D playerCollider;
-    public SpriteRenderer spriteRenderer;
-    public LayerMask enemyLayers;
-    public Transform[] attackPoints;
-    public AudioSource runAudio;
-    public AudioSource attackAudio;
-
+    //Stats
     public float attackRange = 0.5f;
     public int attackDmg = 40;
     public int jumps = 2;
     public float speed;
     public float jumpHeight;
 
+    //States
     private bool grounded;
     private bool isDead;
     private bool isHitted;
     private bool canMove;
+
+    //Misc
+    public SpriteRenderer spriteRenderer;
+    public LayerMask enemyLayers;
+    public Transform[] attackPoints;
+    public AudioSource runAudio;
+    public AudioSource attackAudio;
+
+    //Working on progress
+    private GameObject blasterGhost;
+    private Animator blasterAnimator;
+    private GameObject currentPlatformStanding;
 
     // Start is called before the first frame update
     void Start()
@@ -43,7 +47,7 @@ public class SamuraiController : MonoBehaviour
         GameObject blasterPrefab = Instantiate(Resources.Load("BlasterPrefab")) as GameObject;
         blasterAnimator = blasterPrefab.GetComponent<Animator>();
 
-        assassinAnimator = GetComponent<Animator>();
+        PlayerAnimator = GetComponent<Animator>();
 
         //EventSystem.current.OnPlayerLand += onLand;
         GameStateManager.Instance.OnGameStateChanged += OnGameStateChanged;
@@ -66,154 +70,156 @@ public class SamuraiController : MonoBehaviour
 
     private void animate()
     {
-        if (assassinAnimator != null)
-        {
-            //if (player.velocity.normalized.y == 0)
-            //{
-            //    grounded = true;
-            //    jumps = 2;
-            //    if (assassinAnimator.GetCurrentAnimatorStateInfo(0).IsName("fall"))
-            //    {
-            //        assassinAnimator.SetTrigger("TrLand");
-            //    }
-            //}
-            // Attacks
-            if (Input.GetKeyDown(KeyCode.J))
-            {
-                assassinAnimator.CrossFade("attack 1", 0, 0);
-                if (!AudioManager.muted)
-                {
-                    attackAudio.Play();
-                }
-                Attack();
-            }
-            if (Input.GetKeyDown(KeyCode.K))
-            {
-                assassinAnimator.SetTrigger("TrAtk2");
-                if (!AudioManager.muted)
-                {
-                    attackAudio.Play();
-                }
-                Attack();
-            }
-            if (Input.GetKeyDown(KeyCode.L) && grounded)
-            {
-                assassinAnimator.SetTrigger("TrCrossSlice");
-                if (!AudioManager.muted)
-                {
-                    attackAudio.Play();
-                }
-                Attack();
-            }
-            if (Input.GetKeyDown(KeyCode.LeftShift) && grounded)
-            {
-                assassinAnimator.SetTrigger("TrSliceAtk");
-                if (!AudioManager.muted)
-                {
-                    attackAudio.Play();
-                }
-                Attack();
-            }
+        //if (assassinAnimator != null)
+        //{
+        //    //if (player.velocity.normalized.y == 0)
+        //    //{
+        //    //    grounded = true;
+        //    //    jumps = 2;
+        //    //    if (assassinAnimator.GetCurrentAnimatorStateInfo(0).IsName("fall"))
+        //    //    {
+        //    //        assassinAnimator.SetTrigger("TrLand");
+        //    //    }
+        //    //}
+        //    // Attacks
+        //    if (Input.GetKeyDown(KeyCode.J))
+        //    {
+        //        assassinAnimator.CrossFade("attack 1", 0, 0);
+        //        if (!AudioManager.muted)
+        //        {
+        //            attackAudio.Play();
+        //        }
+        //        Attack();
+        //    }
+        //    if (Input.GetKeyDown(KeyCode.K))
+        //    {
+        //        assassinAnimator.SetTrigger("TrAtk2");
+        //        if (!AudioManager.muted)
+        //        {
+        //            attackAudio.Play();
+        //        }
+        //        Attack();
+        //    }
+        //    if (Input.GetKeyDown(KeyCode.L) && grounded)
+        //    {
+        //        assassinAnimator.SetTrigger("TrCrossSlice");
+        //        if (!AudioManager.muted)
+        //        {
+        //            attackAudio.Play();
+        //        }
+        //        Attack();
+        //    }
+        //    if (Input.GetKeyDown(KeyCode.LeftShift) && grounded)
+        //    {
+        //        assassinAnimator.SetTrigger("TrSliceAtk");
+        //        if (!AudioManager.muted)
+        //        {
+        //            attackAudio.Play();
+        //        }
+        //        Attack();
+        //    }
 
-            // Movement
-            if (Input.GetAxisRaw("Horizontal") > 0 && canMove)
-            {
-                spriteRenderer.flipX = false;
-                if (grounded)
-                {
-                    assassinAnimator.SetTrigger("TrRun");
-                    if (!runAudio.isPlaying)
-                    {
-                        runAudio.Play();
-                    }
-                }
-            }
-            if (Input.GetAxisRaw("Horizontal") < 0 && canMove)
-            {
-                spriteRenderer.flipX = true;
-                if (grounded)
-                {
-                    assassinAnimator.SetTrigger("TrRun");
-                    if (!runAudio.isPlaying)
-                    {
-                        runAudio.Play();
-                    }
-                }
-            }
-            if (Input.GetAxisRaw("Horizontal") == 0)
-            {
-                assassinAnimator.ResetTrigger("TrRun");
-                assassinAnimator.SetTrigger("TrStop");
-            }
-            if (Input.GetKeyDown(KeyCode.Space) && jumps > 0)
-            {
-                assassinAnimator.SetTrigger("TrJump");
-            }
-            if (player.velocity.normalized.y < 0)
-            {
-                assassinAnimator.ResetTrigger("TrLand");
-                assassinAnimator.SetTrigger("TrFall");
-            }
+        //    // Movement
+        //    if (Input.GetAxisRaw("Horizontal") > 0 && canMove)
+        //    {
+        //        spriteRenderer.flipX = false;
+        //        if (grounded)
+        //        {
+        //            assassinAnimator.SetTrigger("TrRun");
+        //            if (!runAudio.isPlaying)
+        //            {
+        //                runAudio.Play();
+        //            }
+        //        }
+        //    }
+        //    if (Input.GetAxisRaw("Horizontal") < 0 && canMove)
+        //    {
+        //        spriteRenderer.flipX = true;
+        //        if (grounded)
+        //        {
+        //            assassinAnimator.SetTrigger("TrRun");
+        //            if (!runAudio.isPlaying)
+        //            {
+        //                runAudio.Play();
+        //            }
+        //        }
+        //    }
+        //    if (Input.GetAxisRaw("Horizontal") == 0)
+        //    {
+        //        assassinAnimator.ResetTrigger("TrRun");
+        //        assassinAnimator.SetTrigger("TrStop");
+        //    }
+        //    if (Input.GetKeyDown(KeyCode.Space) && jumps > 0)
+        //    {
+        //        assassinAnimator.SetTrigger("TrJump");
+        //    }
+        //    if (player.velocity.normalized.y < 0)
+        //    {
+        //        assassinAnimator.ResetTrigger("TrLand");
+        //        assassinAnimator.SetTrigger("TrFall");
+        //    }
 
-            // Misc
-            if (isDead)
-            {
-                assassinAnimator.SetTrigger("TrDeath");
-            }
-            if (isHitted)
-            {
-                assassinAnimator.SetTrigger("TrHit");
-            }
+        //    // Misc
+        //    if (isDead)
+        //    {
+        //        assassinAnimator.SetTrigger("TrDeath");
+        //    }
+        //    if (isHitted)
+        //    {
+        //        assassinAnimator.SetTrigger("TrHit");
+        //    }
 
-            if (assassinAnimator.GetCurrentAnimatorStateInfo(0).IsName("attack 1") || assassinAnimator.GetCurrentAnimatorStateInfo(0).IsName("attack 2") || assassinAnimator.GetCurrentAnimatorStateInfo(0).IsName("cross slice")
-                || assassinAnimator.GetCurrentAnimatorStateInfo(0).IsName("Slice attack") || assassinAnimator.GetCurrentAnimatorStateInfo(0).IsName("cross slice"))
-            {
-                player.velocity = Vector2.zero;
-                player.gravityScale = 0;
-                canMove = false;
-            }
-            else
-            {
-                player.gravityScale = 1;
-                canMove = true;
-            }
+        //    if (assassinAnimator.GetCurrentAnimatorStateInfo(0).IsName("attack 1") || assassinAnimator.GetCurrentAnimatorStateInfo(0).IsName("attack 2") || assassinAnimator.GetCurrentAnimatorStateInfo(0).IsName("cross slice")
+        //        || assassinAnimator.GetCurrentAnimatorStateInfo(0).IsName("Slice attack") || assassinAnimator.GetCurrentAnimatorStateInfo(0).IsName("cross slice"))
+        //    {
+        //        player.velocity = Vector2.zero;
+        //        player.gravityScale = 0;
+        //        canMove = false;
+        //    }
+        //    else
+        //    {
+        //        player.gravityScale = 1;
+        //        canMove = true;
+        //    }
 
-            // Second character animations
+        //    // Second character animations
 
-            if (Input.GetKeyDown(KeyCode.U))
-            {
-                blasterGhost = Instantiate(Resources.Load("BlasterPrefab"), transform.position, Quaternion.identity) as GameObject;
-                blasterGhost.transform.localScale = GetComponent<Transform>().localScale;
-                blasterAnimator = blasterGhost.GetComponent<Animator>();
+        //    if (Input.GetKeyDown(KeyCode.U))
+        //    {
+        //        blasterGhost = Instantiate(Resources.Load("BlasterPrefab"), transform.position, Quaternion.identity) as GameObject;
+        //        blasterGhost.transform.localScale = GetComponent<Transform>().localScale;
+        //        blasterAnimator = blasterGhost.GetComponent<Animator>();
 
-                if (blasterAnimator != null && blasterAnimator.runtimeAnimatorController != null)
-                {
-                    blasterGhost.SetActive(true);
-                    blasterAnimator.CrossFade("attack", 0, 0);
-                    Attack();
-                }
-            }
-            if (Input.GetKeyDown(KeyCode.I))
-            {
-                blasterGhost = Instantiate(Resources.Load("BlasterPrefab"), transform.position, Quaternion.identity) as GameObject;
-                blasterGhost.transform.localScale = GetComponent<Transform>().localScale;
-                blasterAnimator = blasterGhost.GetComponent<Animator>();
+        //        if (blasterAnimator != null && blasterAnimator.runtimeAnimatorController != null)
+        //        {
+        //            blasterGhost.SetActive(true);
+        //            blasterAnimator.CrossFade("attack", 0, 0);
+        //            Attack();
+        //        }
+        //    }
+        //    if (Input.GetKeyDown(KeyCode.I))
+        //    {
+        //        blasterGhost = Instantiate(Resources.Load("BlasterPrefab"), transform.position, Quaternion.identity) as GameObject;
+        //        blasterGhost.transform.localScale = GetComponent<Transform>().localScale;
+        //        blasterAnimator = blasterGhost.GetComponent<Animator>();
 
-                if (blasterAnimator != null && blasterAnimator.runtimeAnimatorController != null)
-                {
-                    blasterGhost.SetActive(true);
-                    blasterAnimator.SetTrigger("TrSweep");
-                    Attack();
-                }
-            }
-        }
+        //        if (blasterAnimator != null && blasterAnimator.runtimeAnimatorController != null)
+        //        {
+        //            blasterGhost.SetActive(true);
+        //            blasterAnimator.SetTrigger("TrSweep");
+        //            Attack();
+        //        }
+        //    }
+        //}
     }
+
 
     private void input()
     {
         if (canMove)
         {
             player.velocity = new Vector2(Input.GetAxisRaw("Horizontal") * speed, player.velocity.y);
+            
         }
 
         if (Input.GetKeyDown(KeyCode.Space) && jumps > 0)
@@ -280,22 +286,22 @@ public class SamuraiController : MonoBehaviour
             currentPlatformStanding = collision.gameObject;
             grounded = true;
             jumps = 2;
-            if (assassinAnimator.GetCurrentAnimatorStateInfo(0).IsName("fall"))
+            if (PlayerAnimator.GetCurrentAnimatorStateInfo(0).IsName("fall"))
             {
                 player.velocity = Vector2.zero;
-                assassinAnimator.ResetTrigger("TrFall");
-                assassinAnimator.SetTrigger("TrLand");
+                PlayerAnimator.ResetTrigger("TrFall");
+                PlayerAnimator.SetTrigger("TrLand");
             }
         }
         if (collision.gameObject.CompareTag("Floor"))
         {
             grounded = true;
             jumps = 2;
-            if (assassinAnimator.GetCurrentAnimatorStateInfo(0).IsName("fall"))
+            if (PlayerAnimator.GetCurrentAnimatorStateInfo(0).IsName("fall"))
             {
                 player.velocity = Vector2.zero;
-                assassinAnimator.ResetTrigger("TrFall");
-                assassinAnimator.SetTrigger("TrLand");
+                PlayerAnimator.ResetTrigger("TrFall");
+                PlayerAnimator.SetTrigger("TrLand");
             }
         }
     }
@@ -316,7 +322,7 @@ public class SamuraiController : MonoBehaviour
     private IEnumerator DisableCollision()
     {
         grounded = false;
-        assassinAnimator.SetTrigger("TrFall");
+        PlayerAnimator.SetTrigger("TrFall");
         BoxCollider2D platformCollider = currentPlatformStanding.GetComponent<BoxCollider2D>();
         Physics2D.IgnoreCollision(playerCollider, platformCollider);
         yield return new WaitForSeconds(1f);

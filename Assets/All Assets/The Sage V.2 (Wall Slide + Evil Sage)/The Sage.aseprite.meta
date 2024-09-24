@@ -1,0 +1,2687 @@
+fileFormatVersion: 2
+guid: b73a5cf1a8a11b2439c75979fe3b689f
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: The Sage_Frame_0
+    originalName: 
+    pivot: {x: 0.5000001, y: -4.666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 136
+      y: 398
+      width: 14
+      height: 15
+    spriteID: a8ec7f866dd15184da2079647da1b631
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 136, y: 398}
+  - name: The Sage_Frame_1
+    originalName: 
+    pivot: {x: 0.5000001, y: -4.666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 158
+      y: 398
+      width: 14
+      height: 15
+    spriteID: 6820df1532700bc4cb131f4de42f3032
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 158, y: 398}
+  - name: The Sage_Frame_2
+    originalName: 
+    pivot: {x: 0.5000001, y: -4.375}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 398
+      width: 14
+      height: 16
+    spriteID: 98ea92fb83794e7459bcee69ad21142a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 398}
+  - name: The Sage_Frame_3
+    originalName: 
+    pivot: {x: 0.5000001, y: -4.375}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 26
+      y: 398
+      width: 14
+      height: 16
+    spriteID: 294289e5214a7f642b5fd5d23e578cf9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 26, y: 398}
+  - name: The Sage_Frame_4
+    originalName: 
+    pivot: {x: 0.5000001, y: -4.375}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 398
+      width: 14
+      height: 16
+    spriteID: 3a911ccb051bbea4383abbed567081da
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 48, y: 398}
+  - name: The Sage_Frame_5
+    originalName: 
+    pivot: {x: 0.5000001, y: -4.666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 180
+      y: 398
+      width: 14
+      height: 15
+    spriteID: d729d048fc6fb4f4aac89ae6013e25c0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 180, y: 398}
+  - name: The Sage_Frame_6
+    originalName: 
+    pivot: {x: 0.5000001, y: -4.666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 202
+      y: 398
+      width: 14
+      height: 15
+    spriteID: 89cc2ac8ec4164a4b81b547b611ff0d6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 202, y: 398}
+  - name: The Sage_Frame_7
+    originalName: 
+    pivot: {x: 0.5000001, y: -5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 209
+      y: 375
+      width: 14
+      height: 14
+    spriteID: a8e3937ca9ba82e42bac030d955e60a0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 209, y: 375}
+  - name: The Sage_Frame_8
+    originalName: 
+    pivot: {x: 0.5000001, y: -5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 231
+      y: 375
+      width: 14
+      height: 14
+    spriteID: b5431bf88401dc84ca9de86d76848198
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 231, y: 375}
+  - name: The Sage_Frame_9
+    originalName: 
+    pivot: {x: 0.5000001, y: -5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 422
+      width: 14
+      height: 14
+    spriteID: 6555717360e4fc248a1b028fd781db3e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 40, y: 422}
+  - name: The Sage_Frame_10
+    originalName: 
+    pivot: {x: 0.42857143, y: -4.666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 398
+      width: 14
+      height: 15
+    spriteID: 2a1e48613b3ca964c808ed42c6869404
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 224, y: 398}
+  - name: The Sage_Frame_11
+    originalName: 
+    pivot: {x: 0.4666668, y: -5.3846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 172
+      y: 422
+      width: 15
+      height: 13
+    spriteID: 3aa0014752c2f1c4ab1e0291ac9f721d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 172, y: 422}
+  - name: The Sage_Frame_12
+    originalName: 
+    pivot: {x: 0.5000001, y: -5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 62
+      y: 422
+      width: 14
+      height: 14
+    spriteID: 9aff4ca76d4fabd41be85f23dace4614
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 62, y: 422}
+  - name: The Sage_Frame_13
+    originalName: 
+    pivot: {x: 0.4666668, y: -4.375}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 351
+      width: 15
+      height: 16
+    spriteID: fda8ec607fa91ce4aae2602f26ffdf71
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 80, y: 351}
+  - name: The Sage_Frame_14
+    originalName: 
+    pivot: {x: 0.43750012, y: -4.375}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 351
+      width: 16
+      height: 16
+    spriteID: 966bb5a78475fd445a35a8d891f74bf4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 351}
+  - name: The Sage_Frame_15
+    originalName: 
+    pivot: {x: 0.49999988, y: -5.3846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 185
+      y: 375
+      width: 16
+      height: 13
+    spriteID: 19a3bf859367e2946878a29042d71862
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 185, y: 375}
+  - name: The Sage_Frame_16
+    originalName: 
+    pivot: {x: 0.5000001, y: -5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 84
+      y: 422
+      width: 14
+      height: 14
+    spriteID: b1060b082986ea440bef8c9947629a09
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 84, y: 422}
+  - name: The Sage_Frame_17
+    originalName: 
+    pivot: {x: 0.4666668, y: -4.375}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 103
+      y: 351
+      width: 15
+      height: 16
+    spriteID: 55c26206e31099d4faff09fe8c4e9eed
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 103, y: 351}
+  - name: The Sage_Frame_18
+    originalName: 
+    pivot: {x: 0.4, y: -4.666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 375
+      width: 15
+      height: 15
+    spriteID: 4bae1ebb34376f943b35a3bdc8cd548c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 375}
+  - name: The Sage_Frame_19
+    originalName: 
+    pivot: {x: 0.19999982, y: -3.45}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 241
+      y: 136
+      width: 10
+      height: 20
+    spriteID: 5b532466b1041c34dae106ad70dab1cb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 241, y: 136}
+  - name: The Sage_Frame_20
+    originalName: 
+    pivot: {x: 0.19999982, y: -3.631579}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 195
+      y: 422
+      width: 10
+      height: 19
+    spriteID: 75f3399d95118ed40a786b6bc3a5bb34
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 195, y: 422}
+  - name: The Sage_Frame_21
+    originalName: 
+    pivot: {x: 0.19999982, y: -3.45}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 422
+      width: 10
+      height: 20
+    spriteID: aae7c63d085662c4ebbf7c3f1282c512
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 422}
+  - name: The Sage_Frame_22
+    originalName: 
+    pivot: {x: 0.19999982, y: -3.45}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 22
+      y: 422
+      width: 10
+      height: 20
+    spriteID: 096c3e9aaffbcf947afcbc9640ce0bc9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 22, y: 422}
+  - name: The Sage_Frame_23
+    originalName: 
+    pivot: {x: 0.5000001, y: -4.866667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 375
+      width: 14
+      height: 15
+    spriteID: 795075b92f317a74cb7ef5cbed04334a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 96, y: 375}
+  - name: The Sage_Frame_24
+    originalName: 
+    pivot: {x: 0.5000001, y: -4.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 70
+      y: 398
+      width: 14
+      height: 16
+    spriteID: a3b08c8dce5d7914aa24b495bca0ff85
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 70, y: 398}
+  - name: The Sage_Frame_25
+    originalName: 
+    pivot: {x: 0.5000001, y: -4.866667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 118
+      y: 375
+      width: 14
+      height: 15
+    spriteID: 4ad48f9e817186d41a55526ce3a938b4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 118, y: 375}
+  - name: The Sage_Frame_26
+    originalName: 
+    pivot: {x: 0.5000001, y: -4.866667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 375
+      width: 14
+      height: 15
+    spriteID: 146e06d39cb6e284d999070e37d853b5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 375}
+  - name: The Sage_Frame_27
+    originalName: 
+    pivot: {x: 0.53333324, y: -4.375}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 126
+      y: 351
+      width: 15
+      height: 16
+    spriteID: 714b9cdc51d127443b73d0e958a43df2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 126, y: 351}
+  - name: The Sage_Frame_28
+    originalName: 
+    pivot: {x: 0.5000001, y: -4.375}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 92
+      y: 398
+      width: 14
+      height: 16
+    spriteID: 38043097fc26db448b02333034e29108
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 92, y: 398}
+  - name: The Sage_Frame_29
+    originalName: 
+    pivot: {x: 0.5000001, y: -4.375}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 114
+      y: 398
+      width: 14
+      height: 16
+    spriteID: d4dad2fbb0f5baf408b47c5858341e67
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 114, y: 398}
+  - name: The Sage_Frame_30
+    originalName: 
+    pivot: {x: 0.53333324, y: -4.375}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 149
+      y: 351
+      width: 15
+      height: 16
+    spriteID: d75540db3f92516459baa62a07ff8614
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 149, y: 351}
+  - name: The Sage_Frame_31
+    originalName: 
+    pivot: {x: 0.47058815, y: -5.0714283}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 219
+      y: 329
+      width: 17
+      height: 14
+    spriteID: 2dbe8825a57177a468d64ed8987fc30c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 219, y: 329}
+  - name: The Sage_Frame_32
+    originalName: 
+    pivot: {x: 0.47058815, y: -5.0714283}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 172
+      y: 351
+      width: 17
+      height: 14
+    spriteID: f54d513385ab32042b41b7967d6d68be
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 172, y: 351}
+  - name: The Sage_Frame_33
+    originalName: 
+    pivot: {x: 0.5, y: -5.0714283}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 141
+      y: 329
+      width: 18
+      height: 14
+    spriteID: ee614b345d75a1448b176f9b82c93ea6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 141, y: 329}
+  - name: The Sage_Frame_34
+    originalName: 
+    pivot: {x: 0.5, y: -5.0714283}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 167
+      y: 329
+      width: 18
+      height: 14
+    spriteID: 0039aa64c2e1800468a9c483bb7a022f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 167, y: 329}
+  - name: The Sage_Frame_35
+    originalName: 
+    pivot: {x: 0.5714284, y: -5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 106
+      y: 422
+      width: 14
+      height: 14
+    spriteID: 768289eb2c5e1734e936639bacd0917f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 106, y: 422}
+  - name: The Sage_Frame_36
+    originalName: 
+    pivot: {x: 0.6666668, y: -5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 162
+      y: 375
+      width: 15
+      height: 14
+    spriteID: 3ce1e1a6c90025442952577bc9682daf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 162, y: 375}
+  - name: The Sage_Frame_37
+    originalName: 
+    pivot: {x: 0.7058824, y: -5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 197
+      y: 351
+      width: 17
+      height: 14
+    spriteID: 6d955d173bd4c674298e26802af36a8e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 197, y: 351}
+  - name: The Sage_Frame_45
+    originalName: 
+    pivot: {x: 0.3170732, y: -5.3846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 145
+      y: 115
+      width: 41
+      height: 13
+    spriteID: 6b2c06af668c7d7409c0b334c91fbb0c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 145, y: 115}
+  - name: The Sage_Frame_46
+    originalName: 
+    pivot: {x: 0.30434778, y: -5.3846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 194
+      y: 115
+      width: 46
+      height: 13
+    spriteID: cacdf5ed5119cc24f9aa580d5d292fce
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 194, y: 115}
+  - name: The Sage_Frame_47
+    originalName: 
+    pivot: {x: 0.15384616, y: -5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 307
+      width: 39
+      height: 14
+    spriteID: d3eb87c16e87d91498cb33c0b7516dd5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 192, y: 307}
+  - name: The Sage_Frame_48
+    originalName: 
+    pivot: {x: 0.15, y: -4.6}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 194
+      y: 92
+      width: 40
+      height: 15
+    spriteID: b656a0f2e9dda3e49a59e51e9a32fce9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 194, y: 92}
+  - name: The Sage_Frame_49
+    originalName: 
+    pivot: {x: 0.14634146, y: -4.6}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 145
+      y: 92
+      width: 41
+      height: 15
+    spriteID: 2c0dce61d2a394f4695e855d848a0001
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 145, y: 92}
+  - name: The Sage_Frame_50
+    originalName: 
+    pivot: {x: 0.3, y: -4.6}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 223
+      y: 266
+      width: 20
+      height: 15
+    spriteID: 808338d2b71abc44995740bd83572924
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 223, y: 266}
+  - name: The Sage_Frame_51
+    originalName: 
+    pivot: {x: 0.42857143, y: -5.3846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 213
+      y: 422
+      width: 14
+      height: 13
+    spriteID: 6a4b3d7fea7a8ae4c82a65bd4f94e174
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 213, y: 422}
+  - name: The Sage_Frame_52
+    originalName: 
+    pivot: {x: 0.42857143, y: -5.3846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 235
+      y: 422
+      width: 14
+      height: 13
+    spriteID: d5776747e18a68e49a29a7433c6bdef8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 235, y: 422}
+  - name: The Sage_Frame_53
+    originalName: 
+    pivot: {x: 0.44444436, y: -4.375}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 233
+      y: 224
+      width: 18
+      height: 16
+    spriteID: e8ff6964856f8674f83f4c10e0a8f1c4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 233, y: 224}
+  - name: The Sage_Frame_54
+    originalName: 
+    pivot: {x: 0.45454556, y: -3.6842105}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 203
+      y: 224
+      width: 22
+      height: 19
+    spriteID: 51bf7711d5a89864ea76a9f78c65ea64
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 203, y: 224}
+  - name: The Sage_Frame_55
+    originalName: 
+    pivot: {x: 0.41666675, y: -3.6842105}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 209
+      y: 136
+      width: 24
+      height: 19
+    spriteID: c8ba4b59e3c85604ebddf4451ec7850a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 209, y: 136}
+  - name: The Sage_Frame_56
+    originalName: 
+    pivot: {x: 0.375, y: -3.888889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 171
+      y: 224
+      width: 24
+      height: 18
+    spriteID: 45ee842d657ffad4992433d1ae766bcd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 171, y: 224}
+  - name: The Sage_Frame_57
+    originalName: 
+    pivot: {x: 0.52000004, y: -3.6842105}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 136
+      width: 25
+      height: 19
+    spriteID: 37d664eb7ef0e5845ab8ab4e2593c8ca
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 176, y: 136}
+  - name: The Sage_Frame_58
+    originalName: 
+    pivot: {x: 0.35999998, y: -3.888889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 138
+      y: 224
+      width: 25
+      height: 18
+    spriteID: 17b50829f18f39b4ebcdc016cafb8390
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 138, y: 224}
+  - name: The Sage_Frame_59
+    originalName: 
+    pivot: {x: 0.4666666, y: -3.6842105}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 142
+      y: 181
+      width: 30
+      height: 19
+    spriteID: 3f41711eb03ba474b9ce30af02da1399
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 142, y: 181}
+  - name: The Sage_Frame_60
+    originalName: 
+    pivot: {x: 0.5555556, y: -3.888889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 141
+      y: 136
+      width: 27
+      height: 18
+    spriteID: ec6b9f5b092202945893d5401e6aa7d5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 141, y: 136}
+  - name: The Sage_Frame_61
+    originalName: 
+    pivot: {x: 0.53571427, y: -3.6842105}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 218
+      y: 181
+      width: 28
+      height: 19
+    spriteID: b2a260131d3fac245bf72a35b8d43cc3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 218, y: 181}
+  - name: The Sage_Frame_62
+    originalName: 
+    pivot: {x: 0.5333334, y: -3.888889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 180
+      y: 181
+      width: 30
+      height: 18
+    spriteID: 34cfa8924fe8c2c4e9cd87afbcccc384
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 180, y: 181}
+  - name: The Sage_Frame_63
+    originalName: 
+    pivot: {x: 0.45454556, y: -3.6842105}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 130
+      y: 266
+      width: 22
+      height: 19
+    spriteID: 156f8552294044b46ac9ac64ef2635c1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 130, y: 266}
+  - name: The Sage_Frame_64
+    originalName: 
+    pivot: {x: 0.44444436, y: -4.375}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 351
+      width: 18
+      height: 16
+    spriteID: 2155ed6623d212b489aa962c24526420
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 351}
+  - name: The Sage_Frame_65
+    originalName: 
+    pivot: {x: 0.42857143, y: -5.3846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 450
+      width: 14
+      height: 13
+    spriteID: 1055153f026844044be5e494165b0287
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 450}
+  - name: The Sage_Frame_66
+    originalName: 
+    pivot: {x: 0.42857143, y: -5.3846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 26
+      y: 450
+      width: 14
+      height: 13
+    spriteID: 2d5be4526dd08af45be4ee3e114a421c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 26, y: 450}
+  - name: The Sage_Frame_67
+    originalName: 
+    pivot: {x: 0.42857143, y: -5.3846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 450
+      width: 14
+      height: 13
+    spriteID: 9c652f5fe85dab9449e684b453d1e23e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 48, y: 450}
+  - name: The Sage_Frame_68
+    originalName: 
+    pivot: {x: 0.42857143, y: -5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 422
+      width: 14
+      height: 14
+    spriteID: 881a6ddd4fd786f4c88ce972a5083023
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 128, y: 422}
+  - name: The Sage_Frame_69
+    originalName: 
+    pivot: {x: 0.44444436, y: -4.375}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 30
+      y: 351
+      width: 18
+      height: 16
+    spriteID: 6b85de4a67928b84e834590bb48e4941
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 30, y: 351}
+  - name: The Sage_Frame_70
+    originalName: 
+    pivot: {x: 0.45454556, y: -3.6842105}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 266
+      width: 22
+      height: 19
+    spriteID: ba0689a8ce8ea534c8b61823e8e920d1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 160, y: 266}
+  - name: The Sage_Frame_71
+    originalName: 
+    pivot: {x: 0.48305082, y: -2.1212122}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 266
+      width: 118
+      height: 33
+    spriteID: 5b12ca68c3023bf459cc6354a1b2758d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 266}
+  - name: The Sage_Frame_72
+    originalName: 
+    pivot: {x: 0.468254, y: -2.0588236}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 224
+      width: 126
+      height: 34
+    spriteID: 5d679869e24170e458ee1709c6c23d73
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 224}
+  - name: The Sage_Frame_73
+    originalName: 
+    pivot: {x: 0.46153846, y: -2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 181
+      width: 130
+      height: 35
+    spriteID: 3cb559ee179db194ba058e99c180c45d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 181}
+  - name: The Sage_Frame_74
+    originalName: 
+    pivot: {x: 0.46616542, y: -1.9444445}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 92
+      width: 133
+      height: 36
+    spriteID: f616201a84b4b304095c03702d127808
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 92}
+  - name: The Sage_Frame_75
+    originalName: 
+    pivot: {x: 0.46666667, y: -1.9444445}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 48
+      width: 135
+      height: 36
+    spriteID: 286455182d6a1204c96dc41585e7e0dc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 48}
+  - name: The Sage_Frame_76
+    originalName: 
+    pivot: {x: 0.46715325, y: -1.9444445}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 137
+      height: 36
+    spriteID: 1baaab9ce99a36a49ad2b1ba2cf7ca4d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: The Sage_Frame_77
+    originalName: 
+    pivot: {x: 0.4883721, y: -1.8918918}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 136
+      width: 129
+      height: 37
+    spriteID: 5ea80f75fc63a814e938c72930f0e032
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 136}
+  - name: The Sage_Frame_78
+    originalName: 
+    pivot: {x: 0.4883721, y: -5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 329
+      width: 129
+      height: 14
+    spriteID: 02a8c3183b749c5448cc78fa3239bcea
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 329}
+  - name: The Sage_Frame_79
+    originalName: 
+    pivot: {x: 0.4885496, y: -5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 307
+      width: 131
+      height: 14
+    spriteID: 648b2e838db3244409f06651d8effec5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 307}
+  - name: The Sage_Frame_80
+    originalName: 
+    pivot: {x: 0.42857143, y: -5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 150
+      y: 422
+      width: 14
+      height: 14
+    spriteID: 2b59e0b045eba2d4ea6daedd5d3ae901
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 150, y: 422}
+  - name: The Sage_Frame_81
+    originalName: 
+    pivot: {x: 0.4, y: -4.666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 27
+      y: 375
+      width: 15
+      height: 15
+    spriteID: a32577e5c04c7694da170210ce76187d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 27, y: 375}
+  - name: The Sage_Frame_82
+    originalName: 
+    pivot: {x: 0.4, y: -4.666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 50
+      y: 375
+      width: 15
+      height: 15
+    spriteID: 280550a931274f3498b98adbb367fde8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 50, y: 375}
+  - name: The Sage_Frame_83
+    originalName: 
+    pivot: {x: 0.4, y: -4.666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 73
+      y: 375
+      width: 15
+      height: 15
+    spriteID: 367bd06148b924e4697bf72c83bbaabe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 73, y: 375}
+  - name: The Sage_Frame_84
+    originalName: 
+    pivot: {x: -0.058823306, y: -5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 222
+      y: 351
+      width: 17
+      height: 14
+    spriteID: adbf418beae3c1c48995d18b5f393199
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 222, y: 351}
+  - name: The Sage_Frame_85
+    originalName: 
+    pivot: {x: -0.039999846, y: -10}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 138
+      y: 250
+      width: 25
+      height: 7
+    spriteID: a3b327239e12ead4c99e8ea575b7a5ad
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 138, y: 250}
+  - name: The Sage_Frame_86
+    originalName: 
+    pivot: {x: -0.08000015, y: -11.666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 190
+      y: 290
+      width: 25
+      height: 6
+    spriteID: 93d00ef2095f1dd40bf27b31ba57553f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 190, y: 290}
+  - name: The Sage_Frame_87
+    originalName: 
+    pivot: {x: -0.12, y: -11.666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 163
+      width: 25
+      height: 6
+    spriteID: ce431eb251f786c47b7a208e9c438bb1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 176, y: 163}
+  - name: The Sage_Frame_88
+    originalName: 
+    pivot: {x: -0.15999985, y: -11.666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 141
+      y: 162
+      width: 25
+      height: 6
+    spriteID: bc1b86f855719bb44befbfb9d6b9b459
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 141, y: 162}
+  - name: The Sage_Frame_89
+    originalName: 
+    pivot: {x: -0.15999985, y: -11.666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 142
+      y: 208
+      width: 25
+      height: 6
+    spriteID: b57b5061799d2f44ca0eebf676180eb9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 142, y: 208}
+  - name: The Sage_Frame_90
+    originalName: 
+    pivot: {x: -0.15999985, y: -11.666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 223
+      y: 289
+      width: 25
+      height: 6
+    spriteID: bf156ca3f6d7d6c48afdcf6028a10ebd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 223, y: 289}
+  - name: The Sage_Frame_38
+    originalName: 
+    pivot: {x: 0.29268292, y: -5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 143
+      y: 307
+      width: 41
+      height: 14
+    spriteID: d33f5496fc39c3648a744fca8cb30e11
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 143, y: 307}
+  - name: The Sage_Frame_39
+    originalName: 
+    pivot: {x: 0.15384616, y: -4.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 196
+      y: 48
+      width: 39
+      height: 16
+    spriteID: 3f6fc62b82c3dfa4d8068de55b4e966a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 196, y: 48}
+  - name: The Sage_Frame_40
+    originalName: 
+    pivot: {x: 0.17073175, y: -4.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 147
+      y: 48
+      width: 41
+      height: 16
+    spriteID: eef8591facfea6d4da279fac24b7c320
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 147, y: 48}
+  - name: The Sage_Frame_41
+    originalName: 
+    pivot: {x: 0.16666672, y: -4.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 200
+      y: 4
+      width: 42
+      height: 16
+    spriteID: 42c30c79a3297da4587af75b45b3b15a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 200, y: 4}
+  - name: The Sage_Frame_42
+    originalName: 
+    pivot: {x: 0.16279075, y: -4.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 149
+      y: 4
+      width: 43
+      height: 16
+    spriteID: 2d34a3a441ce6e146b0ea88e445429b5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 149, y: 4}
+  - name: The Sage_Frame_43
+    originalName: 
+    pivot: {x: 0.40000007, y: -4.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 190
+      y: 266
+      width: 25
+      height: 16
+    spriteID: 6e513b2a2188db64d9571b0a9747d8e2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 190, y: 266}
+  - name: The Sage_Frame_44
+    originalName: 
+    pivot: {x: 0.6666667, y: -5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 193
+      y: 329
+      width: 18
+      height: 14
+    spriteID: 31d703a3d304a6a49a86690dba04b4b8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 193, y: 329}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 1846859113
+    name: The Sage
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: The Sage_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 89
+        y: 70
+        width: 14
+        height: 15
+      spriteId: a8ec7f866dd15184da2079647da1b631
+    - name: The Sage_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 89
+        y: 70
+        width: 14
+        height: 15
+      spriteId: 6820df1532700bc4cb131f4de42f3032
+    - name: The Sage_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 89
+        y: 70
+        width: 14
+        height: 16
+      spriteId: 98ea92fb83794e7459bcee69ad21142a
+    - name: The Sage_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 89
+        y: 70
+        width: 14
+        height: 16
+      spriteId: 294289e5214a7f642b5fd5d23e578cf9
+    - name: The Sage_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 89
+        y: 70
+        width: 14
+        height: 16
+      spriteId: 3a911ccb051bbea4383abbed567081da
+    - name: The Sage_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 89
+        y: 70
+        width: 14
+        height: 15
+      spriteId: d729d048fc6fb4f4aac89ae6013e25c0
+    - name: The Sage_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 89
+        y: 70
+        width: 14
+        height: 15
+      spriteId: 89cc2ac8ec4164a4b81b547b611ff0d6
+    - name: The Sage_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 89
+        y: 70
+        width: 14
+        height: 14
+      spriteId: a8e3937ca9ba82e42bac030d955e60a0
+    - name: The Sage_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 89
+        y: 70
+        width: 14
+        height: 14
+      spriteId: b5431bf88401dc84ca9de86d76848198
+    - name: The Sage_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 89
+        y: 70
+        width: 14
+        height: 14
+      spriteId: 6555717360e4fc248a1b028fd781db3e
+    - name: The Sage_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 90
+        y: 70
+        width: 14
+        height: 15
+      spriteId: 2a1e48613b3ca964c808ed42c6869404
+    - name: The Sage_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 89
+        y: 70
+        width: 15
+        height: 13
+      spriteId: 3aa0014752c2f1c4ab1e0291ac9f721d
+    - name: The Sage_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 89
+        y: 70
+        width: 14
+        height: 14
+      spriteId: 9aff4ca76d4fabd41be85f23dace4614
+    - name: The Sage_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 89
+        y: 70
+        width: 15
+        height: 16
+      spriteId: fda8ec607fa91ce4aae2602f26ffdf71
+    - name: The Sage_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 89
+        y: 70
+        width: 16
+        height: 16
+      spriteId: 966bb5a78475fd445a35a8d891f74bf4
+    - name: The Sage_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 88
+        y: 70
+        width: 16
+        height: 13
+      spriteId: 19a3bf859367e2946878a29042d71862
+    - name: The Sage_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 89
+        y: 70
+        width: 14
+        height: 14
+      spriteId: b1060b082986ea440bef8c9947629a09
+    - name: The Sage_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 89
+        y: 70
+        width: 15
+        height: 16
+      spriteId: 55c26206e31099d4faff09fe8c4e9eed
+    - name: The Sage_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 90
+        y: 70
+        width: 15
+        height: 15
+      spriteId: 4bae1ebb34376f943b35a3bdc8cd548c
+    - name: The Sage_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 94
+        y: 69
+        width: 10
+        height: 20
+      spriteId: 5b532466b1041c34dae106ad70dab1cb
+    - name: The Sage_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 94
+        y: 69
+        width: 10
+        height: 19
+      spriteId: 75f3399d95118ed40a786b6bc3a5bb34
+    - name: The Sage_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 94
+        y: 69
+        width: 10
+        height: 20
+      spriteId: aae7c63d085662c4ebbf7c3f1282c512
+    - name: The Sage_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 94
+        y: 69
+        width: 10
+        height: 20
+      spriteId: 096c3e9aaffbcf947afcbc9640ce0bc9
+    - name: The Sage_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 89
+        y: 73
+        width: 14
+        height: 15
+      spriteId: 795075b92f317a74cb7ef5cbed04334a
+    - name: The Sage_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 89
+        y: 72
+        width: 14
+        height: 16
+      spriteId: a3b08c8dce5d7914aa24b495bca0ff85
+    - name: The Sage_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 89
+        y: 73
+        width: 14
+        height: 15
+      spriteId: 4ad48f9e817186d41a55526ce3a938b4
+    - name: The Sage_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 89
+        y: 73
+        width: 14
+        height: 15
+      spriteId: 146e06d39cb6e284d999070e37d853b5
+    - name: The Sage_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 88
+        y: 70
+        width: 15
+        height: 16
+      spriteId: 714b9cdc51d127443b73d0e958a43df2
+    - name: The Sage_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 89
+        y: 70
+        width: 14
+        height: 16
+      spriteId: 38043097fc26db448b02333034e29108
+    - name: The Sage_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 89
+        y: 70
+        width: 14
+        height: 16
+      spriteId: d4dad2fbb0f5baf408b47c5858341e67
+    - name: The Sage_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 88
+        y: 70
+        width: 15
+        height: 16
+      spriteId: d75540db3f92516459baa62a07ff8614
+    - name: The Sage_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 88
+        y: 71
+        width: 17
+        height: 14
+      spriteId: 2dbe8825a57177a468d64ed8987fc30c
+    - name: The Sage_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 88
+        y: 71
+        width: 17
+        height: 14
+      spriteId: f54d513385ab32042b41b7967d6d68be
+    - name: The Sage_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 87
+        y: 71
+        width: 18
+        height: 14
+      spriteId: ee614b345d75a1448b176f9b82c93ea6
+    - name: The Sage_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 87
+        y: 71
+        width: 18
+        height: 14
+      spriteId: 0039aa64c2e1800468a9c483bb7a022f
+    - name: The Sage_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 88
+        y: 70
+        width: 14
+        height: 14
+      spriteId: 768289eb2c5e1734e936639bacd0917f
+    - name: The Sage_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 86
+        y: 70
+        width: 15
+        height: 14
+      spriteId: 3ce1e1a6c90025442952577bc9682daf
+    - name: The Sage_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 84
+        y: 70
+        width: 17
+        height: 14
+      spriteId: 6d955d173bd4c674298e26802af36a8e
+    - name: The Sage_Frame_45
+      frameIndex: 45
+      cellRect:
+        x: 83
+        y: 70
+        width: 41
+        height: 13
+      spriteId: 6b2c06af668c7d7409c0b334c91fbb0c
+    - name: The Sage_Frame_46
+      frameIndex: 46
+      cellRect:
+        x: 82
+        y: 70
+        width: 46
+        height: 13
+      spriteId: cacdf5ed5119cc24f9aa580d5d292fce
+    - name: The Sage_Frame_47
+      frameIndex: 47
+      cellRect:
+        x: 90
+        y: 70
+        width: 39
+        height: 14
+      spriteId: d3eb87c16e87d91498cb33c0b7516dd5
+    - name: The Sage_Frame_48
+      frameIndex: 48
+      cellRect:
+        x: 90
+        y: 69
+        width: 40
+        height: 15
+      spriteId: b656a0f2e9dda3e49a59e51e9a32fce9
+    - name: The Sage_Frame_49
+      frameIndex: 49
+      cellRect:
+        x: 90
+        y: 69
+        width: 41
+        height: 15
+      spriteId: 2c0dce61d2a394f4695e855d848a0001
+    - name: The Sage_Frame_50
+      frameIndex: 50
+      cellRect:
+        x: 90
+        y: 69
+        width: 20
+        height: 15
+      spriteId: 808338d2b71abc44995740bd83572924
+    - name: The Sage_Frame_51
+      frameIndex: 51
+      cellRect:
+        x: 90
+        y: 70
+        width: 14
+        height: 13
+      spriteId: 6a4b3d7fea7a8ae4c82a65bd4f94e174
+    - name: The Sage_Frame_52
+      frameIndex: 52
+      cellRect:
+        x: 90
+        y: 70
+        width: 14
+        height: 13
+      spriteId: d5776747e18a68e49a29a7433c6bdef8
+    - name: The Sage_Frame_53
+      frameIndex: 53
+      cellRect:
+        x: 88
+        y: 70
+        width: 18
+        height: 16
+      spriteId: e8ff6964856f8674f83f4c10e0a8f1c4
+    - name: The Sage_Frame_54
+      frameIndex: 54
+      cellRect:
+        x: 86
+        y: 70
+        width: 22
+        height: 19
+      spriteId: 51bf7711d5a89864ea76a9f78c65ea64
+    - name: The Sage_Frame_55
+      frameIndex: 55
+      cellRect:
+        x: 86
+        y: 70
+        width: 24
+        height: 19
+      spriteId: c8ba4b59e3c85604ebddf4451ec7850a
+    - name: The Sage_Frame_56
+      frameIndex: 56
+      cellRect:
+        x: 87
+        y: 70
+        width: 24
+        height: 18
+      spriteId: 45ee842d657ffad4992433d1ae766bcd
+    - name: The Sage_Frame_57
+      frameIndex: 57
+      cellRect:
+        x: 83
+        y: 70
+        width: 25
+        height: 19
+      spriteId: 37d664eb7ef0e5845ab8ab4e2593c8ca
+    - name: The Sage_Frame_58
+      frameIndex: 58
+      cellRect:
+        x: 87
+        y: 70
+        width: 25
+        height: 18
+      spriteId: 17b50829f18f39b4ebcdc016cafb8390
+    - name: The Sage_Frame_59
+      frameIndex: 59
+      cellRect:
+        x: 82
+        y: 70
+        width: 30
+        height: 19
+      spriteId: 3f41711eb03ba474b9ce30af02da1399
+    - name: The Sage_Frame_60
+      frameIndex: 60
+      cellRect:
+        x: 81
+        y: 70
+        width: 27
+        height: 18
+      spriteId: ec6b9f5b092202945893d5401e6aa7d5
+    - name: The Sage_Frame_61
+      frameIndex: 61
+      cellRect:
+        x: 81
+        y: 70
+        width: 28
+        height: 19
+      spriteId: b2a260131d3fac245bf72a35b8d43cc3
+    - name: The Sage_Frame_62
+      frameIndex: 62
+      cellRect:
+        x: 80
+        y: 70
+        width: 30
+        height: 18
+      spriteId: 34cfa8924fe8c2c4e9cd87afbcccc384
+    - name: The Sage_Frame_63
+      frameIndex: 63
+      cellRect:
+        x: 86
+        y: 70
+        width: 22
+        height: 19
+      spriteId: 156f8552294044b46ac9ac64ef2635c1
+    - name: The Sage_Frame_64
+      frameIndex: 64
+      cellRect:
+        x: 88
+        y: 70
+        width: 18
+        height: 16
+      spriteId: 2155ed6623d212b489aa962c24526420
+    - name: The Sage_Frame_65
+      frameIndex: 65
+      cellRect:
+        x: 90
+        y: 70
+        width: 14
+        height: 13
+      spriteId: 1055153f026844044be5e494165b0287
+    - name: The Sage_Frame_66
+      frameIndex: 66
+      cellRect:
+        x: 90
+        y: 70
+        width: 14
+        height: 13
+      spriteId: 2d5be4526dd08af45be4ee3e114a421c
+    - name: The Sage_Frame_67
+      frameIndex: 67
+      cellRect:
+        x: 90
+        y: 70
+        width: 14
+        height: 13
+      spriteId: 9c652f5fe85dab9449e684b453d1e23e
+    - name: The Sage_Frame_68
+      frameIndex: 68
+      cellRect:
+        x: 90
+        y: 70
+        width: 14
+        height: 14
+      spriteId: 881a6ddd4fd786f4c88ce972a5083023
+    - name: The Sage_Frame_69
+      frameIndex: 69
+      cellRect:
+        x: 88
+        y: 70
+        width: 18
+        height: 16
+      spriteId: 6b85de4a67928b84e834590bb48e4941
+    - name: The Sage_Frame_70
+      frameIndex: 70
+      cellRect:
+        x: 86
+        y: 70
+        width: 22
+        height: 19
+      spriteId: ba0689a8ce8ea534c8b61823e8e920d1
+    - name: The Sage_Frame_71
+      frameIndex: 71
+      cellRect:
+        x: 39
+        y: 70
+        width: 118
+        height: 33
+      spriteId: 5b12ca68c3023bf459cc6354a1b2758d
+    - name: The Sage_Frame_72
+      frameIndex: 72
+      cellRect:
+        x: 37
+        y: 70
+        width: 126
+        height: 34
+      spriteId: 5d679869e24170e458ee1709c6c23d73
+    - name: The Sage_Frame_73
+      frameIndex: 73
+      cellRect:
+        x: 36
+        y: 70
+        width: 130
+        height: 35
+      spriteId: 3cb559ee179db194ba058e99c180c45d
+    - name: The Sage_Frame_74
+      frameIndex: 74
+      cellRect:
+        x: 34
+        y: 70
+        width: 133
+        height: 36
+      spriteId: f616201a84b4b304095c03702d127808
+    - name: The Sage_Frame_75
+      frameIndex: 75
+      cellRect:
+        x: 33
+        y: 70
+        width: 135
+        height: 36
+      spriteId: 286455182d6a1204c96dc41585e7e0dc
+    - name: The Sage_Frame_76
+      frameIndex: 76
+      cellRect:
+        x: 32
+        y: 70
+        width: 137
+        height: 36
+      spriteId: 1baaab9ce99a36a49ad2b1ba2cf7ca4d
+    - name: The Sage_Frame_77
+      frameIndex: 77
+      cellRect:
+        x: 33
+        y: 70
+        width: 129
+        height: 37
+      spriteId: 5ea80f75fc63a814e938c72930f0e032
+    - name: The Sage_Frame_78
+      frameIndex: 78
+      cellRect:
+        x: 33
+        y: 70
+        width: 129
+        height: 14
+      spriteId: 02a8c3183b749c5448cc78fa3239bcea
+    - name: The Sage_Frame_79
+      frameIndex: 79
+      cellRect:
+        x: 32
+        y: 70
+        width: 131
+        height: 14
+      spriteId: 648b2e838db3244409f06651d8effec5
+    - name: The Sage_Frame_80
+      frameIndex: 80
+      cellRect:
+        x: 90
+        y: 70
+        width: 14
+        height: 14
+      spriteId: 2b59e0b045eba2d4ea6daedd5d3ae901
+    - name: The Sage_Frame_81
+      frameIndex: 81
+      cellRect:
+        x: 90
+        y: 70
+        width: 15
+        height: 15
+      spriteId: a32577e5c04c7694da170210ce76187d
+    - name: The Sage_Frame_82
+      frameIndex: 82
+      cellRect:
+        x: 90
+        y: 70
+        width: 15
+        height: 15
+      spriteId: 280550a931274f3498b98adbb367fde8
+    - name: The Sage_Frame_83
+      frameIndex: 83
+      cellRect:
+        x: 90
+        y: 70
+        width: 15
+        height: 15
+      spriteId: 367bd06148b924e4697bf72c83bbaabe
+    - name: The Sage_Frame_84
+      frameIndex: 84
+      cellRect:
+        x: 97
+        y: 70
+        width: 17
+        height: 14
+      spriteId: adbf418beae3c1c48995d18b5f393199
+    - name: The Sage_Frame_85
+      frameIndex: 85
+      cellRect:
+        x: 97
+        y: 70
+        width: 25
+        height: 7
+      spriteId: a3b327239e12ead4c99e8ea575b7a5ad
+    - name: The Sage_Frame_86
+      frameIndex: 86
+      cellRect:
+        x: 98
+        y: 70
+        width: 25
+        height: 6
+      spriteId: 93d00ef2095f1dd40bf27b31ba57553f
+    - name: The Sage_Frame_87
+      frameIndex: 87
+      cellRect:
+        x: 99
+        y: 70
+        width: 25
+        height: 6
+      spriteId: ce431eb251f786c47b7a208e9c438bb1
+    - name: The Sage_Frame_88
+      frameIndex: 88
+      cellRect:
+        x: 100
+        y: 70
+        width: 25
+        height: 6
+      spriteId: bc1b86f855719bb44befbfb9d6b9b459
+    - name: The Sage_Frame_89
+      frameIndex: 89
+      cellRect:
+        x: 100
+        y: 70
+        width: 25
+        height: 6
+      spriteId: b57b5061799d2f44ca0eebf676180eb9
+    - name: The Sage_Frame_90
+      frameIndex: 90
+      cellRect:
+        x: 100
+        y: 70
+        width: 25
+        height: 6
+      spriteId: bf156ca3f6d7d6c48afdcf6028a10ebd
+    - name: The Sage_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 84
+        y: 70
+        width: 41
+        height: 14
+      spriteId: d33f5496fc39c3648a744fca8cb30e11
+    - name: The Sage_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 90
+        y: 68
+        width: 39
+        height: 16
+      spriteId: 3f6fc62b82c3dfa4d8068de55b4e966a
+    - name: The Sage_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: 89
+        y: 68
+        width: 41
+        height: 16
+      spriteId: eef8591facfea6d4da279fac24b7c320
+    - name: The Sage_Frame_41
+      frameIndex: 41
+      cellRect:
+        x: 89
+        y: 68
+        width: 42
+        height: 16
+      spriteId: 42c30c79a3297da4587af75b45b3b15a
+    - name: The Sage_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: 89
+        y: 68
+        width: 43
+        height: 16
+      spriteId: 2d34a3a441ce6e146b0ea88e445429b5
+    - name: The Sage_Frame_43
+      frameIndex: 43
+      cellRect:
+        x: 86
+        y: 68
+        width: 25
+        height: 16
+      spriteId: 6e513b2a2188db64d9571b0a9747d8e2
+    - name: The Sage_Frame_44
+      frameIndex: 44
+      cellRect:
+        x: 84
+        y: 70
+        width: 18
+        height: 14
+      spriteId: 31d703a3d304a6a49a86690dba04b4b8
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 192, y: 192}
