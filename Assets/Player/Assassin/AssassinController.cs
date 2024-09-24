@@ -9,14 +9,15 @@ public class SamuraiController : MonoBehaviour
     //Player variables
     [SerializeField] private Rigidbody2D player;
     [SerializeField] private BoxCollider2D playerCollider;
+    [SerializeField] private SpriteRenderer playerSpriteRenderer;
     private Animator PlayerAnimator;
 
     //Stats
-    public float attackRange = 0.5f;
-    public int attackDmg = 40;
-    public int jumps = 2;
-    public float speed;
-    public float jumpHeight;
+    [SerializeField] private float attackRange = 0.5f;
+    [SerializeField] private int attackDmg = 40;
+    [SerializeField] private int jumps = 2;
+    [SerializeField] private float speed;
+    [SerializeField] private float jumpHeight;
 
     //States
     private bool grounded;
@@ -25,11 +26,10 @@ public class SamuraiController : MonoBehaviour
     private bool canMove;
 
     //Misc
-    public SpriteRenderer spriteRenderer;
-    public LayerMask enemyLayers;
-    public Transform[] attackPoints;
-    public AudioSource runAudio;
-    public AudioSource attackAudio;
+    [SerializeField] private LayerMask enemyLayers;
+    [SerializeField] private Transform[] attackPoints;
+    [SerializeField] private AudioSource runAudio;
+    [SerializeField] private AudioSource attackAudio;
 
     //Working on progress
     private GameObject blasterGhost;
@@ -216,10 +216,28 @@ public class SamuraiController : MonoBehaviour
 
     private void input()
     {
+        if (player.velocity == Vector2.zero)
+        {
+            SetAllBoolFalse();
+            PlayerAnimator.SetBool("IsIdle", true);
+        }
+
         if (canMove)
         {
             player.velocity = new Vector2(Input.GetAxisRaw("Horizontal") * speed, player.velocity.y);
-            
+
+            if (player.velocity.normalized == Vector2.left)
+            {
+                SetAllBoolFalse();
+                PlayerAnimator.SetBool("IsRunning", true);
+                playerSpriteRenderer.flipX = true;
+            }
+            if (player.velocity.normalized == Vector2.right)
+            {
+                SetAllBoolFalse();
+                PlayerAnimator.SetBool("IsRunning", true);
+                playerSpriteRenderer.flipX = false;
+            }
         }
 
         if (Input.GetKeyDown(KeyCode.Space) && jumps > 0)
@@ -227,6 +245,16 @@ public class SamuraiController : MonoBehaviour
             player.velocity = new Vector2(player.velocity.x, jumpHeight);
             jumps--;
             grounded = false;
+            if (player.velocity.y >= 0)
+            {
+                SetAllBoolFalse();
+                PlayerAnimator.SetBool("IsJumping", true);
+            }
+            if (player.velocity.y <= 0)
+            {
+                SetAllBoolFalse();
+                PlayerAnimator.SetBool("IsFalling", true);
+            }
         }
 
         if (Input.GetKeyDown(KeyCode.S))
@@ -235,6 +263,16 @@ public class SamuraiController : MonoBehaviour
             {
                 StartCoroutine(DisableCollision());
             }
+        }
+
+        Debug.Log(player.velocity);
+    }
+
+    private void SetAllBoolFalse()
+    {
+        foreach (AnimatorControllerParameter parameter in PlayerAnimator.parameters)
+        {
+            PlayerAnimator.SetBool(parameter.name, false);
         }
     }
 
