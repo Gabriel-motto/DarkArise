@@ -11,7 +11,9 @@ public class SamuraiController : MonoBehaviour
     private Animator blasterAnimator;
     private GameObject currentPlatformStanding;
 
-    public Rigidbody2D player;
+    [SerializeField]
+    Rigidbody2D player;
+
     public BoxCollider2D playerCollider;
     public SpriteRenderer spriteRenderer;
     public LayerMask enemyLayers;
