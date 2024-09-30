@@ -8,7 +8,10 @@ public class Utils : MonoBehaviour
     {
         foreach (AnimatorControllerParameter parameter in animator.parameters)
         {
-            animator.SetBool(parameter.name, false);
+            if (parameter != null)
+            {
+                animator.SetBool(parameter.name, false);
+            }
         }
     }
 }

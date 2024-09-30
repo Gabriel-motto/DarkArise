@@ -4,13 +4,13 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class SamuraiController : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
     //Player variables
     [SerializeField] private Rigidbody2D player;
     [SerializeField] private BoxCollider2D playerCollider;
     [SerializeField] private SpriteRenderer playerSpriteRenderer;
-    private Animator PlayerAnimator;
+    [SerializeField] private Animator PlayerAnimator;
 
     //Stats
     [SerializeField] private float attackRange = 0.5f;
@@ -47,8 +47,6 @@ public class SamuraiController : MonoBehaviour
 
         blasterPrefab = Instantiate(Resources.Load("BlasterPrefab")) as GameObject;
         blasterAnimator = blasterPrefab.GetComponent<Animator>();
-
-        PlayerAnimator = GetComponent<Animator>();
 
         //EventSystem.current.OnPlayerLand += onLand;
         GameStateManager.Instance.OnGameStateChanged += OnGameStateChanged;
@@ -217,11 +215,11 @@ public class SamuraiController : MonoBehaviour
 
     private void input()
     {
-        if (Input.GetKeyDown(KeyCode.G))
-        {
-            playerSpriteRenderer = blasterPrefab.GetComponent<SpriteRenderer>();
-            PlayerAnimator = blasterAnimator;
-        }
+        //if (Input.GetKeyDown(KeyCode.G))
+        //{
+        //    playerSpriteRenderer = blasterPrefab.GetComponent<SpriteRenderer>();
+        //    PlayerAnimator = blasterAnimator;
+        //}
 
         if (player.velocity.normalized == Vector2.zero && grounded)
         {
