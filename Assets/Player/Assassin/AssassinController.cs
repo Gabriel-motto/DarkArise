@@ -35,6 +35,7 @@ public class SamuraiController : MonoBehaviour
     private GameObject blasterGhost;
     private Animator blasterAnimator;
     private GameObject currentPlatformStanding;
+    private GameObject blasterPrefab;
 
     // Start is called before the first frame update
     void Start()
@@ -44,7 +45,7 @@ public class SamuraiController : MonoBehaviour
         isHitted = false;
         canMove = true;
 
-        GameObject blasterPrefab = Instantiate(Resources.Load("BlasterPrefab")) as GameObject;
+        blasterPrefab = Instantiate(Resources.Load("BlasterPrefab")) as GameObject;
         blasterAnimator = blasterPrefab.GetComponent<Animator>();
 
         PlayerAnimator = GetComponent<Animator>();
@@ -216,10 +217,33 @@ public class SamuraiController : MonoBehaviour
 
     private void input()
     {
-        if (player.velocity == Vector2.zero)
+        if (Input.GetKeyDown(KeyCode.G))
         {
-            SetAllBoolFalse();
+            playerSpriteRenderer = blasterPrefab.GetComponent<SpriteRenderer>();
+            PlayerAnimator = blasterAnimator;
+        }
+
+        if (player.velocity.normalized == Vector2.zero && grounded)
+        {
+            Utils.SetAllBoolFalse(PlayerAnimator);
             PlayerAnimator.SetBool("IsIdle", true);
+
+            //if (!PlayerAnimator.GetBool("IsLanding"))
+            //{
+            //    Utils.SetAllBoolFalse(PlayerAnimator);
+            //}
+            //if (!grounded)
+            //{
+            //    grounded = true;
+            //    jumps = 2;
+            //    Utils.SetAllBoolFalse(PlayerAnimator);
+            //    PlayerAnimator.SetBool("IsLanding", true);
+            //}
+            //else
+            //{
+            //    Utils.SetAllBoolFalse(PlayerAnimator);
+            //    PlayerAnimator.SetBool("IsIdle", true);
+            //}
         }
 
         if (canMove)
@@ -228,14 +252,20 @@ public class SamuraiController : MonoBehaviour
 
             if (player.velocity.normalized == Vector2.left)
             {
-                SetAllBoolFalse();
+                Utils.SetAllBoolFalse(PlayerAnimator);
                 PlayerAnimator.SetBool("IsRunning", true);
-                playerSpriteRenderer.flipX = true;
             }
             if (player.velocity.normalized == Vector2.right)
             {
-                SetAllBoolFalse();
+                Utils.SetAllBoolFalse(PlayerAnimator);
                 PlayerAnimator.SetBool("IsRunning", true);
+            }
+            if (player.velocity.x < 0)
+            {
+                playerSpriteRenderer.flipX = true;
+            }
+            if (player.velocity.x > 0)
+            {
                 playerSpriteRenderer.flipX = false;
             }
         }
@@ -245,16 +275,13 @@ public class SamuraiController : MonoBehaviour
             player.velocity = new Vector2(player.velocity.x, jumpHeight);
             jumps--;
             grounded = false;
-            if (player.velocity.y >= 0)
-            {
-                SetAllBoolFalse();
-                PlayerAnimator.SetBool("IsJumping", true);
-            }
-            if (player.velocity.y <= 0)
-            {
-                SetAllBoolFalse();
-                PlayerAnimator.SetBool("IsFalling", true);
-            }
+            Utils.SetAllBoolFalse(PlayerAnimator);
+            PlayerAnimator.SetBool("IsJumping", true);
+        }
+        if (player.velocity.normalized.y < 0)
+        {
+            Utils.SetAllBoolFalse(PlayerAnimator);
+            PlayerAnimator.SetBool("IsFalling", true);
         }
 
         if (Input.GetKeyDown(KeyCode.S))
@@ -265,15 +292,7 @@ public class SamuraiController : MonoBehaviour
             }
         }
 
-        Debug.Log(player.velocity);
-    }
-
-    private void SetAllBoolFalse()
-    {
-        foreach (AnimatorControllerParameter parameter in PlayerAnimator.parameters)
-        {
-            PlayerAnimator.SetBool(parameter.name, false);
-        }
+        Debug.Log(grounded);
     }
 
     private void Attack()
@@ -333,13 +352,17 @@ public class SamuraiController : MonoBehaviour
         }
         if (collision.gameObject.CompareTag("Floor"))
         {
-            grounded = true;
-            jumps = 2;
-            if (PlayerAnimator.GetCurrentAnimatorStateInfo(0).IsName("fall"))
+            if (!grounded)
             {
-                player.velocity = Vector2.zero;
-                PlayerAnimator.ResetTrigger("TrFall");
-                PlayerAnimator.SetTrigger("TrLand");
+                grounded = true;
+                jumps = 2;
+                Utils.SetAllBoolFalse(PlayerAnimator);
+                //PlayerAnimator.SetBool("IsLanding", true);
+            }
+            else
+            {
+                Utils.SetAllBoolFalse(PlayerAnimator);
+                PlayerAnimator.SetBool("IsIdle", true);
             }
         }
     }
