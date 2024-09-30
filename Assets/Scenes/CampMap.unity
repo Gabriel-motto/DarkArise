@@ -1260,21 +1260,37 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2019523281981003746, guid: f8b5fddeba4848f499455b43c5b045e3, type: 3}
+      propertyPath: PlayerAnimator
+      value: 
+      objectReference: {fileID: 1244881322}
     - target: {fileID: 7471499670367140190, guid: f8b5fddeba4848f499455b43c5b045e3, type: 3}
       propertyPath: m_Name
       value: The Sage
       objectReference: {fileID: 0}
     - target: {fileID: 7471499670367140190, guid: f8b5fddeba4848f499455b43c5b045e3, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7664532635593068859, guid: f8b5fddeba4848f499455b43c5b045e3, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7664532635593068859, guid: f8b5fddeba4848f499455b43c5b045e3, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7664532635593068859, guid: f8b5fddeba4848f499455b43c5b045e3, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5.5
       objectReference: {fileID: 0}
     - target: {fileID: 7664532635593068859, guid: f8b5fddeba4848f499455b43c5b045e3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.5265656
+      value: -3.7
       objectReference: {fileID: 0}
     - target: {fileID: 7664532635593068859, guid: f8b5fddeba4848f499455b43c5b045e3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.38903
+      value: -10.95
       objectReference: {fileID: 0}
     - target: {fileID: 7664532635593068859, guid: f8b5fddeba4848f499455b43c5b045e3, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1313,6 +1329,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f8b5fddeba4848f499455b43c5b045e3, type: 3}
+--- !u!95 &1244881322 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1662408607401829374, guid: f8b5fddeba4848f499455b43c5b045e3, type: 3}
+  m_PrefabInstance: {fileID: 1207744643}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1260559362
 GameObject:
   m_ObjectHideFlags: 0
@@ -2478,6 +2499,11 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 6834078983884166495, guid: d4a89c63e9d2a6f46a6a5920628d994d, type: 3}
   m_PrefabInstance: {fileID: 2142908411}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &1937345650 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 8978077868722391155, guid: d4a89c63e9d2a6f46a6a5920628d994d, type: 3}
+  m_PrefabInstance: {fileID: 2142908411}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1939187912
 GameObject:
   m_ObjectHideFlags: 0
@@ -2941,7 +2967,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 881189092911223507, guid: d4a89c63e9d2a6f46a6a5920628d994d, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 881189092911223507, guid: d4a89c63e9d2a6f46a6a5920628d994d, type: 3}
       propertyPath: m_TagString
@@ -2963,6 +2989,10 @@ PrefabInstance:
       propertyPath: blasterPrefab
       value: 
       objectReference: {fileID: 5581601726461695762, guid: 66116c1c2d1449f4eb81861afe69c773, type: 3}
+    - target: {fileID: 3319298520588696121, guid: d4a89c63e9d2a6f46a6a5920628d994d, type: 3}
+      propertyPath: PlayerAnimator
+      value: 
+      objectReference: {fileID: 1937345650}
     - target: {fileID: 3319298520588696121, guid: d4a89c63e9d2a6f46a6a5920628d994d, type: 3}
       propertyPath: playerCollider
       value: 
