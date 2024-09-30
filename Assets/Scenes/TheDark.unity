@@ -123,6 +123,37 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &4731034
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4731035}
+  m_Layer: 6
+  m_Name: AttackPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4731035
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4731034}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.057, y: 0.068, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 825054708}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &36415979
 GameObject:
   m_ObjectHideFlags: 0
@@ -659,6 +690,10 @@ PrefabInstance:
     - target: {fileID: 3331028582607563910, guid: 455f52f86573d9241a2a5f93ba6ff645, type: 3}
       propertyPath: m_Name
       value: Hell Bot Dark (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3331028582607563910, guid: 455f52f86573d9241a2a5f93ba6ff645, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3759654507490310005, guid: 455f52f86573d9241a2a5f93ba6ff645, type: 3}
       propertyPath: player
@@ -6111,6 +6146,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hell Bot Dark (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3331028582607563910, guid: 455f52f86573d9241a2a5f93ba6ff645, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3759654507490310005, guid: 455f52f86573d9241a2a5f93ba6ff645, type: 3}
       propertyPath: player
       value: 
@@ -6133,7 +6172,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 401381652}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: AttackPoint (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7981,6 +8020,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2616565109862438185, guid: 455f52f86573d9241a2a5f93ba6ff645, type: 3}
+      propertyPath: playerLayer.m_Bits
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 2616565109862438185, guid: 455f52f86573d9241a2a5f93ba6ff645, type: 3}
+      propertyPath: attackPoints.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2616565109862438185, guid: 455f52f86573d9241a2a5f93ba6ff645, type: 3}
+      propertyPath: attackPoints.Array.data[0]
+      value: 
+      objectReference: {fileID: 4731035}
+    - target: {fileID: 2616565109862438185, guid: 455f52f86573d9241a2a5f93ba6ff645, type: 3}
+      propertyPath: attackPoints.Array.data[1]
+      value: 
+      objectReference: {fileID: 1981328064}
     - target: {fileID: 3331028582607563910, guid: 455f52f86573d9241a2a5f93ba6ff645, type: 3}
       propertyPath: m_Name
       value: Hell Bot Dark (6)
@@ -7995,9 +8050,20 @@ PrefabInstance:
       objectReference: {fileID: 6816240194198287910, guid: 455f52f86573d9241a2a5f93ba6ff645, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 2582755388423701731, guid: 455f52f86573d9241a2a5f93ba6ff645, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4731035}
+    - targetCorrespondingSourceObject: {fileID: 2582755388423701731, guid: 455f52f86573d9241a2a5f93ba6ff645, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1981328064}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 455f52f86573d9241a2a5f93ba6ff645, type: 3}
+--- !u!4 &825054708 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2582755388423701731, guid: 455f52f86573d9241a2a5f93ba6ff645, type: 3}
+  m_PrefabInstance: {fileID: 825054707}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &837100824
 GameObject:
   m_ObjectHideFlags: 0
@@ -8201,7 +8267,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 876209644}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: AttackPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9093,6 +9159,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hell Bot Dark (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3331028582607563910, guid: 455f52f86573d9241a2a5f93ba6ff645, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3759654507490310005, guid: 455f52f86573d9241a2a5f93ba6ff645, type: 3}
       propertyPath: player
       value: 
@@ -9173,6 +9243,10 @@ PrefabInstance:
     - target: {fileID: 3331028582607563910, guid: 455f52f86573d9241a2a5f93ba6ff645, type: 3}
       propertyPath: m_Name
       value: Hell Bot Dark (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3331028582607563910, guid: 455f52f86573d9241a2a5f93ba6ff645, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3759654507490310005, guid: 455f52f86573d9241a2a5f93ba6ff645, type: 3}
       propertyPath: player
@@ -9544,6 +9618,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hell Bot Dark
       objectReference: {fileID: 0}
+    - target: {fileID: 3331028582607563910, guid: 455f52f86573d9241a2a5f93ba6ff645, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3759654507490310005, guid: 455f52f86573d9241a2a5f93ba6ff645, type: 3}
       propertyPath: player
       value: 
@@ -9860,6 +9938,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hell Bot Dark (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3331028582607563910, guid: 455f52f86573d9241a2a5f93ba6ff645, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3759654507490310005, guid: 455f52f86573d9241a2a5f93ba6ff645, type: 3}
       propertyPath: player
       value: 
@@ -10057,7 +10139,7 @@ Transform:
   m_GameObject: {fileID: 1409186648}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 36.93163, y: -10.15983, z: -10}
+  m_LocalPosition: {x: 29.395643, y: -10.1598, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -10855,6 +10937,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Assassin
       objectReference: {fileID: 0}
+    - target: {fileID: 881189092911223507, guid: d4a89c63e9d2a6f46a6a5920628d994d, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 3319298520588696121, guid: d4a89c63e9d2a6f46a6a5920628d994d, type: 3}
       propertyPath: runAudio
       value: 
@@ -10872,6 +10958,10 @@ PrefabInstance:
       value: 0.65
       objectReference: {fileID: 0}
     - target: {fileID: 3319298520588696121, guid: d4a89c63e9d2a6f46a6a5920628d994d, type: 3}
+      propertyPath: PlayerAnimator
+      value: 
+      objectReference: {fileID: 1677772818}
+    - target: {fileID: 3319298520588696121, guid: d4a89c63e9d2a6f46a6a5920628d994d, type: 3}
       propertyPath: playerCollider
       value: 
       objectReference: {fileID: 1929814538}
@@ -10879,6 +10969,10 @@ PrefabInstance:
       propertyPath: enemyLayers.m_Bits
       value: 64
       objectReference: {fileID: 0}
+    - target: {fileID: 3319298520588696121, guid: d4a89c63e9d2a6f46a6a5920628d994d, type: 3}
+      propertyPath: playerSpriteRenderer
+      value: 
+      objectReference: {fileID: 1677772817}
     - target: {fileID: 3319298520588696121, guid: d4a89c63e9d2a6f46a6a5920628d994d, type: 3}
       propertyPath: attackPoints.Array.size
       value: 2
@@ -10915,6 +11009,16 @@ PrefabInstance:
 --- !u!4 &1677772816 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 132687140045437622, guid: d4a89c63e9d2a6f46a6a5920628d994d, type: 3}
+  m_PrefabInstance: {fileID: 1677772815}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &1677772817 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 6834078983884166495, guid: d4a89c63e9d2a6f46a6a5920628d994d, type: 3}
+  m_PrefabInstance: {fileID: 1677772815}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1677772818 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 8978077868722391155, guid: d4a89c63e9d2a6f46a6a5920628d994d, type: 3}
   m_PrefabInstance: {fileID: 1677772815}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1721953217
@@ -11711,6 +11815,37 @@ BoxCollider2D:
   m_CorrespondingSourceObject: {fileID: 3249588304884214069, guid: d4a89c63e9d2a6f46a6a5920628d994d, type: 3}
   m_PrefabInstance: {fileID: 1677772815}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1981328063
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1981328064}
+  m_Layer: 6
+  m_Name: AttackPoint (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1981328064
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1981328063}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.104, y: 0.065, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 825054708}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1982150924
 GameObject:
   m_ObjectHideFlags: 0

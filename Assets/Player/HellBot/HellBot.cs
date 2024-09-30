@@ -9,6 +9,11 @@ public class HellBot : MonoBehaviour
     GameObject gameObject;
     Rigidbody2D rb;
 
+    [SerializeField] private LayerMask playerLayer;
+    [SerializeField] private Transform[] attackPoints;
+    [SerializeField] private float attackRange = 0.7f;
+    [SerializeField] private int attackDmg = 40;
+
     public int MaxHealth = 100;
     int currentHealth;
 
@@ -23,13 +28,51 @@ public class HellBot : MonoBehaviour
 
     private void Update()
     {
+
+        Attack();
+
         if (currentHealth < 0)
         {
             EnemyDie();
         }
     }
 
-    public void GetDmg(int playerAtkDmg)
+    void OnDrawGizmosSelected()
+    {
+        foreach (Transform attackPoint in attackPoints)
+        {
+            if (attackPoint == null)
+            {
+                return;
+            }
+
+            Gizmos.DrawWireSphere(attackPoint.position, attackRange);
+        }
+    }
+
+    private void Attack()
+    {
+
+        Debug.Log(attackPoints + "atackpoints");
+        Debug.Log(attackPoints.Length + "atackpoints leng");
+
+
+        Collider2D[] playerHitted1 = Physics2D.OverlapCircleAll(attackPoints[0].position, attackRange, playerLayer);
+        Collider2D[] playerHitted2 = Physics2D.OverlapCircleAll(attackPoints[1].position, attackRange, playerLayer);
+
+        foreach (Collider2D player in playerHitted1)
+        {
+            Debug.Log(player.name+ "aa");
+            player.GetComponent<PlayerController>().GetDmg(attackDmg);
+        }
+        foreach (Collider2D player in playerHitted2)
+        {
+            Debug.Log(player.name);
+            player.GetComponent<PlayerController>().GetDmg(attackDmg);
+        }
+    }
+
+     public void GetDmg(int playerAtkDmg)
     {
         Debug.Log("enemy hitted");
         currentHealth -= playerAtkDmg;

@@ -13,6 +13,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Animator PlayerAnimator;
 
     //Stats
+    [SerializeField] private int MaxHealth = 100;
+    int currentHealth;
     [SerializeField] private float attackRange = 0.5f;
     [SerializeField] private int attackDmg = 40;
     [SerializeField] private int jumps = 2;
@@ -45,8 +47,8 @@ public class PlayerController : MonoBehaviour
         isHitted = false;
         canMove = true;
 
-        blasterPrefab = Instantiate(Resources.Load("BlasterPrefab")) as GameObject;
-        blasterAnimator = blasterPrefab.GetComponent<Animator>();
+        //blasterPrefab = Instantiate(Resources.Load("BlasterPrefab")) as GameObject;
+        //blasterAnimator = blasterPrefab.GetComponent<Animator>();
 
         //EventSystem.current.OnPlayerLand += onLand;
         GameStateManager.Instance.OnGameStateChanged += OnGameStateChanged;
@@ -291,6 +293,15 @@ public class PlayerController : MonoBehaviour
         }
 
         Debug.Log(grounded);
+    }
+
+    public void GetDmg(int playerAtkDmg)
+    {
+        Debug.Log("me muero");
+        Debug.Log(currentHealth + "sss");
+
+        currentHealth -= playerAtkDmg;
+ 
     }
 
     private void Attack()
