@@ -20,13 +20,16 @@ public class HellBot : MonoBehaviour
 
     [SerializeField] private SpriteRenderer SpriteRenderer;
 
-    [SerializeField] private float chaseSpeed = 2f;
+    [SerializeField] private float chaseSpeed = 1.5f;
     [SerializeField] private float activationRadius = 8f;
 
-    private bool canMove = true;
 
     public int MaxHealth = 100;
     int currentHealth;
+
+    private float attackSpeed = 2f;
+    private float timeAttack = Time.time;
+
 
     // Start is called before the first frame update
     void Start()
@@ -66,51 +69,60 @@ public class HellBot : MonoBehaviour
     private void Attack()
     {
 
+
+        animator.SetBool("isIdel", true);
+        animator.SetBool("inAttackRange", false);
+
         Collider2D[] playerHitted1 = Physics2D.OverlapCircleAll(attackPoints[0].position, attackRange, playerLayer);
         Collider2D[] playerHitted2 = Physics2D.OverlapCircleAll(attackPoints[1].position, attackRange, playerLayer);
 
-        
-        canMove = true;
-        rb.bodyType = RigidbodyType2D.Dynamic;
-
         foreach (Collider2D player in playerHitted1)
         {
-            player.GetComponent<PlayerController>().GetDmg(attackDmg);
-
-
-            if (!animator.GetBool("isAttack"))
-            {
-                Utils.SetAllBoolFalse(animator);
-            }
-            canMove = false;
-            animator.SetBool("isAttack", true);
-            rb.bodyType = RigidbodyType2D.Static;
+            animator.SetBool("inAttackRange", true);
 
         }
         foreach (Collider2D player in playerHitted2)
         {
-            Debug.Log(player.name);
-            player.GetComponent<PlayerController>().GetDmg(attackDmg);
-
-            if (!animator.GetBool("isAttack"))
-            {
-                Utils.SetAllBoolFalse(animator);
-
-            }
-            canMove = false;
-
-            animator.SetBool("isAttack", true);
-            rb.bodyType = RigidbodyType2D.Static;
-
+            animator.SetBool("inAttackRange", true);
         }
 
-   
+        if (animator.GetBool("inAttackRange"))
+        {
+            if (!animator.GetBool("isRuning"))
+            {
+
+                rb.bodyType = RigidbodyType2D.Static;
+
+                if (timeAttack < Time.time)
+                {
+
+                    Utils.SetAllBoolFalse(animator);
+                    animator.SetBool("isAttack", true);
+                    animator.SetBool("inAttackRange", true);
+
+                    timeAttack = Time.time + attackSpeed;
+                }
+
+            }
+            else
+            {
+                animator.SetBool("isRuning", false);
+            }
+        }
+        else
+        {
+            Utils.SetAllBoolFalse(animator);
+        }
 
     }
+
+
+
     private void Ai()
     {
-        if (canMove)
+        if (!animator.GetBool("inAttackRange") && (!animator.GetBool("isIdel") || !animator.GetBool("isAttack")))
         {
+            rb.bodyType = RigidbodyType2D.Dynamic;
             float distanceToPlayer = Vector3.Distance(rb.transform.position, player.position);
 
             if (distanceToPlayer < activationRadius)
@@ -129,7 +141,6 @@ public class HellBot : MonoBehaviour
                 {
                     Utils.SetAllBoolFalse(animator);
                 }
-
 
                 animator.SetBool("isRuning", true);
             }
