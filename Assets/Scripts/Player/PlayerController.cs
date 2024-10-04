@@ -32,12 +32,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Transform[] attackPoints;
     [SerializeField] private AudioSource runAudio;
     [SerializeField] private AudioSource attackAudio;
-
-    //Working on progress
-    private GameObject blasterGhost;
-    private Animator blasterAnimator;
     private GameObject currentPlatformStanding;
-    private GameObject blasterPrefab;
 
     // Start is called before the first frame update
     void Start()
@@ -47,10 +42,6 @@ public class PlayerController : MonoBehaviour
         isHitted = false;
         canMove = true;
 
-        //blasterPrefab = Instantiate(Resources.Load("BlasterPrefab")) as GameObject;
-        //blasterAnimator = blasterPrefab.GetComponent<Animator>();
-
-        //EventSystem.current.OnPlayerLand += onLand;
         GameStateManager.Instance.OnGameStateChanged += OnGameStateChanged;
     }
 
@@ -65,190 +56,87 @@ public class PlayerController : MonoBehaviour
     {
         attackAudio.mute = AudioManager.muted;
         attackAudio.volume = AudioManager.volume;
-        animate();
-        input();
+        AttackInput();
+        MovementInput();
     }
 
-    private void animate()
+    private void AttackInput()
     {
-        //if (assassinAnimator != null)
+        // Attacks
+        if (Input.GetKeyDown(KeyCode.J))
+        {
+            canMove = false;
+
+            PlayerAnimator.SetBool("IsOrbAttack", true);
+            if (!AudioManager.muted)
+            {
+                //attackAudio.Play();
+            }
+            //OrbAttack();
+        }
+
+        if (Input.GetKeyDown(KeyCode.K))
+        {
+            canMove = false;
+            PlayerAnimator.SetBool("IsShieldDown", true);
+        }
+        //if (Input.GetKeyUp(KeyCode.K))
         //{
-        //    //if (player.velocity.normalized.y == 0)
-        //    //{
-        //    //    grounded = true;
-        //    //    jumps = 2;
-        //    //    if (assassinAnimator.GetCurrentAnimatorStateInfo(0).IsName("fall"))
-        //    //    {
-        //    //        assassinAnimator.SetTrigger("TrLand");
-        //    //    }
-        //    //}
-        //    // Attacks
-        //    if (Input.GetKeyDown(KeyCode.J))
+        //    if (PlayerAnimator.GetCurrentAnimatorStateInfo(0).normalizedTime > 1)
         //    {
-        //        assassinAnimator.CrossFade("attack 1", 0, 0);
-        //        if (!AudioManager.muted)
-        //        {
-        //            attackAudio.Play();
-        //        }
-        //        Attack();
-        //    }
-        //    if (Input.GetKeyDown(KeyCode.K))
-        //    {
-        //        assassinAnimator.SetTrigger("TrAtk2");
-        //        if (!AudioManager.muted)
-        //        {
-        //            attackAudio.Play();
-        //        }
-        //        Attack();
-        //    }
-        //    if (Input.GetKeyDown(KeyCode.L) && grounded)
-        //    {
-        //        assassinAnimator.SetTrigger("TrCrossSlice");
-        //        if (!AudioManager.muted)
-        //        {
-        //            attackAudio.Play();
-        //        }
-        //        Attack();
-        //    }
-        //    if (Input.GetKeyDown(KeyCode.LeftShift) && grounded)
-        //    {
-        //        assassinAnimator.SetTrigger("TrSliceAtk");
-        //        if (!AudioManager.muted)
-        //        {
-        //            attackAudio.Play();
-        //        }
-        //        Attack();
-        //    }
-
-        //    // Movement
-        //    if (Input.GetAxisRaw("Horizontal") > 0 && canMove)
-        //    {
-        //        spriteRenderer.flipX = false;
-        //        if (grounded)
-        //        {
-        //            assassinAnimator.SetTrigger("TrRun");
-        //            if (!runAudio.isPlaying)
-        //            {
-        //                runAudio.Play();
-        //            }
-        //        }
-        //    }
-        //    if (Input.GetAxisRaw("Horizontal") < 0 && canMove)
-        //    {
-        //        spriteRenderer.flipX = true;
-        //        if (grounded)
-        //        {
-        //            assassinAnimator.SetTrigger("TrRun");
-        //            if (!runAudio.isPlaying)
-        //            {
-        //                runAudio.Play();
-        //            }
-        //        }
-        //    }
-        //    if (Input.GetAxisRaw("Horizontal") == 0)
-        //    {
-        //        assassinAnimator.ResetTrigger("TrRun");
-        //        assassinAnimator.SetTrigger("TrStop");
-        //    }
-        //    if (Input.GetKeyDown(KeyCode.Space) && jumps > 0)
-        //    {
-        //        assassinAnimator.SetTrigger("TrJump");
-        //    }
-        //    if (player.velocity.normalized.y < 0)
-        //    {
-        //        assassinAnimator.ResetTrigger("TrLand");
-        //        assassinAnimator.SetTrigger("TrFall");
-        //    }
-
-        //    // Misc
-        //    if (isDead)
-        //    {
-        //        assassinAnimator.SetTrigger("TrDeath");
-        //    }
-        //    if (isHitted)
-        //    {
-        //        assassinAnimator.SetTrigger("TrHit");
-        //    }
-
-        //    if (assassinAnimator.GetCurrentAnimatorStateInfo(0).IsName("attack 1") || assassinAnimator.GetCurrentAnimatorStateInfo(0).IsName("attack 2") || assassinAnimator.GetCurrentAnimatorStateInfo(0).IsName("cross slice")
-        //        || assassinAnimator.GetCurrentAnimatorStateInfo(0).IsName("Slice attack") || assassinAnimator.GetCurrentAnimatorStateInfo(0).IsName("cross slice"))
-        //    {
-        //        player.velocity = Vector2.zero;
-        //        player.gravityScale = 0;
-        //        canMove = false;
-        //    }
-        //    else
-        //    {
-        //        player.gravityScale = 1;
-        //        canMove = true;
-        //    }
-
-        //    // Second character animations
-
-        //    if (Input.GetKeyDown(KeyCode.U))
-        //    {
-        //        blasterGhost = Instantiate(Resources.Load("BlasterPrefab"), transform.position, Quaternion.identity) as GameObject;
-        //        blasterGhost.transform.localScale = GetComponent<Transform>().localScale;
-        //        blasterAnimator = blasterGhost.GetComponent<Animator>();
-
-        //        if (blasterAnimator != null && blasterAnimator.runtimeAnimatorController != null)
-        //        {
-        //            blasterGhost.SetActive(true);
-        //            blasterAnimator.CrossFade("attack", 0, 0);
-        //            Attack();
-        //        }
-        //    }
-        //    if (Input.GetKeyDown(KeyCode.I))
-        //    {
-        //        blasterGhost = Instantiate(Resources.Load("BlasterPrefab"), transform.position, Quaternion.identity) as GameObject;
-        //        blasterGhost.transform.localScale = GetComponent<Transform>().localScale;
-        //        blasterAnimator = blasterGhost.GetComponent<Animator>();
-
-        //        if (blasterAnimator != null && blasterAnimator.runtimeAnimatorController != null)
-        //        {
-        //            blasterGhost.SetActive(true);
-        //            blasterAnimator.SetTrigger("TrSweep");
-        //            Attack();
-        //        }
+        //        Utils.SetAllBoolFalse(PlayerAnimator);
+        //        PlayerAnimator.SetBool("IsShieldUp", true);
         //    }
         //}
-    }
 
+        if (Input.GetKeyDown(KeyCode.L) && grounded)
+        {
+            canMove = false;
+            PlayerAnimator.SetBool("IsShockwave", true);
+            if (!AudioManager.muted)
+            {
+                //attackAudio.Play();
+            }
+            //Shockwave();
+        }
 
-    private void input()
-    {
-        //if (Input.GetKeyDown(KeyCode.G))
-        //{
-        //    playerSpriteRenderer = blasterPrefab.GetComponent<SpriteRenderer>();
-        //    PlayerAnimator = blasterAnimator;
-        //}
-
-        if (player.velocity.normalized == Vector2.zero && grounded)
+        // Misc
+        if (isDead)
         {
             Utils.SetAllBoolFalse(PlayerAnimator);
-            PlayerAnimator.SetBool("IsIdle", true);
-
-            //if (!PlayerAnimator.GetBool("IsLanding"))
-            //{
-            //    Utils.SetAllBoolFalse(PlayerAnimator);
-            //}
-            //if (!grounded)
-            //{
-            //    grounded = true;
-            //    jumps = 2;
-            //    Utils.SetAllBoolFalse(PlayerAnimator);
-            //    PlayerAnimator.SetBool("IsLanding", true);
-            //}
-            //else
-            //{
-            //    Utils.SetAllBoolFalse(PlayerAnimator);
-            //    PlayerAnimator.SetBool("IsIdle", true);
-            //}
+            PlayerAnimator.SetBool("IsDead", true);
         }
+        if (isHitted)
+        {
+            Utils.SetAllBoolFalse(PlayerAnimator);
+            PlayerAnimator.SetBool("IsHitted", true);
+        }
+
+        if (PlayerAnimator.GetCurrentAnimatorStateInfo(0).IsName("Orb attack") || PlayerAnimator.GetCurrentAnimatorStateInfo(0).IsName("shield down") || PlayerAnimator.GetCurrentAnimatorStateInfo(0).IsName("Shield up")
+            || PlayerAnimator.GetCurrentAnimatorStateInfo(0).IsName("shield hold") || PlayerAnimator.GetCurrentAnimatorStateInfo(0).IsName("Shockwave"))
+        {
+            player.velocity = Vector2.zero;
+            player.gravityScale = 0;
+        }
+        else
+        {
+            player.gravityScale = 1;
+            canMove = true;
+        }
+    }
+
+
+    private void MovementInput()
+    {
 
         if (canMove)
         {
             player.velocity = new Vector2(Input.GetAxisRaw("Horizontal") * speed, player.velocity.y);
+
+            if (player.velocity.normalized == Vector2.zero && grounded)
+            {
+                PlayerAnimator.SetBool("IsIdle", true);
+            }
 
             if (player.velocity.normalized == Vector2.left)
             {
@@ -268,31 +156,31 @@ public class PlayerController : MonoBehaviour
             {
                 playerSpriteRenderer.flipX = false;
             }
-        }
 
-        if (Input.GetKeyDown(KeyCode.Space) && jumps > 0)
-        {
-            player.velocity = new Vector2(player.velocity.x, jumpHeight);
-            jumps--;
-            grounded = false;
-            Utils.SetAllBoolFalse(PlayerAnimator);
-            PlayerAnimator.SetBool("IsJumping", true);
-        }
-        if (player.velocity.normalized.y < 0)
-        {
-            Utils.SetAllBoolFalse(PlayerAnimator);
-            PlayerAnimator.SetBool("IsFalling", true);
-        }
-
-        if (Input.GetKeyDown(KeyCode.S))
-        {
-            if (currentPlatformStanding != null)
+            if (Input.GetKeyDown(KeyCode.Space) && jumps > 0)
             {
-                StartCoroutine(DisableCollision());
+                player.velocity = new Vector2(player.velocity.x, jumpHeight);
+                jumps--;
+                grounded = false;
+                Utils.SetAllBoolFalse(PlayerAnimator);
+                PlayerAnimator.SetBool("IsJumping", true);
+            }
+
+            if (player.velocity.normalized.y < -.1f)
+            {
+                Utils.SetAllBoolFalse(PlayerAnimator);
+                PlayerAnimator.SetBool("IsFalling", true);
+            }
+
+            if (Input.GetKeyDown(KeyCode.S))
+            {
+                if (currentPlatformStanding != null)
+                {
+                    StartCoroutine(DisableCollision());
+                }
             }
         }
-
-        Debug.Log(grounded);
+        Debug.Log(canMove + " aaa");
     }
 
     public void GetDmg(int playerAtkDmg)
@@ -301,48 +189,40 @@ public class PlayerController : MonoBehaviour
         Debug.Log(currentHealth + "sss");
 
         currentHealth -= playerAtkDmg;
- 
+
     }
 
-    private void Attack()
+    private void OrbAttack()
     {
-        Collider2D[] enemiesHitted = Physics2D.OverlapCircleAll(attackPoints[0].position, attackRange, enemyLayers);
-        Collider2D[] enemiesHitted2 = Physics2D.OverlapCircleAll(attackPoints[1].position, attackRange, enemyLayers);
+        Collider2D[] enemiesHittedLeft = Physics2D.OverlapCircleAll(attackPoints[0].position, attackRange, enemyLayers);
+        Collider2D[] enemiesHittedRight = Physics2D.OverlapCircleAll(attackPoints[1].position, attackRange, enemyLayers);
+
+        foreach (Collider2D enemy in enemiesHittedLeft)
+        {
+            Debug.Log(enemy.name);
+            enemy.GetComponent<HellBot>().GetDmg(attackDmg);
+        }
+        foreach (Collider2D enemy in enemiesHittedRight)
+        {
+            Debug.Log(enemy.name);
+            enemy.GetComponent<HellBot>().GetDmg(attackDmg);
+        }
+    }
+
+    private void Shockwave()
+    {
+        Collider2D[] enemiesHitted = Physics2D.OverlapCircleAll(attackPoints[2].position, attackRange, enemyLayers);
 
         foreach (Collider2D enemy in enemiesHitted)
         {
             Debug.Log(enemy.name);
             enemy.GetComponent<HellBot>().GetDmg(attackDmg);
         }
-        foreach (Collider2D enemy in enemiesHitted2)
-        {
-            Debug.Log(enemy.name);
-            enemy.GetComponent<HellBot>().GetDmg(attackDmg);
-        }
     }
-    //private void onLand()
-    //{
-    //    assassinAnimator.SetTrigger("TrLand");
-    //    player.velocity = Vector2.zero;
-    //    grounded = true;
-    //}
 
     private void OnGameStateChanged(GameState newGameState)
     {
         enabled = newGameState == GameState.Running;
-    }
-
-    void OnDrawGizmosSelected()
-    {
-        foreach(Transform attackPoint in attackPoints)
-        {
-            if (attackPoint == null)
-            {
-                return;
-            }
-
-            Gizmos.DrawWireSphere(attackPoint.position, attackRange);
-        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -355,8 +235,7 @@ public class PlayerController : MonoBehaviour
             if (PlayerAnimator.GetCurrentAnimatorStateInfo(0).IsName("fall"))
             {
                 player.velocity = Vector2.zero;
-                PlayerAnimator.ResetTrigger("TrFall");
-                PlayerAnimator.SetTrigger("TrLand");
+                Utils.SetAllBoolFalse(PlayerAnimator);
             }
         }
         if (collision.gameObject.CompareTag("Floor"))
@@ -366,7 +245,6 @@ public class PlayerController : MonoBehaviour
                 grounded = true;
                 jumps = 2;
                 Utils.SetAllBoolFalse(PlayerAnimator);
-                //PlayerAnimator.SetBool("IsLanding", true);
             }
             else
             {
@@ -392,7 +270,8 @@ public class PlayerController : MonoBehaviour
     private IEnumerator DisableCollision()
     {
         grounded = false;
-        PlayerAnimator.SetTrigger("TrFall");
+        Utils.SetAllBoolFalse(PlayerAnimator);
+        PlayerAnimator.SetBool("IsFalling", true);
         BoxCollider2D platformCollider = currentPlatformStanding.GetComponent<BoxCollider2D>();
         Physics2D.IgnoreCollision(playerCollider, platformCollider);
         yield return new WaitForSeconds(1f);
